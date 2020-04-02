@@ -45,7 +45,6 @@ import { color } from 'd3';
 
     }
 
-    togglelang = () => this.state.lan ==='en'?this.setState({lan:'np'}):this.setState({lan:'en'});
     
     componentDidMount(){
     };

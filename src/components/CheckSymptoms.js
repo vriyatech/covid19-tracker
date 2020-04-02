@@ -1,6 +1,7 @@
 import React, { Component } from 'react'  
 import history from './history'
 import { connect } from 'react-redux';
+import store from '../redux/store'
 
 // import serializeForm from 'form-serialize'
 import {
@@ -25,7 +26,7 @@ import {
 import postsaverecord from './apilink'
 import symptom_n_e from '../data/symptom_n_e.yml'
 import { Switch } from 'react-router-dom';
-import {Municipality_select} from '../utils/Municipalities'
+import {municipalities,Municipality_select} from '../utils/Municipalities'
 import { addRecord } from "../redux/actions/checkSymtomsActions";
 
   class CheckSymptoms extends Component {
@@ -47,6 +48,7 @@ import { addRecord } from "../redux/actions/checkSymtomsActions";
        municipality:''
   
       }
+     
        
 
       this.handleSubmit = this.handleSubmit.bind(this);
@@ -170,10 +172,10 @@ import { addRecord } from "../redux/actions/checkSymtomsActions";
             </tbody>
           </Table>
         
-          <label name='location'>{symptom_n_e.SYM_Location[this.state.lan]}: <span>
+          <label name='location'>{symptom_n_e.SYM_Location[this.state.lan]}: <span id='municipality'>
             {/* <input type='text' name='location' onChange={this.handlechange}/> */}
             
-           <Municipality_select fun ={this.handlechange}/>
+           <Municipality_select Municipality ={store.getState().reducer.municipalities} fun ={this.handlechange}/>
             </span>
           </label>
           <hr/>           
