@@ -1,0 +1,108 @@
+info_page_TITLE:
+  en: Information
+  np: जानकारी
+info_SOURCE:
+  en: Source - World Health Organization
+  np: श्रोत - विश्व स्वास्थ्य संगठन
+info_DISCLAIMER:
+  en: For informational purposes only. Consult your local medical authority for advice.
+  np: सूचनाको उद्देश्यका लागि मात्र। सल्लाहको लागि तपाईंको स्थानीय स्वास्थ्य अधिकारीसँग परामर्श लिनुहोस्।
+info_TITLE:
+  en: Coronavirus Disease [COVID-19]
+  np: कोरोनाभाइरस रोग [COVID-19]
+info_OVERVIEW:
+  en: OVERVIEW
+  np: समीक्षा
+info_ABOUT:
+  en: ABOUT
+  np: बारेमा
+info_ABOUT_text:
+  en: Coronavirus disease (COVID-19) is an infectious disease caused by a new virus. The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing. You can protect yourself by washing your hands frequently, avoiding touching your face, and avoiding close contact (1 meter or 3 feet) with people who are unwell.
+  np: कोरोनाभाइरस रोग (COVID-19)भाइरसको कारण उत्पन्न भएको नयाँ संक्रामक रोग हो। यो रोगले फ्लू जस्तै श्वासप्रश्वास सम्वन्धित खोकी, ज्वोरो, र अधिक गाह्रो अवस्थामा, सास फेर्न गाह्रो लक्षणहरू निमत्याउछ। हात बारम्बार धुने, अनुहार नछुने, र अस्वस्थ मानिसहरूसँग नजिकको सम्पर्कमा नरहने (कम्तीमा पनि १ मिटर वा ३ फिट टाधा) गरी आफूलाई सुरक्षित गर्न सक्नुहुन्छ।
+info_HOW_IT_SPREADS:
+  en: HOW IT SPREADS
+  np: यो कसरी फैलिन्छ
+info_HOW_IT_SPREADS_text:
+  en: Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes, nose, or mouth.
+  np: कोरोनाभाइरस रोग मुख्यतया संक्रमित व्यक्तिसँग सम्पर्कको माध्यमबाट फैलिन्छ जब उनीहरू खोकी वा हाच्छिउं गर्छन। कुनै व्यक्तिले भाइरस भएको सतह वा वस्तुमा छुन्छन् अनि आफ्नो आँखा, नाक, वा मुख छोएमा पनि यो रोग सर्दछ।
+info_SYMPTOMS:
+  en: SYMPTOMS
+  np: लक्षणहरू
+info_SYMPTOMS_text_p1:
+  en: People may be sick with the virus for 1 to 14 days before developing symptoms. The most common symptoms of Coronavirus disease (COVID-19) are fever, tiredness, and dry cough. Most people (about 80%) recover from the disease without needing special treatment.
+  np: लक्षणहरू विकास हुनु वा देखा पर्नु अगाबै मानिसहरु १ देखि १४ दिनसम्म भाइरसको साथ मानिस बिरामी पर्न सक्छन्।  कोरोनाभाइरस रोगको सबैभन्दा सामान्य लक्षणहरू (COVID-19)ज्वरो, थकान, र सुख्खा खोकी हो। अधिकांश व्यक्तिहरू (करीव ८०%) विशेष उपचारको आवश्यकता बिना नै निको हुन्छन्। 
+info_SYMPTOMS_text_p2:
+  en: More rarely, the disease can be serious and even fatal. Older people, and people with other medical conditions (such as asthma, diabetes, or heart disease), may be more vulnerable to becoming severely ill.
+  np: अधिक विरलै, यो रोग गम्भीर र घातक पनि हुन सक्छ। पाको उमेरका व्यक्तिहरू, अन्य चिकित्सा अवस्था भएका व्यक्तिहरू (जस्तै दम, मधुमेह, वा हृदय रोग) गम्भीर बिरामी हुने बढी जोखिममा हुन सक्छन्। 
+info_SYMPTOMS_text_p3:
+  en: People may experience - 
+  np: त्येस्ता व्यक्तिहरूले निम्न अनुभव गर्न सक्छन् -
+info_SYMPTOMS_text_p3_b1:
+  en: Cough
+  np: खोकी
+info_SYMPTOMS_text_p3_b2:
+  en: Fever
+  np: ज्वरो
+info_SYMPTOMS_text_p3_b3:
+  en: Tiredness
+  np: थकान
+info_SYMPTOMS_text_p3_b4:
+  en: Difficulty breathing (severe cases)
+  np: सास फेर्न कठिनाई (गम्भीर परिस्थितिमा)
+info_PREVENTION:
+  en: PREVENTION
+  np: रोकथाम
+info_PREVENTION_text1:
+  en: There’s currently no vaccine to prevent coronavirus disease (COVID-19). You can protect yourself and help prevent spreading the virus to others if you -
+  np: कोरोनाभाइरस रोग (COVID-19) लाई रोक्नको लागि हाल कुनै भ्याक्सिन छैन। तपाईं आफैंलाई बचाउन सक्नुहुन्छ र भाइरस अरूलाई फैलाउन रोक्न मद्दत गर्न सक्नुहुन्छ यदि तपाईं -
+info_PREVENTION_DO:
+  en: DO
+  np: गर्नुहोस्
+info_PREVENTION_DO1:
+  en: Wash your hands regularly for 20 seconds, with soap and water or alcohol-based hand rub.
+  np: २० सेकेन्डका लागि आफ्ना हातहरू नियमित रूपमा साबुन र पानी वा सानिटाइज़रले धुनुहोस्।
+info_PREVENTION_DO2:
+  en: Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze.
+  np: खोक्दा वा हाच्छिउं लाग्दा तपाइँको नाक र मुखलाई डिस्पोजेबल टिश्यु वा तपाइको कुहिनोले छोप्नुहोस्।
+info_PREVENTION_DO3:
+  en: Avoid close contact (1 meter or 3 feet) with people who are unwell.
+  np: अस्वस्थ मानिसहरूबाट १ मिटर वा ३ फिट टाढा रहनुहोस्।
+info_PREVENTION_DO4:
+  en: Stay home and self-isolate from others in the household if you feel unwell.
+  np: यदि तपाईलाई अस्वस्थ महसुस भईरहेको छ भने घरमै बस्नुहोस् र घरका अन्य सदस्यबाट टाढा बस्नुहोला।
+info_PREVENTION_DONT:
+  en: DON'T
+  np: नगर्नुहोस्
+info_PREVENTION_DONT1:
+  en: Touch your eyes, nose, or mouth if your hands are not clean
+  np: यदि तपाईंको हातहरू सफा छैनन् भने तपाईंको आँखा, नाक, वा मुख नछुनुहोस्।
+info_TREATMENTS:
+  en: TREATMENTS
+  np: उपचारहरू
+info_TREATMENTS_text:
+  en: There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to help them breathe.
+  np: कोरोनाभाइरस रोग (COVID-19) लाई रोक्ने वा उपचार गर्ने कुनै विशेष औषधि छैन। रोग लागेमा मानिसहरूलाई सास फेर्न अफ्ट्यारो हुनेहुदा, उनीहरूलाई सहयोगी हेरचाह आवश्यक पर्दछ।
+info_SELF_CARE:
+  en: SELF CARE
+  np: स्वयं हेरचाह
+info_SELF_CARE_text:
+  en: If you have mild symptoms, stay at home until you’ve recovered. You can relieve your symptoms if you -
+  np: यदि तपाईंलाई हल्का लक्षणहरु देखापरेमा, निको नहोउन्जेल घरमा बस्नुहोस्। तपाइँले आफ्ना लक्षणहरूलाई कम गर्न सक्नुहुन्छ यदि तपाइँले -
+info_SELF_CARE_text_b1:
+  en: Rest and sleep
+  np: प्रसस्त मात्रामा आराम गरेमा
+info_SELF_CARE_text_b2:
+  en: Keep warm
+  np: आफुलाई न्यानो राखेमा
+info_SELF_CARE_text_b3:
+  en: Drink plenty of liquids
+  np: धेरै तरल पदार्थ पिएमा
+info_SELF_CARE_text_b4:
+  en: Use a room humidifier or take a hot shower to help ease a sore throat and cough
+  np: कोठामा  ह्युमिडिफायर प्रयोग गरेमा वा खोकी र दुखाइ कम गर्न तातो स्नान लिनुहोस्
+info_MEDICAL_TREATMENTS:
+  en: MEDICAL TREATMENTS
+  np: चिकित्सा उपचार
+info_MEDICAL_TREATMENTS_text:
+  en: If you develop a fever, cough, and have difficulty breathing, promptly seek medical care. Call in advance and tell your health provider of any recent travel or recent contact with travelers.
+  np: यदि तपाईंलाई ज्वरो, खोकी र सास फेर्न गाह्रो भएको छ भने तुरुन्तै चिकित्सा सेवा लिनुहोस्। अग्रिम कल गर्नुहोस् र तपाईंको स्वास्थ्य प्रदायकलाई कुनै भर्खरको यात्रा वा यात्रुहरूको साथ हालको सम्पर्कको कुरा बताउनुहोस्।

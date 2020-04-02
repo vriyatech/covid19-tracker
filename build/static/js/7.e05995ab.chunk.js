@@ -1,0 +1,2 @@
+(this.webpackJsonpcovid19=this.webpackJsonpcovid19||[]).push([[7],{954:function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return l}));var a=n(15),r=n(13),c=n(18),u=n(19),i=n(1),o=n.n(i),l=function(e){Object(u.a)(n,e);var t=Object(c.a)(n);function n(){return Object(a.a)(this,n),t.apply(this,arguments)}return Object(r.a)(n,[{key:"render",value:function(){return o.a.createElement(i.Fragment,null,o.a.createElement("h1",null,"About US Page:"))}}]),n}(i.Component)}}]);
+//# sourceMappingURL=7.e05995ab.chunk.js.map

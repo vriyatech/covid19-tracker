@@ -1,0 +1,275 @@
+WORLD:
+  filename: world-50m.json
+  center: 10, 40
+  scale: 130
+  maxScale_confirmedCount: 40000
+  maxScale_deadCount: 2000
+  maxScale_curedCount: 5000
+  name_key:
+    en: NAME
+    zh: CHINESE_NAME
+  projection: geoMercator
+
+CHN1:
+  filename: gadm36_CHN_1.json
+  center: 105, 38
+  scale: 650
+  maxScale_confirmedCount: 1500
+  maxScale_deadCount: 20
+  maxScale_curedCount: 1500
+  name_key:
+    en: NAME_1
+    zh: NL_NAME_1
+  projection: geoConicConformal
+
+CHN2:
+  filename: gadm36_CHN_2.json
+  center: 105, 38
+  scale: 650
+  maxScale_confirmedCount: 1000
+  maxScale_deadCount: 30
+  maxScale_curedCount: 1000
+  name_key:
+    en: NAME_2
+    zh: NL_NAME_2
+  parent_key: NL_NAME_1
+  projection: geoConicConformal
+
+KOR:
+  filename: gadm36_KOR_1.json
+  center: 128, 36
+  scale: 4000
+  maxScale_confirmedCount: 1500
+  maxScale_deadCount: 5
+  maxScale_curedCount: 10
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoConicConformal
+
+ITA:
+  filename: gadm36_ITA_1.json
+  center: 12, 42
+  scale: 3000
+  maxScale_confirmedCount: 8000
+  maxScale_deadCount: 1000
+  maxScale_curedCount: 500
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoTransverseMercator
+
+US:
+  filename: states-10m.json
+  center: -96, 38
+  scale: 1000
+  maxScale_confirmedCount: 3000
+  maxScale_deadCount: 50
+  maxScale_curedCount: 5
+  name_key:
+    en: NAME
+    zh: CHINESE_NAME
+  projection: geoAlbersUsa
+
+US2:
+  filename: gadm36_USA_2.json
+  center: -96, 38
+  scale: 1000
+  maxScale_confirmedCount: 200
+  maxScale_deadCount: 10
+  maxScale_curedCount: 5
+  name_key:
+    en: NAME_2
+    zh: CHINESE_NAME
+  parent_key: STATE_CHINESE_NAME
+  projection: geoAlbersUsa
+
+FRA:
+  filename: gadm36_FRA_1.json
+  center: 2, 47
+  scale: 2000
+  maxScale_confirmedCount: 5000
+  maxScale_deadCount: 200
+  maxScale_curedCount: 10
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoConicConformal
+
+DEU:
+  filename: gadm36_DEU_1.json
+  center: 10, 51
+  scale: 3500
+  maxScale_confirmedCount: 5500
+  maxScale_deadCount: 30
+  maxScale_curedCount: 10
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoTransverseMercator
+
+JPN:
+  filename: gadm36_JPN_1.json
+  center: 138, 39
+  scale: 1500
+  maxScale_confirmedCount: 150
+  maxScale_deadCount: 10
+  maxScale_curedCount: 10
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoConicConformal
+
+AUT:
+  filename: gadm36_AUT_1.json
+  center: 13, 48
+  scale: 4800
+  maxScale_confirmedCount: 800
+  maxScale_deadCount: 10
+  maxScale_curedCount: 10
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoConicConformal
+
+AUS:
+  filename: gadm36_AUS_1.json
+  center: 134, -27
+  scale: 800
+  maxScale_confirmedCount: 400
+  maxScale_deadCount: 10
+  maxScale_curedCount: 10
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoConicConformal
+
+CAN:
+  filename: gadm36_CAN_1.json
+  center: -90, 65
+  scale: 700
+  rotate: 100, -45
+  maxScale_confirmedCount: 600
+  maxScale_deadCount: 10
+  maxScale_curedCount: 10
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoAzimuthalEqualArea
+
+ESP:
+  filename: gadm36_ESP_1.json
+  center: -3, 40
+  scale: 3500
+  maxScale_confirmedCount: 7000
+  maxScale_deadCount: 300
+  maxScale_curedCount: 1000
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoTransverseMercator
+
+CHE:
+  filename: gadm36_CHE_1.json
+  center: 8, 47
+  scale: 8000
+  maxScale_confirmedCount: 1500
+  maxScale_deadCount: 10
+  maxScale_curedCount: 10
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoConicConformal
+
+GBR:
+  filename: gadm36_GBR_2.json
+  center: -3, 55.5
+  scale: 3000
+  maxScale_confirmedCount: 200
+  maxScale_deadCount: 10
+  maxScale_curedCount: 10
+  name_key:
+    en: NAME_2
+    zh: CHINESE_NAME
+  parent_key: COUNTRY_CHINESE_NAME
+  projection: geoTransverseMercator
+
+NLD:
+  filename: netherlands.json
+  center: 5, 52.2
+  scale: 10000
+  maxScale_confirmedCount: 200
+  maxScale_deadCount: 10
+  maxScale_curedCount: 10
+  name_key:
+    en: GM_NAAM
+    zh: CHINESE_NAME
+  projection: geoTransverseMercator
+
+EUROPE:
+  filename: europe.json
+  center: 0, 52
+  scale: 900
+  rotate: -20, -52, 0
+  maxScale_confirmedCount: 25000
+  maxScale_deadCount: 1000
+  maxScale_curedCount: 1000
+  name_key:
+    en: NAME
+    zh: CHINESE_NAME
+  projection: geoConicConformal
+
+SWE:
+  filename: gadm36_SWE_1.json
+  center: 15, 62
+  scale: 2000
+  rotate: -20, -52, 0
+  maxScale_confirmedCount: 500
+  maxScale_deadCount: 10
+  maxScale_curedCount: 10
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoTransverseMercator
+
+POL:
+  filename: gadm36_POL_1.json
+  center: 19, 52
+  scale: 4500
+  maxScale_confirmedCount: 150
+  maxScale_deadCount: 10
+  maxScale_curedCount: 10
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoTransverseMercator
+
+NOR:
+  filename: gadm36_NOR_1.json
+  center: 10, 65
+  scale: 2000
+  rotate: -20, -52, 0
+  maxScale_confirmedCount: 500
+  maxScale_deadCount: 10
+  maxScale_curedCount: 10
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoTransverseMercator
+
+IRN:
+  filename: gadm36_IRN_1.json
+  center: 54, 33.5
+  scale: 1500
+  maxScale_confirmedCount: 5000
+  maxScale_deadCount: 10
+  maxScale_curedCount: 10
+  name_key:
+    en: NAME_1
+    zh: CHINESE_NAME
+  projection: geoMercator
+
+TRANSMISSION:
+  maxScale_confirmedCount: 1500
+  maxScale_deadCount: 50
+  maxScale_curedCount: 1000

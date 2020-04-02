@@ -1,0 +1,264 @@
+COVID19:
+  en: COVID-19 Coronavirus Map
+  zh: कोभिड-१९ कोरोनाभाईरस म्याप
+LINEAR_SCALE:
+  en: Linear
+  zh: रेखीय
+LOG_SCALE:
+  en: log
+  zh: लगारिथमिक
+NEWCASE:
+  en: New Cases
+  zh: नयाँ केशहरु
+CONFIRMED:
+  en: Confirmed
+  zh: प्रमाणित भएको
+DEATHS:
+  en: Deaths
+  zh: मृत्यु
+RECOVERED:
+  en: Recovered
+  zh: निको भएको 
+OVERALL:
+  en: Overall
+  zh: कुल मिलाएर
+SUBREGIONS:
+  en: Regions
+  zh: क्षेत्रहरु
+FATALITY_RATE:
+  en: Fatality Rate
+  zh: मृत्यु दर
+RECOVERY_RATE:
+  en: Recovery Rate
+  zh: निको हुनेको दर
+REST:
+  en: Rest
+  zh: बाँकी
+CASES:
+  en: Cases
+  zh: केशहरु
+GROWTH_RATE:
+  en: Growth Rate
+  zh: विकास दर
+FATALITY_RECOVERY_RATE:
+  en: Fatality/Recovery Rate
+  zh: मृत्यु / स्वास्थ्यलाभ दर 
+ONE_VS_REST:
+  en: One vs. Rest
+  zh: एक विरुद्ध अरु
+FATALITY_LINE:
+  en: Fatality Line
+  zh: मृत्यु रेखा
+INFECTION_NUMBER:
+  en: Number of Infections
+  zh: संक्रमण संख्या
+DEATH_NUMBER:
+  en: Number of Deaths
+  zh: मृत्यु संख्या
+MOST_AFFECTED_SUBREGIONS:
+  en: Most Affected
+  zh: सबै भन्दा बढी प्रभावित
+SUBREGION_ACTIVE_STREAM:
+  en: Stream of Active Cases
+  zh: सक्रिय केशहरु को प्रवाह
+SUBREGION_FATALITY:
+  en: Fatality
+  zh: मृत्यु
+SUBREGION:
+  en: Cases
+  zh: केशहरु
+SUBREGION_STREAM:
+  en: Stream of Cases
+  zh: केशहरुको प्रवाह 
+TYPE:
+  en: Type
+  zh: प्रकार
+Y_AXIS:
+  en: Y-Axis
+  zh: Y-अक्ष
+SCALE:
+  en: Scale
+  zh: मापन 
+CUMULATIVE:
+  en: Total
+  zh: कूल
+DAILY:
+  en: Daily
+  zh: दैनिक
+RATE:
+  en: Rate
+  zh: दर
+CASE_NUMBERS:
+  en: Cases
+  zh: केशहरु
+DEATH_NUMBER2:
+  en: Deaths
+  zh: मृत्यु
+PERCENT:
+  en: Percent
+  zh: प्रतिशत
+COMPARISONS:
+  en: Comparsions
+  zh: तुलना
+SHOW:
+  en: Show
+  zh: देखाउनु
+HIDE:
+  en: Hide
+  zh: लुकाउनु
+MOVING_AVERAGE:
+  en: Moving Average
+  zh: चालु औसत
+THREE_DAYS:
+  en: 3 Days
+  zh: ३ दिन 
+FIVE_DAYS:
+  en: 5 Days
+  zh: ५ दिन 
+REGION:
+  en: Region
+  zh: क्षेत्र
+BUBBLES:
+  en: Circles
+  zh: वृत
+TABLE:
+  en: Table
+  zh: तालिका
+OTHERS:
+  en: Others
+  zh: अन्य
+WORLD_MAP:
+  en: Global
+  zh: संसारको नक्शा
+CHINA_MAP1:
+  en: China (Provinces)
+  zh: चीन (प्रदेश)
+CHINA_MAP2:
+  en: China (Cities)
+  zh: चीन (शहरहरू)
+KOREA_MAP:
+  en: South Korea
+  zh: दक्षिण कोरिया
+ITALY_MAP:
+  en: Italy
+  zh: इटली 
+US_MAP:
+  en: US (States)
+  zh: संयुक्त राज्य अमेरिका
+US_MAP2:
+  en: US (Counties)
+  zh: संयुक्त राज्य अमेरिका
+FRANCE_MAP:
+  en: France
+  zh: फ्रान्स
+GERMANY_MAP:
+  en: Germany
+  zh: जर्मनी
+JAPAN_MAP:
+  en: Japan
+  zh: जापान
+AUSTRIA_MAP:
+  en: Austria
+  zh: अस्ट्रिया
+AUSTRALIA_MAP:
+  en: Australia
+  zh: अस्ट्रेलिया
+CANADA_MAP:
+  en: Canada
+  zh: क्यानाडा
+SPAIN_MAP:
+  en: Spain
+  zh: स्पेन
+SWITZERLAND_MAP:
+  en: Switzerland
+  zh: स्विट्जरल्याण्ड 
+UK_MAP:
+  en: United Kingdom
+  zh: बेलायत 
+NETHERLANDS_MAP:
+  en: Netherlands
+  zh: नेदरल्याण्ड्स 
+SWEDEN_MAP:
+  en: Sweden
+  zh: स्वीडेन
+POLAND_MAP:
+  en: Poland
+  zh: पोल्याण्ड
+NORWAY_MAP:
+  en: Norway
+  zh: नर्वे 
+IRAN_MAP:
+  en: Iran
+  zh: इरान 
+ASIA:
+  en: Asia
+  zh: एशिया 
+NORTH_AMERICA:
+  en: North America
+  zh: उत्तरी अमेरिका 
+EUROPE:
+  en: Europe
+  zh: यूरोप 
+OCEANIA:
+  en: Oceania
+  zh: ओशियनिया
+TRANSMISSIONS:
+  en: Transmissions
+  zh: संचारणहरु
+TRANSMISSION_NETWORK:
+  en: Transmission Graph
+  zh: संचारण लेखा चित्र
+RESET:
+  en: Reset
+  zh: पुन. सुरू
+DARK:
+  en: Dark
+  zh: अध्यारो
+LIGHT:
+  en: Light
+  zh: उज्यालो
+NO_DATA:
+  en: No Data
+  zh: डेटा छैन
+LANGUAGE_HELP_TEXT:
+  en: Switch language
+  zh: भाषा परिवर्तन
+LINEAR_SCALE_HELP_TEXT:
+  en: Switch to linear scale
+  zh: रेखीय मापनमा बदल्नुहोस्
+LOG_SCALE_HELP_TEXT:
+  en: Switch to logarithmic scale
+  zh: लगारिथमिक मापनमा बदल्नुहोस्
+DARK_MODE_HELP_TEXT:
+  en: Switch to dark mode
+  zh: अध्यारो शैलीमा बदल्नुहोस्
+LIGHT_MODE_HELP_TEXT:
+  en: Switch to light mode
+  zh: उज्यालो शैलीमा बदल्नुहोस्
+RESET_HELP_TEXT:
+  en: Reset map
+  zh: नक्सा पुन. सुरू
+SEARCH:
+  en: Search
+  zh: खोजी
+NO_RESULT:
+  en: No result found
+  zh: कुनै नतिजा भेटिएन
+MORE_REGIONS_HELP_TEXT:
+  en: Show subregions
+  zh: उपक्षेत्र देखाऊनुहोस्
+LESS_REGIONS_HELP_TEXT:
+  en: Hide subregions
+  zh: उपक्षेत्र लुकाऊनुहोस्
+PLOT_SETTINGS:
+  en: Configure Plots
+  zh: कन्फिगर प्लटस्
+ABOUT:
+  en: About
+  zh: बारेमा
+SOURCE_CODE:
+  en: Source code
+  zh: सोर्स कोड
+ABOUT_TEXT:
+  en: Data are taken from <a href="https://ncov.dxy.cn/ncovh5/view/pneumonia" target="_blank">Ding Xiang Yuan</a> (compiled by <a href="https://github.com/BlankerL/DXY-COVID-19-Data" target="_blank">COVID-19/2019-nCoV Time Series Infection Data Warehouse</a>), <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank">Johns Hopkins CSSE</a>, <a href="https://coronavirus.1point3acres.com/en" target="_blank">1Point3Acres</a>, and <a href="https://github.com/stevenliuyi/covid19/blob/master/README.md" target="_blank">other various sources</a>. Logo is from <a href="https://icons8.com" target="_blank">Icons8</a>. The code of this project is <a href="https://github.com/stevenliuyi/covid19" target="_blank">open-sourced on Github</a> with the MIT License.<br/>If you'd like to support the work and buy me a ☕, I greatly appreciate it!
+  zh: डाटा यहाँ बाट झिकिएको <a href="https://ncov.dxy.cn/ncovh5/view/pneumonia" target="_blank">Ding Xiang Yuan</a> (compiled by <a href="https://github.com/BlankerL/DXY-COVID-19-Data" target="_blank">COVID-19/2019-nCoV Time Series Infection Data Warehouse</a>), <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank">Johns Hopkins CSSE</a>, <a href="https://coronavirus.1point3acres.com/en" target="_blank">1Point3Acres</a>, and <a href="https://github.com/stevenliuyi/covid19/blob/master/README.md" target="_blank">other various sources</a>. Logo is from <a href="https://icons8.com" target="_blank">Icons8</a>. The code of this project is <a href="https://github.com/stevenliuyi/covid19" target="_blank">open-sourced on Github</a> with the MIT License.<br/>If you'd like to support the work and buy me a ☕, I greatly appreciate it!

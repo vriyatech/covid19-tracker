@@ -1,0 +1,134 @@
+SYM_PAGE_TITLE:
+  en: TEST YOUR SYMPTOMS
+  np: लक्षण जाँच
+SYM_ANSWER1:
+  en: YES
+  np: छ
+SYM_ANSWER2:
+  en: NO
+  np: छैन
+SYM_Disclaimer:
+  en: Disclaimer
+  np: अस्वीकरण
+SYM_Disclaimer_p1:
+  en: Your answers are collected anonymously and aggregated to help healthcare providers gauge the spread of COVID-19. The questionnaires will help assess your risk factors for the infection and will be used to inform healthcare systems in Nepal. Our website also contains information on COVID-19, symptoms, and preventive measures that you can take to keep yourself, your family, and your community healthy. Questions are based on best available guidance from WHO, appropriate Nepal Government Departments, health agencies, and other stakeholders, and will be updated frequently. Participation and completion of this survey online does not determine nor diagnose COVID. If you are experiencing severe symptoms, immediately seek medical attention and counsel.
+  np: तपाईंको उत्तरहरू अज्ञात रूपमा संकलन गरिन्छ र स्वास्थ्य सेवा प्रदायकहरूलाई COVID-19 को फैलावट मापन गर्न मद्दत गर्न एकत्रित गरिनेछ। निम्न प्रश्नावली COVID-19 संक्रमणको लागि तपाईंको जोखिम कारकहरू आकलन गर्न मद्दत गर्न डिजाइन गरिएको हो। पूर्ण प्रश्नावलीहरु स्वास्थ्य सेवा प्रणालीहरु लाई सूचित गर्न को लागी प्रयोग गरीनेछ। यस वेबसाईटमा कसरी तपाईं, तपाईंको परिवार र तपाईंको समुदायलाई कसरी स्वस्थ राखिन्क्ष, त्यस् बारे बताईएको छ। प्रश्नहरू विश्व स्वास्थ संस्था (WHO),नेपाल सरकारको उपयुक्त निकायहरु, र स्वास्थ्य संस्थाहरु लगायत अन्य सरोकारवालाहरूको अनुरूप उपलब्ध मार्गदर्शनमा आधारित छन् र नियमित रूपमा अपडेट हुनेछन्। यो सर्वेक्षण अनलाइन गरेर COVID रोगको निर्धारण गर्न सकिदैन । यदि तपाईं गम्भीर लक्षणहरू अनुभव गर्दै हुनुहुन्छ भने, तुरून्त चिकित्सा उपचार र सल्लाह खोज्नुहोस्। 
+SYM_Disclaimer_p2:
+  en: Per your consent, in these questionnaires your personal information may be collected for research and public interest purposes. The data will be collected, processed, and stored in a secure manner. It is ultimately your choice whether or not to proceed with the questionnaires and if you choose to answer, for the data collected for research and public interest purpose - You agree not to file a complaint in accordance with Nepal's Individual Privacy Act 2075 along with other prevailing laws.
+  np: यस प्रश्नावलीहरुमा तपाईको इच्छा बमोजिम अनुसन्धान प्रयोजन तथा सार्वजनिक हितको निमित्त  तपाईँका व्यक्तिक गोपनियता सम्बन्धि तथ्यांक संकलन गरिनेछ र सो तथ्यांक सुरक्षित तवरले संकलन, भण्डारन तथा प्रशोधन गरिनेछ । यो प्रश्नावलीको उत्तर दिने नदिने तपाइँको स्वेच्छाको विषय हो र उत्तर दिएपश्चात अनुसन्धान तथा सार्वजनिक हितमा प्रयोग गरिएमा यहाँले नेपालको कानुन अन्तर्गत व्यक्तिगत गोपनियता सम्बन्धि ऐन २०७५ तथा अन्य प्रचलित कानुन बमोजिम कुनै उजुर बाजुर गर्नुहुने छैन ।
+SYM_Disclaimer_p3:
+  en: Please feel free to fill out this form even if you are not experiencing any symptoms.
+  np: कुनै पनि लक्षणहरू अनुभव गरिरहनु भएको छैन भने पनि यस फारम भर्न कृपया स्वतन्त्र महसुस गर्नुहोस्।
+SYM_QUESTIONS:
+  en: Questions
+  np: प्रश्नहरू
+SYM_QUESTIONS1:
+  en: Do you have high fever (>100 F)?
+  np: के तपाईंलाई उच्च ज्वरो छ (> १००°F)?
+SYM_QUESTIONS2:
+  en: Do you have a cough?
+  np: के तपाईंलाई खोकी छ?
+SYM_QUESTIONS3:
+  en: Are you experiencing difficulty breathing?
+  np: के तपाईं सास फेर्न कठिनाई अनुभव गर्दै हुनुहुन्छ?
+SYM_QUESTIONS4:
+  en: Are you 60 years of age or older?
+  np: के तपाई ६० बर्ष भन्दा बढि उमेरको हुनुहुन्छ?
+SYM_QUESTIONS5:
+  en: Do you have any of the following medical conditions- Diabetes, Heart Disease, Active Cancer, History of Heart-attack or Stroke, Asthma, COPD, Dialysis, or have weak immunity power?
+  np: के तपाईंसँग निम्न रोगहरू छन्- मधुमेह, हृदय रोग, सक्रिय क्यान्सर, हृदयघातको इतिहास, स्ट्रोकको इतिहास, दम, सीओपीडी, डायलिसिस, वा कमजोर प्रतिरक्षा क्षमताप्रणाली छन्?
+SYM_QUESTIONS6:
+  en: Have you traveled outside Nepal within the last 14 days?
+  np: के तपाईंले १४ दिन भित्रमा नेपाल बाहिर यात्रा गर्नुभएको छ?
+SYM_QUESTIONS7:
+  en: Have you had close contact with someone who is coughing, has a fever, or is otherwise sick and has been outside of Nepal in the last 14 days?
+  np: के तपाईंको कसैसँग घनिष्ठ सम्पर्क छ जस्लाई खोकी लागिरहेको छ, ज्वरो आएको छ, वा अन्यथा बिरामी छ र गत १४ दिनमा नेपाल बाहिर गएको छ?
+SYM_Location:
+  en: Your Location? 
+  np: तपाईको स्थान? 
+SYM_Province1:
+  en: Province 1
+  np: प्रान्त 1
+SYM_Province2:
+  en: Province 2
+  np: प्रान्त 2
+SYM_Province3:
+  en: Province 3
+  np: प्रान्त 3
+SYM_Province4:
+  en: Province 4
+  np: प्रान्त 4
+SYM_Province5:
+  en: Province 5
+  np: प्रान्त 5
+SYM_Province6:
+  en: Province 6
+  np: प्रान्त 6
+SYM_Province7:
+  en: Province 7
+  np: प्रान्त 7
+Home_CheckSymptom_Notice:
+  en: Vriya Technology's COVID-19 Tracker provides a platform for collecting and providing real time information regarding the spread of COVID-19 in your local municipality, district, and around the nation. This is an online screening tool to provide information on COVID-19 solely for the purpose to help increase awareness of the spread of COVID-19 by informing Nepalese healthcare systems of relevant information. Only information about symptoms will be collected and shown at an aggregated level. Please review our 
+  np: भ्रिया टेक्नोलोजीको COVID-19 ट्रयाकरले COVID-19 को प्रसारको बारेमा तपाईंको स्थानीय नगरपालिका, जिल्ला र देशभरिका वास्तविक जानकारी सम्बन्धीत तथ्याड़क र सूचना प्रदान गर्न प्लेटफर्म प्रदान गर्दछ। यो अनलाइन स्क्रीनिंग उपकरण केवल COVID-19 को बारेमा जानकारी प्रदान गर्न, यसको संक्रमण बारेमा सचेतना बढाउनु का साथै नेपालको स्वास्थ्य सेवा प्रणालीहरूलाई आवश्यक खबर सूचित गर्न मात्र प्रयोग गरिन्छ। केवल लक्षणहरूको जानकारी सङ्कलन गरेर एकीकृत तहमा प्रस्त्रुत गरेर देखाईनेछ। यस विषयमा तपाईंको कुनै आपत्ति भएमा कृपया हाम्रो
+Home_CheckSymptom_Notice_L:
+  en:  for any concerns.
+  np:  हेर्नुहोस्।
+Home_CheckSymptom_How_Are_you_feeling_title:
+  en: How are you feeling?
+  np: तपाईंलाई कस्तो छ?
+
+Home_CheckSymptom_How_Are_you_feeling_p1:
+  en: Your answers are collected anonymously and aggregated to help healthcare providers gauge the spread of COVID-19. The questionnaires will help assess your risk factors for the infection and will be used to inform healthcare systems in Nepal. Our website also contains information on COVID-19, symptoms, and preventive measures that you can take to keep yourself, your family, and your community healthy. Questions are based on best available guidance from WHO, appropriate Nepal Government Departments, health agencies, and other stakeholders, and will be updated frequently. Participation and completion of this survey online does not determine nor diagnose COVID. If you are experiencing severe symptoms, immediately seek medical attention and counsel. Please review our 
+  np: तपाईंंको उत्तरहरू अज्ञात रूपमा संकलन गरिन्छ र स्वास्थ्य सेवा प्रदायकहरूलाई COVID-19 को फैलावट मापन गर्न मद्दत गर्न एकत्रित गरिनेछ। निम्न प्रश्नावली COVID-19 संक्रमणको लागि तपाईंंको जोखिम कारकहरू आकलन गर्न मद्दत गर्न डिजाइन गरिएको हो। पूर्ण प्रश्नावलीहरु स्वास्थ्य सेवा प्रणालीहरु लाई सूचित गर्न को लागी प्रयोग गरीनेछ। यस वेबसाईटमा कसरी तपाईंं, तपाईंंको परिवार र तपाईंंको समुदायलाई कसरी स्वस्थ राखिन्क्ष, त्यस् बारे बताईएको छ। प्रश्नहरू विश्व स्वास्थ संस्था (WHO),नेपाल सरकारको उपयुक्त निकायहरु, र स्वास्थ्य संस्थाहरु लगायत अन्य सरोकारवालाहरूको अनुरूप उपलब्ध मार्गदर्शनमा आधारित छन् र नियमित रूपमा अपडेट हुनेछन्। यो सर्वेक्षण अनलाइन गरेर COVID रोगको निर्धारण गर्न सकिदैन । यदि तपाईंं गम्भीर लक्षणहरू अनुभव गर्दै हुनुहुन्छ भने, तुरून्त चिकित्सा उपचार र सल्लाह खोज्नुहोस्। यस विषयमा तपाईंको कुनै आपत्ति भएमा कृपया हाम्रो 
+
+Home_CheckSymptom_How_Are_you_feeling_p2:
+  en: Please fill in this form even if you are experiencing no symptoms.
+  np: कुनै पनि लक्षणहरू अनुभव गरिरहनु भएको छैन भने पनि यस फारम भर्न कृपया स्वतन्त्र महसुस गर्नुहोस्।
+Home_CheckSymptom_Click:
+  en: Click to fill form and view potential cases
+  np: फारम क्लिक गर्नुहोस् र सम्भावित केसहरू अवलोकन गर्नुहोस्!
+Terms_of_Service:
+  en: Terms of Service
+  np: सेवाका सर्तहरु
+Terms_of_Service_text:
+  en: BY USING THE VRIYA FLU TRACKER PLATFORM (AS THAT TERM IS DEFINED BELOW), YOU ACCEPT AND AGREE TO BE BOUND BY AND COMPLY WITH THESE TERMS OF SERVICE, AS UPDATED FROM TIME TO TIME IN ACCORDANCE WITH SECTION 2 BELOW TITLED “CHANGES TO THESE TERMS OF SERVICE AND VRIYA FLU TRACKER PLATFORM”. THE TERM “YOU” REFERS TO THE PERSON OR ENTITY VISITING THE WEBSITE (AS THE TERM IS DEFINED BELOW) OR ACCESSING OR OTHERWISE USING THE VRIYA FLU TRACKER PLATFORM (“USE” OR “USING” IN THESE TERMS OF SERVICE WILL MEAN ANY OF THE FOREGOING). IF YOU DO NOT ACCEPT AND AGREE TO BE BOUND BY THESE TERMS OF SERVICE, YOU MUST NOT USE THE VRIYA FLU TRACKER PLATFORM. YOU ACKNOWLEDGE THAT ALL INFORMATION YOU PROVIDE TO US, INCLUDING THROUGH YOUR ANSWERS TO OUR SURVEYS, WILL BE MADE AVAILABLE PUBLICLY, INCLUDING THROUGH OUR WEBSITE AND OUR HEAT MAPS IN AN EFFORT TO HELP HEALTHCARE PROVIDERS, RESEARCHERS AND OTHERS IN THEIR EFFORTS TO FIGHT COVID-19 (OUR “PURPOSE”). IF YOU DO NOT FEEL COMFORTABLE AND DO NOT AGREE TO THESE TERMS OF SERVICE OR OUR PRIVACY POLICY, PLEASE DO NOT USE THE VRIYA FLU TRACKER PLATFORM OR COMPLETE ANY SURVEYS. WE WOULD APPRECIATE IT IF YOU COULD PROVIDE FEEDBACK TO US AT INFO@VRIYA.COM ON HOW WE MAY BE ABLE TO ADDRESS YOUR CONCERNS IN THE FUTURE.
+  np: BY USING THE VRIYA FLU TRACKER PLATFORM (AS THAT TERM IS DEFINED BELOW), YOU ACCEPT AND AGREE TO BE BOUND BY AND COMPLY WITH THESE TERMS OF SERVICE, AS UPDATED FROM TIME TO TIME IN ACCORDANCE WITH SECTION 2 BELOW TITLED “CHANGES TO THESE TERMS OF SERVICE AND VRIYA FLU TRACKER PLATFORM”. THE TERM “YOU” REFERS TO THE PERSON OR ENTITY VISITING THE WEBSITE (AS THE TERM IS DEFINED BELOW) OR ACCESSING OR OTHERWISE USING THE VRIYA FLU TRACKER PLATFORM (“USE” OR “USING” IN THESE TERMS OF SERVICE WILL MEAN ANY OF THE FOREGOING). IF YOU DO NOT ACCEPT AND AGREE TO BE BOUND BY THESE TERMS OF SERVICE, YOU MUST NOT USE THE VRIYA FLU TRACKER PLATFORM. YOU ACKNOWLEDGE THAT ALL INFORMATION YOU PROVIDE TO US, INCLUDING THROUGH YOUR ANSWERS TO OUR SURVEYS, WILL BE MADE AVAILABLE PUBLICLY, INCLUDING THROUGH OUR WEBSITE AND OUR HEAT MAPS IN AN EFFORT TO HELP HEALTHCARE PROVIDERS, RESEARCHERS AND OTHERS IN THEIR EFFORTS TO FIGHT COVID-19 (OUR “PURPOSE”). IF YOU DO NOT FEEL COMFORTABLE AND DO NOT AGREE TO THESE TERMS OF SERVICE OR OUR PRIVACY POLICY, PLEASE DO NOT USE THE VRIYA FLU TRACKER PLATFORM OR COMPLETE ANY SURVEYS. WE WOULD APPRECIATE IT IF YOU COULD PROVIDE FEEDBACK TO US AT INFO@VRIYA.COM ON HOW WE MAY BE ABLE TO ADDRESS YOUR CONCERNS IN THE FUTURE.
+Terms_of_Service_s1:
+  en: SECTION 1. Acceptance of Terms of Service
+  np: SECTION 1. Acceptance of Terms of Service
+Terms_of_Service_s1_p1:
+  en: "(a) The following terms of service (the “Terms of Service”) govern your use of :"
+  np: "(a) The following terms of service (the “Terms of Service”) govern your use of :"
+Terms_of_Service_s1_p1_1:
+  en: '(1) our website located at https://flu.vriya.com (the “Website”); and (2) our solution made available through the Website that is designed to increase awareness and minimize the spread of COVID-19, including through the provision of: (i) surveys to collect information regarding an individual’s risk factors for COVID-19 (each, a “Survey”); and (ii) heat maps that illustrate the spread of COVID-19 (“Heat Map”) using the information collected (collectively, the “VRIYA FLU TRACKER Platform”).'
+  np: '(1) our website located at https://flu.vriya.com (the “Website”); and (2) our solution made available through the Website that is designed to increase awareness and minimize the spread of COVID-19, including through the provision of: (i) surveys to collect information regarding an individual’s risk factors for COVID-19 (each, a “Survey”); and (ii) heat maps that illustrate the spread of COVID-19 (“Heat Map”) using the information collected (collectively, the “VRIYA FLU TRACKER Platform”).'
+Terms_of_Service_s1_p1_2:
+  en: "(b) These Terms of Service form an agreement between Vriya Technology Pvt. Ltd., a for-profit corporation under the laws of Nepal (“Vriya”, “us”, “we”, “our”), and you."
+  np: "(b) These Terms of Service form an agreement between Vriya Technology Pvt. Ltd., a for-profit corporation under the laws of Nepal (“Vriya”, “us”, “we”, “our”), and you."
+Terms_of_Service_s2:
+  en: SECTION 2. Changes to these Terms of Service
+  np: SECTION 2. Changes to these Terms of Service
+Terms_of_Service_s2_p1:
+  en: '(a) Except where prohibited by applicable law, we reserve the right to change these Terms of Service at any time without notice. Your continued use of the "Platform" after any changes to these Terms of Service indicates your acceptance of such changes. It is your responsibility to review these Terms of Service regularly for any changes.'
+  np: '(a) Except where prohibited by applicable law, we reserve the right to change these Terms of Service at any time without notice. Your continued use of the "Platform" after any changes to these Terms of Service indicates your acceptance of such changes. It is your responsibility to review these Terms of Service regularly for any changes.'
+Terms_of_Service_s2_p2:
+  en: '(b) We reserve the right to change any information, material or content contained on or provided through the "Platform" at any time, and from time to time, without notice.'
+  np: '(b) We reserve the right to change any information, material or content contained on or provided through the "Platform" at any time, and from time to time, without notice.'
+Terms_of_Service_s3:
+  en: SECTION 3. Usage of the Platform
+  np: SECTION 3. Usage of the Platform
+Terms_of_Service_s3_p1:
+  en: '(a) The "Platform" is provided to you solely (the “Permitted Use”) to: (a) find out more about our efforts; (b) to complete a Survey; and (c) view Heat Maps which we may make available and update from time to time. We will make the Platform for your use in accordance with these Terms of Service and the Permitted Use only.'
+  np: '(a) The "Platform" is provided to you solely (the “Permitted Use”) to: (a) find out more about our efforts; (b) to complete a Survey; and (c) view Heat Maps which we may make available and update from time to time. We will make the Platform for your use in accordance with these Terms of Service and the Permitted Use only.'
+Terms_of_Service_s3_p2:
+  en: '(b) We retain the right, at our sole discretion, to temporarily or permanently deny you access to the "Platform" (or any part thereof) for violation of these Terms of Service.'
+  np: '(b) We retain the right, at our sole discretion, to temporarily or permanently deny you access to the "Platform" (or any part thereof) for violation of these Terms of Service.'
+Terms_of_Service_s3_p3:
+  en: '(c) You grant to us a perpetual, irrevocable, royalty-free, fully paid-up and worldwide license to access, collect, store, disclose and use any data, information, records and files that you load, transmit to or enter into the "Platform", including any Survey Responses, for the purposes of: (i) making available the "Platform"; (ii) developing and improving the "Platform"; (iii) complying with applicable law; and (iv) complying with our reasonable audit and data retention policies.'
+  np: '(c) You grant to us a perpetual, irrevocable, royalty-free, fully paid-up and worldwide license to access, collect, store, disclose and use any data, information, records and files that you load, transmit to or enter into the "Platform", including any Survey Responses, for the purposes of: (i) making available the "Platform"; (ii) developing and improving the "Platform"; (iii) complying with applicable law; and (iv) complying with our reasonable audit and data retention policies.'
+Terms_of_Service_s4:
+  en: SECTION 4. Privacy Policy
+  np: SECTION 4. Privacy Policy
+Terms_of_Service_s4_p1:
+  en: Per your consent, in these questionnaires your personal information may be collected for research and public interest purposes. The data will be collected, processed, and stored in a secure manner. It is ultimately your choice whether or not to proceed with the questionnaires and if you choose to answer, for the data collected for research and public interest purpose - You agree not to file a complaint in accordance with Nepal's Individual Privacy Act 2075 along with other prevailing laws.
+  np: Per your consent, in these questionnaires your personal information may be collected for research and public interest purposes. The data will be collected, processed, and stored in a secure manner. It is ultimately your choice whether or not to proceed with the questionnaires and if you choose to answer, for the data collected for research and public interest purpose - You agree not to file a complaint in accordance with Nepal's Individual Privacy Act 2075 along with other prevailing laws.
