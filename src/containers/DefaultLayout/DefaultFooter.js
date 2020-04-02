@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-
+import {Link} from 'react-router-dom'
 const propTypes = {
   children: PropTypes.node
 };
@@ -16,7 +16,7 @@ class DefaultFooter extends Component {
       <React.Fragment>
         <hr/>
         <div className="fot">
-          <h4><a href="https://www.vriya.com/">About Us </a><span> |</span><a href='/Collaborator'> Collaborators </a></h4><hr/>
+          <h4><a href="https://www.vriya.com/">About Us </a><span> |</span><Link to='/Collaborator'> Collaborators </Link></h4><hr/>
           <p>Copyright © {(new Date().getFullYear())} Vriya Technologies | Powered by Vriya Technologies:
             <span><a href="mailto:info@vriya.com">info@vriya.com</a></span>
           </p>

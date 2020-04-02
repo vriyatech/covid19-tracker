@@ -3,6 +3,7 @@ import { components } from 'react-select'
 import ImageSlider from '../utils/ImageSlider'
 import store from '../redux/store'
 import ReactDOM from 'react-dom'
+import {Link} from 'react-router-dom'
 
 class CheckResult extends Component{
   state=store.getState();
@@ -44,8 +45,8 @@ class CheckResult extends Component{
             </div>
         </div>
         <hr/>
-        <a href='/info'><input type='button' className='btn-primary' value ='Click here to view Information'/> </a>       
-        <a href='/NepalMap'><input type='button' className='btn-primary' value ='Click here to view condition of Nepal'/> </a>       
+        <Link to='/info'><input type='button' className='btn-primary' value ='Click here to view Information'/> </Link>       
+        <Link to='/NepalMap'><input type='button' className='btn-primary' value ='Click here to view condition of Nepal'/> </Link>       
       </div>
   
   </React.Fragment>

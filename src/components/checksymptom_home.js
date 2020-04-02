@@ -1,5 +1,6 @@
 import React, { Component } from 'react'  
 import CommingSoon from '../images/Homepage/Heatmap_Coming_Soon.jpeg'
+import {Link} from 'react-router-dom'
 
 // import serializeForm from 'form-serialize'
 import {
@@ -63,7 +64,7 @@ import { color } from 'd3';
           <p>{symptom_n_e.Home_CheckSymptom_How_Are_you_feeling_p1[this.state.lan]}</p> */}
           {/* <p>{symptom_n_e.Home_CheckSymptom_How_Are_you_feeling_p2[this.state.lan]}</p> */}
          <hr/>
-          <a href='/tracksymptoms'><input type='button' className ='btn-primary' value ={symptom_n_e.Home_CheckSymptom_Click[this.state.lan]}/></a>
+         <Link to='/tracksymptoms'><input type='button' className ='btn-primary' value ={symptom_n_e.Home_CheckSymptom_Click[this.state.lan]}/></Link>
           </div>
           </div>
         </div>
