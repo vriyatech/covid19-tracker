@@ -25,13 +25,13 @@ const openNotificationWithIcon = (type, message, description) => {
 // ADD RECORD
 export function* addRecord({ formData, history }) {
   try{
-    console.log(formData,"data");
+    // console.log(formData,"data");
     const result =   yield fetch(addRecordLink,{method:'POST',
                                   body:JSON.stringify(formData),
                                   headers:{'Content-Type': 'application/json'}
                           })
     const response = yield result.json(); 
-    console.log(response);  
+    // console.log(response);  
 
     // const result = fetch('https://apiflu.vriya.com:9092/flu/SaveRecords',{
     //     method:'POST',
