@@ -18,7 +18,7 @@ class DefaultLayout extends Component {
 
   render() {
     return (
-      <div className="app">
+      <div className="app" style={{width:'100%'}}>
           <Suspense fallback={this.loading()}>
             <DefaultHeader/>
           </Suspense>

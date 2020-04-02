@@ -51,7 +51,7 @@ import { color } from 'd3';
       
     render() {
       return (<div className ='container-fluid'>
-         <hr/>
+         
         <div className="row">
          
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6"><img src={CommingSoon} width='100%' height='auto'/></div>

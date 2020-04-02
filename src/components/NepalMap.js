@@ -31,8 +31,8 @@ import {
 
     render(){
     return (
-      <div>
-        <RecordView record={this.state.record} />
+      <div className='container-fluid' style={{width:'100%'}}>
+        <RecordView record={this.state.record} style={{width:'100%', backgroundColor:'grey'}}/>
       </div>
     );
   }}

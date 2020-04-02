@@ -13,9 +13,9 @@ class DefaultFooter extends Component {
     const { children, ...attributes } = this.props;
 
     return (
-      <React.Fragment>
+      <React.Fragment >
         <hr/>
-        <div className="fot">
+        <div className="fot" style={{ width:'100%'}}>
           <h4><a href="https://www.vriya.com/">About Us </a><span> |</span><Link to='/Collaborator'> Collaborators </Link></h4><hr/>
           <p>Copyright © {(new Date().getFullYear())} Vriya Technologies | Powered by Vriya Technologies:
             <span><a href="mailto:info@vriya.com">info@vriya.com</a></span>

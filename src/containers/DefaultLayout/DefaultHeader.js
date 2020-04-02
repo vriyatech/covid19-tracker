@@ -57,7 +57,7 @@ componentDidMount(){
 
     return (
       <React.Fragment>
-      <div className='container-fluid'>
+      <div className='container-fluid' style={{width:'100%'}}>
         <div className='row' color='light'>
             
           {/* <div className='col'><Link to="/"><div className='nav-bar-icon-u'>{this.state.lan==='np'?"लक्षण जाँच:":"Check Symptoms"}</div></Link></div> */}
@@ -69,6 +69,7 @@ componentDidMount(){
                            
         </div>
         <input type='button' className='btn-primary'  value={this.state.lan==='np'?'English':'नेपाली'} onClick={this.togglelang}/>
+        <hr />
       </div>
       </React.Fragment>
     );
