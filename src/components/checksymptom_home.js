@@ -52,7 +52,7 @@ import { color } from 'd3';
     render() {
       return (<div className ='container-fluid'>
         <div className="row">
-          <div className="col"><img src={CommingSoon} width='500px' height='400px'/></div>
+          <div className="col"><img src={CommingSoon} width='100%' height='auto'/></div>
          
           <div className="col" style={{alignSelf:"center",textAlign:"justify"}}>
           <hr/>
