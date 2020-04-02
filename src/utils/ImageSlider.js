@@ -8,9 +8,20 @@ import img5 from '../images/slider/seek_medical_advice.jpg'
 import img6 from '../images/slider/social_distancing.png'
 import img7 from '../images/slider/stay_home.jpg'
 import img8 from '../images/slider/wash_hands_CDC.jpg'
+import Slider from "react-slick";
+import "../index.css";
+
 
 class ImageSlider extends React.Component {
     render() {
+        const settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          };
+
         const images = [
             { url: img1 },
             { url: img2 },
@@ -22,14 +33,32 @@ class ImageSlider extends React.Component {
             { url: img8 },
         ];
 
+        const width = '100%';
+
         return (
-            <div className='responsive'>
-                <SimpleImageSlider
-                    width={1200}
-                    height={600}
-                    images={images}
-                />
-            </div>
+            // <div className='responsive single-slider'>
+            //     <SimpleImageSlider
+            //         width={width}
+            //         height={600}
+            //         images={images}
+            //     />
+            // </div>
+            <div className="container">
+        <Slider {...settings}>
+          <div>
+            <img src={img1} />
+          </div>
+          <div>
+            <img src="http://placekitten.com/g/400/200" />
+          </div>
+          <div>
+            <img src="http://placekitten.com/g/400/200" />
+          </div>
+          <div>
+            <img src="http://placekitten.com/g/400/200" />
+          </div>
+        </Slider>
+      </div>
         );
     }
 }

@@ -1059,6 +1059,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@brainhubeu/react-carousel@^1.13.22":
+  version "1.13.22"
+  resolved "https://registry.yarnpkg.com/@brainhubeu/react-carousel/-/react-carousel-1.13.22.tgz#e6b0334d89c0c07736e28852b3c43d23e78eef8c"
+  integrity sha512-Wlpb+0eYdOx+qMaQstDoKwCN2JoJLYQM4RvemFqypHB3lLtkdrz/mpjeCno+gwZTzjKvmNiN9Ypal/pqrGJfmw==
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -14629,7 +14634,7 @@ react-simple-maps@^1.0.0-beta.0:
     d3-geo "^1.11.6"
     topojson-client "^3.0.0"
 
-react-slick@~0.25.2:
+react-slick@^0.25.2, react-slick@~0.25.2:
   version "0.25.2"
   resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.25.2.tgz#56331b67d47d8bcfe2dceb6acab1c8fd5bd1f6bc"
   integrity sha512-8MNH/NFX/R7zF6W/w+FS5VXNyDusF+XDW1OU0SzODEU7wqYB+ZTGAiNJ++zVNAVqCAHdyCybScaUB+FCZOmBBw==

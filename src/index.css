@@ -17,6 +17,25 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.single-slider .image-slider {
+    width: 400px;
+}
+
+.container {
+    padding: 40px;
+    background: #419be0;
+  }
+  
+  .slick-slide img {
+    margin: auto;
+  }
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }

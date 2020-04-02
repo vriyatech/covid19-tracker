@@ -4,6 +4,18 @@ import ImageSlider from '../utils/ImageSlider'
 import store from '../redux/store'
 import ReactDOM from 'react-dom'
 import {Link} from 'react-router-dom'
+import "../index.css";
+import img1 from '../images/slider/covid-19-symptoms-v03.png'
+import img2 from '../images/slider/COVID19-symptoms.png'
+import img3 from '../images/slider/ESx80erU4AATrBC.jpg'
+import img4 from '../images/slider/ESXzdzJWsAAdkku.jpg'
+import img5 from '../images/slider/seek_medical_advice.jpg'
+import img6 from '../images/slider/social_distancing.png'
+import img7 from '../images/slider/stay_home.jpg'
+import img8 from '../images/slider/wash_hands_CDC.jpg'
+
+import Carousel from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
 
 class CheckResult extends Component{
   state=store.getState();
@@ -35,21 +47,17 @@ class CheckResult extends Component{
   }};
 
   render(){
-  return <React.Fragment>
-      <div className='container-fluid' onLoad={this.viewmessage}>
-        <div className='row'>
-            {/* <div className="col-sm-3"><h2>{store.getState().checkSymptom.newRecord.risk}</h2></div> */}
-            <div className="col-12"><div id='result' ></div></div><hr/>
-            <div className="col-12">
-              <ImageSlider/>
-            </div>
-        </div>
-        <hr/>
-        <Link to='/info'><input type='button' className='btn-primary' value ='Click here to view Information'/> </Link>       
-        <Link to='/NepalMap'><input type='button' className='btn-primary' value ='Click here to view condition of Nepal'/> </Link>       
-      </div>
-  
-  </React.Fragment>
+    return (
+      <Carousel
+        autoPlay={2000}
+        animationSpeed={1000}
+        infinite
+      >
+        <img src={img1} style={{height:'auto',width:'100%'}}/>
+        <img src={img2} style={{height:'auto',width:'100%'}}/>
+        <img src={img3} style={{height:'auto',width:'100%'}}/>
+      </Carousel>
+    );
   }
 
 
