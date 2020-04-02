@@ -38,3 +38,5 @@ public/maps/*.json
 # vscode
 .vscode/*
 *.code-workspace
+
+*.lock
