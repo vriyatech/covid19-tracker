@@ -61,11 +61,11 @@ componentDidMount(){
         <div className='row' color='light'>
             
           {/* <div className='col'><Link to="/"><div className='nav-bar-icon-u'>{this.state.lan==='np'?"लक्षण जाँच:":"Check Symptoms"}</div></Link></div> */}
-          <div className='col-sm-2'><Link to="/"><div className='nav-bar-icon-u'>{this.state.lan==='np'?"होम":"Home"}</div></Link></div>
-          <div className='col-sm-2'><Link to="/info"><div className='nav-bar-icon-u'>{this.state.lan==='np'?"जानकारी":"Info"}</div></Link></div>
-          <div className='col-sm-2'><Link to="/nepalmap"><div className='nav-bar-icon-u'>{this.state.lan==='np'?"नेपाल स्थिति:":"Nepal Now"}</div></Link></div>
-          <div className='col-sm-2'><Link to="/heatmap"><div className='nav-bar-icon-u'>{this.state.lan==='np'?"वर्तमान स्थिति:":"World Now"}</div></Link></div>              
-          <div className='col-sm-4'><NepalView npcondition={this.state.npcondition} lan={this.state.lan} /></div>
+          <div className='col-xs-12 col-sm-2 col-md-2 col-lg-2'><Link to="/"><div className='nav-bar-icon-u'>{this.state.lan==='np'?"होम":"Home"}</div></Link></div>
+          <div className='col-xs-12 col-sm-2 col-md-2 col-lg-2'><Link to="/info"><div className='nav-bar-icon-u'>{this.state.lan==='np'?"जानकारी":"Info"}</div></Link></div>
+          <div className='col-xs-12 col-sm-2 col-md-2 col-lg-2'><Link to="/nepalmap"><div className='nav-bar-icon-u'>{this.state.lan==='np'?"नेपाल स्थिति:":"Nepal Now"}</div></Link></div>
+          <div className='col-xs-12 col-sm-2 col-md-2 col-lg-2'><Link to="/heatmap"><div className='nav-bar-icon-u'>{this.state.lan==='np'?"वर्तमान स्थिति:":"World Now"}</div></Link></div>              
+          <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'><NepalView npcondition={this.state.npcondition} lan={this.state.lan} /></div>
                            
         </div>
         <input type='button' className='btn-primary'  value={this.state.lan==='np'?'English':'नेपाली'} onClick={this.togglelang}/>

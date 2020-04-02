@@ -51,10 +51,12 @@ import { color } from 'd3';
       
     render() {
       return (<div className ='container-fluid'>
+         <hr/>
         <div className="row">
-          <div className="col"><img src={CommingSoon} width='100%' height='auto'/></div>
          
-          <div className="col" style={{alignSelf:"center",textAlign:"justify"}}>
+          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6"><img src={CommingSoon} width='100%' height='auto'/></div>
+         
+          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6" style={{alignSelf:"center",textAlign:"justify"}}>
           <hr/>
           {/* <u><label name='set_language'>{this.state.lan==='np'?'भाषा परिवर्तनको लागि कृपया यहाँ क्लिक गर्नुहोस्! => ':'Please click here to change language! => '}<input type='button' name='set_language' value={this.state.lan==='np'?'नेपाली':'English'} onClick={this.togglelang}/></label></u> */}
           {/* <h5><u>{symptom_n_e.SYM_Disclaimer[this.state.lan]}:</u></h5> */}

@@ -44,8 +44,8 @@ SYM_QUESTIONS7:
   en: Have you had close contact with someone who is coughing, has a fever, or is otherwise sick and has been outside of Nepal in the last 14 days?
   np: के तपाईंको कसैसँग घनिष्ठ सम्पर्क छ जस्लाई खोकी लागिरहेको छ, ज्वरो आएको छ, वा अन्यथा बिरामी छ र गत १४ दिनमा नेपाल बाहिर गएको छ?
 SYM_Location:
-  en: Your Location? 
-  np: तपाईको स्थान? 
+  en: Your Municipality? 
+  np: तपाईको नगरपालिका? 
 SYM_Province1:
   en: Province 1
   np: प्रान्त 1

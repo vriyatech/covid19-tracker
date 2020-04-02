@@ -28,6 +28,7 @@ import symptom_n_e from '../data/symptom_n_e.yml'
 import { Switch } from 'react-router-dom';
 import {municipalities,Municipality_select} from '../utils/Municipalities'
 import { addRecord } from "../redux/actions/checkSymtomsActions";
+import ReactDOM from 'react-dom'
 
   class CheckSymptoms extends Component {
     constructor(props) {
@@ -84,15 +85,30 @@ import { addRecord } from "../redux/actions/checkSymtomsActions";
     handleSubmit = (e) =>{
       e.preventDefault();
 
-      if(this.state.fever===''|this.state.cough===''|this.state.breathing===''|this.state.age===''|this.state.otherdiseases===''|this.state.outsidevisit==''|this.state.rwinfection===''|this.state.location===''){
-      // if(false){  
-      alert("Please fill all the questions");
+      if(this.state.fever===''|this.state.cough===''|this.state.breathing===''|this.state.age===''|this.state.otherdiseases===''|this.state.outsidevisit===''|this.state.rwinfection===''){
+        ReactDOM.render(
+          <span style={{color:"white", backgroundColor:'red'}}>{this.state.lan==='en'?'Please select your symptoms!':'कृपया आफ्नो लक्षणमा टिक लगाउनुहोस!'}</span>,
+          document.getElementById('form-error')
+        );
+        
       }
+      
+      else if(this.state.provience===''|this.state.district===''|this.state.municipality===''|this.state.district===undefined|this.state.municipality===undefined){
+        ReactDOM.render(
+          <span style={{color:"white", backgroundColor:'red'}}>{this.state.lan==='en'?'Please select your Municipality from dropdown!':'कृपया ड्रपडाउनबाट आफ्नो नगरपालिका रोजनुहोस्!'}</span>,
+          document.getElementById('form-error')
+        );
+
+      }
+        
+      
       else{
+        // console.log(this.state);
         const { addRecord, history } = this.props;
         const formData = this.state;
         addRecord({ formData, history });
         //this.insertrecords(this.state);
+        this.setState({location:'',provience:'',district:'',municipality:''});
         
       }
 
@@ -179,7 +195,7 @@ import { addRecord } from "../redux/actions/checkSymtomsActions";
             </span>
           </label>
           <hr/>           
-          <input type="submit" value={this.state.lan==='np'?"बुझाउनुहोस्:":"Submit"} />
+          <input type="submit" value={this.state.lan==='np'?"बुझाउनुहोस्:":"Submit"} /><div id='form-error'></div>
 
         </form>
         </div>
