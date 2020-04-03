@@ -73,7 +73,7 @@ class App extends Component {
         })
 
     componentDidMount() {
-        updateDarkMode(this.state.darkMode)
+        // updateDarkMode(this.state.darkMode)
         this.fetchData()
         this.updateFullDimensions()
         window.addEventListener('resize', this.updateFullDimensions)
@@ -162,7 +162,7 @@ class App extends Component {
     }
 
     darkModeToggle = () => {
-        updateDarkMode(!this.state.darkMode)
+        // updateDarkMode(!this.state.darkMode)
         this.setState({ darkMode: !this.state.darkMode })
     }
 
@@ -214,7 +214,7 @@ class App extends Component {
                                         {...this.state}
                                         scaleToggle={this.scaleToggle}
                                         // languageToggle={this.languageToggle}
-                                        darkModeToggle={this.darkModeToggle}
+                                        // darkModeToggle={this.darkModeToggle}
                                         reset={this.reset}
                                     />
                                     {!fullPlot && (

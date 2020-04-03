@@ -47,15 +47,18 @@ class Infopage extends Component{
         <ul>
           {/* <label name='set_language'>{this.state.lan==='np'?'भाषा परिवर्तनको लागि कृपया यहाँ क्लिक गर्नुहोस्! => ':'Please click here to change language! => '}<input type='button' name='set_language' value={this.state.lan==='np'?'नेपाली':'English'} onClick={this.togglelang}/>
           </label> */}
-        <h3>{ipage_n_e.info_DISCLAIMER[this.state.lan]}</h3>
+        <h3>{ipage_n_e.info_page_WHO_Information[this.state.lan]}</h3>
+        <small>{ipage_n_e.info_SOURCE[this.state.lan]}</small><br/>
+        {/* <small>{ipage_n_e.info_DISCLAIMER[this.state.lan]}</small> */}
 
-            <h3><u>{ipage_n_e.info_TITLE[this.state.lan]}</u></h3>
+            {/* <h3><u>{ipage_n_e.info_TITLE[this.state.lan]}</u></h3> */}
         </ul>
         <ul>
-        <h3><u>{ipage_n_e.info_OVERVIEW[this.state.lan]}:</u></h3>    
+        {/* <h3><u>{ipage_n_e.info_OVERVIEW[this.state.lan]}:</u></h3>     */}
             {/* <h4><u>बारेमा</u></h4> */}
             <hr/>
-        <ul>    
+        <ul> 
+        <u>{ipage_n_e.info_ABOUT[this.state.lan]}:</u>   
             <p>{ipage_n_e.info_ABOUT_text[this.state.lan]}</p>
         
             <hr/>

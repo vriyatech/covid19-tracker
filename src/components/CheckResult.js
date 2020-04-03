@@ -26,7 +26,7 @@ class CheckResult extends Component{
         document.getElementById('result')
       );
       default: return ReactDOM.render(
-        <h2 style={{color:"Green"}}>{this.state.checkSymptom.newRecord.risk}</h2>,
+        <h2 style={{color:"Green"}}>Low Risk</h2>,
         document.getElementById('result')
       );
       

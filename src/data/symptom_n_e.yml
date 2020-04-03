@@ -46,27 +46,6 @@ SYM_QUESTIONS7:
 SYM_Location:
   en: Your Municipality? 
   np: तपाईको नगरपालिका? 
-SYM_Province1:
-  en: Province 1
-  np: प्रान्त 1
-SYM_Province2:
-  en: Province 2
-  np: प्रान्त 2
-SYM_Province3:
-  en: Province 3
-  np: प्रान्त 3
-SYM_Province4:
-  en: Province 4
-  np: प्रान्त 4
-SYM_Province5:
-  en: Province 5
-  np: प्रान्त 5
-SYM_Province6:
-  en: Province 6
-  np: प्रान्त 6
-SYM_Province7:
-  en: Province 7
-  np: प्रान्त 7
 Home_CheckSymptom_Notice:
   en: Vriya Technology's COVID-19 Tracker provides a platform for collecting and providing real time information regarding the spread of COVID-19 in your local municipality, district, and around the nation. This is an online screening tool to provide information on COVID-19 solely for the purpose to help increase awareness of the spread of COVID-19 by informing Nepalese healthcare systems of relevant information. Only information about symptoms will be collected and shown at an aggregated level. Please review our 
   np: भ्रिया टेक्नोलोजीको COVID-19 ट्रयाकरले COVID-19 को प्रसारको बारेमा तपाईंको स्थानीय नगरपालिका, जिल्ला र देशभरिका वास्तविक जानकारी सम्बन्धीत तथ्याड़क र सूचना प्रदान गर्न प्लेटफर्म प्रदान गर्दछ। यो अनलाइन स्क्रीनिंग उपकरण केवल COVID-19 को बारेमा जानकारी प्रदान गर्न, यसको संक्रमण बारेमा सचेतना बढाउनु का साथै नेपालको स्वास्थ्य सेवा प्रणालीहरूलाई आवश्यक खबर सूचित गर्न मात्र प्रयोग गरिन्छ। केवल लक्षणहरूको जानकारी सङ्कलन गरेर एकीकृत तहमा प्रस्त्रुत गरेर देखाईनेछ। यस विषयमा तपाईंको कुनै आपत्ति भएमा कृपया हाम्रो
