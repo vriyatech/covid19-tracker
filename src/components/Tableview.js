@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import Questions from './switchquestion'
-import {Table  } from 'reactstrap';
+
+import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table'
+import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
 
 const Tableview = ({tabledata,lan}) => (
         <tbody>
@@ -19,20 +21,20 @@ export const NepalView = ({npcondition, lan}) => (<div>
 
        
             {npcondition.map( (data,i) =><Fragment key={i}>
-            <span>{lan==='en'?[data.countryregion+': ']:"नेपाल: "}</span><span>{lan==='en'?data.lastupdate.replace('T'," | Time: "):data.lastupdate.replace("T"," | समय: ")}</span>
+            <strong><span>{lan==='en'?[data.countryregion+': ']:"नेपाल: "}</span><span>{data.lastupdate.split('T')[0]}</span></strong>
             <br/>
-                    <span key = {'confirmed'+i}>
-                       {lan==='en'?'Confirmed: ':"पुष्टि भयो: "}
-                        {data.confirmed}
-                    </span><br/>
-                    <span key = {'deaths'+i}>
-                       {lan==='en'?'Deaths: ':"मृत्यु: "}
-                       {data.deaths}
-                    </span><br/>
-                    <span key = {'recovered'+i}>
-                        {lan==='en'?'Recovered: ':"निको: "}
-                        {data.recovered}
+                    <strong><span  key = {'confirmed'+i}>
+                       <span style ={{color:'blue'}}>{lan==='en'?'Confirmed: ':"पुष्टि भयो: "}</span>
+                        {data.confirmed+' | '}
                     </span>
+                    <span key = {'deaths'+i}>
+                       <span style ={{color:'red'}}>{lan==='en'?'Deaths: ':"मृत्यु: "}</span>
+                       {data.deaths+' | '}
+                    </span>
+                    <span  key = {'recovered'+i}>
+                        <span style ={{color:'green'}}>{lan==='en'?'Recovered: ':"निको: "}</span>
+                        {data.recovered}
+                    </span></strong>
                 </Fragment>)}</div>
 
 
@@ -64,36 +66,38 @@ export const WorldView = ({worldcondition, lan}) => (
 
 
 export const RecordView = ({record, lan}) => (
-    <Table striped bordered hover>
-        <thead>
-            <tr>
-                <th>{lan==='en'?"Province":"प्रदेश"}</th>
-                <th>{lan==='en'?"District":"जिल्ला"}</th>
-                <th>{lan==='en'?"Municipality":"नगरपालिका"}</th>
+    <Table striped bordered hover style={{width:'100%'}}>
+        <Thead>
+            <Tr>
+                <Th>{lan==='en'?"Province":"प्रदेश"}</Th>
+                <Th>{lan==='en'?"District":"जिल्ला"}</Th>
+                <Th>{lan==='en'?"Municipality":"नगरपालिका"}</Th>
                 {/* <th>{lan==='en'?"Low Risk":"कम जोखिम"}</th> */}
                 {/* <th>{lan==='en'?"Potential Risk":"सम्भावित जोखिम"}</th> */}
-                <th>{lan==='en'?"Risk":"जोखिम"}</th>
-                <th>{lan==='en'?"Count":"गणना"}</th>
+                <Th>{lan==='en'?"Risk":"जोखिम"}</Th>
+                <Th>{lan==='en'?"Count":"गणना"}</Th>
                 
                                
-            </tr>
-        </thead>
-        <tbody>
+            </Tr>
+        </Thead>
+        <Tbody>
             {record.map( (data,i) =>
-                <tr key={'row'+i}>
-                    <td>{data.province}</td>
-                    <td>{data.district}</td>
-                    <td>{data.municipality}</td>
-                    <td>{data.risk}</td>
-                    <td>{data.countValue}</td>
+                <Tr key={'row'+i}>
+                    <Td>{data.province}</Td>
+                    <Td>{data.district}</Td>
+                    <Td>{data.municipality}</Td>
+                    <Td>{data.risk}</Td>
+                    <Td>{data.countValue}</Td>
                     
                     
                         
-                </tr>)
+                </Tr>)
             }
-        </tbody>
+        </Tbody>
         
     </Table>
+
+    
 
 
 );

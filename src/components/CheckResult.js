@@ -40,13 +40,14 @@ class CheckResult extends Component{
         <div className='row'>
             {/* <div className="col-sm-3"><h2>{store.getState().checkSymptom.newRecord.risk}</h2></div> */}
             <div className="col-12"><div id='result' ></div></div><hr/>
-            <div className="col-12">
-              <ImageSlider/>
+            <div className="col-12" style={{aligItems:'center'}}>
+              <div><ImageSlider /></div>
             </div>
         </div>
-        <hr/>
-        <Link to='/info'><input type='button' className='btn-primary' value ='Click here to view Information'/> </Link>       
-        <Link to='/NepalMap'><input type='button' className='btn-primary' value ='Click here to view condition of Nepal'/> </Link>       
+        <br />
+        <Link to='/info'><input type='button' className='nav-bar-icon-u' value ='Click here to view Information'/> </Link>
+        &nbsp;       
+        <Link to='/NepalMap'><input type='button' className='nav-bar-icon-u' value ='Click here to view condition of Nepal'/> </Link>       
       </div>
   
   </React.Fragment>

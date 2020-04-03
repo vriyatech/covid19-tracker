@@ -1,5 +1,5 @@
 import React, { Component } from 'react'  
-import CommingSoon from '../images/Homepage/Heatmap_Coming_Soon.jpeg'
+import VriyaCovidImg from '../images/Homepage/Vriya_COVID19_Tracker_500x_alt.png'
 import {Link} from 'react-router-dom'
 
 // import serializeForm from 'form-serialize'
@@ -54,10 +54,10 @@ import { color } from 'd3';
          
         <div className="row">
          
-          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6"><img src={CommingSoon} width='100%' height='auto'/></div>
+          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6"><img src={VriyaCovidImg} width='100%' height='auto'/></div>
          
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6" style={{alignSelf:"center",textAlign:"justify"}}>
-          <hr/>
+          {/* <hr/> */}
           {/* <u><label name='set_language'>{this.state.lan==='np'?'भाषा परिवर्तनको लागि कृपया यहाँ क्लिक गर्नुहोस्! => ':'Please click here to change language! => '}<input type='button' name='set_language' value={this.state.lan==='np'?'नेपाली':'English'} onClick={this.togglelang}/></label></u> */}
           {/* <h5><u>{symptom_n_e.SYM_Disclaimer[this.state.lan]}:</u></h5> */}
           <p>{symptom_n_e.Home_CheckSymptom_Notice[this.state.lan]}<a href='/termofservices'>&nbsp;{symptom_n_e.Terms_of_Service[this.state.lan]}&nbsp;</a>{symptom_n_e.Home_CheckSymptom_Notice_L[this.state.lan]}</p>
@@ -65,7 +65,7 @@ import { color } from 'd3';
           <p>{symptom_n_e.Home_CheckSymptom_How_Are_you_feeling_p1[this.state.lan]}</p> */}
           {/* <p>{symptom_n_e.Home_CheckSymptom_How_Are_you_feeling_p2[this.state.lan]}</p> */}
          <hr/>
-         <Link to='/tracksymptoms'><input type='button' className ='btn-primary' value ={symptom_n_e.Home_CheckSymptom_Click[this.state.lan]}/></Link>
+         <Link to='/tracksymptoms'><input type='button' className ='nav-bar-icon-u' value ={symptom_n_e.Home_CheckSymptom_Click[this.state.lan]}/></Link>
           </div>
           </div>
         </div>

@@ -21,6 +21,7 @@ import {
 
   export default class NepalMap extends Component{
     state={
+      lan: window.localStorage.getItem("lan") ? window.localStorage.getItem("lan") : window.localStorage.setItem("lan", 'np'),
       record:[]
     }
 
@@ -32,7 +33,7 @@ import {
     render(){
     return (
       <div className='container-fluid' style={{width:'100%'}}>
-        <RecordView record={this.state.record} style={{width:'100%', backgroundColor:'grey'}}/>
+        <RecordView record={this.state.record} lan={this.state.lan} style={{width:'100%', backgroundColor:'grey'}}/>
       </div>
     );
   }}

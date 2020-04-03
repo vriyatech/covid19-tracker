@@ -41,3 +41,4 @@ public/maps/*.json
 *.code-workspace
 
 *.lock
+node_modules
