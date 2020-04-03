@@ -39,14 +39,14 @@ class ImageSlider extends React.Component {
             //         images={images}
             //     />
             // </div>
-            <div style={{maxWidth:'600px'}} >
+            <div className="center" >
             
             <Slider {...settings}>
-              <div><h3><img src ={img1} width='100%' height='auto' max-width='1000px' /></h3></div>
-              <div><h3><img src ={img2} width='100%' height='auto' max-width='1000px'/></h3></div>
-              <div><h3><img src ={img3} width='100%' height='auto' max-width='1000px'/></h3></div>
-              <div><h3><img src ={img4} width='100%' height='auto' max-width='1000px'/></h3></div>
-              <div><h3><img src ={img5} width='100%' height='auto' max-width='1000px'/></h3></div>
+              <div><img src ={img1} /></div>
+              <div><img src ={img2}/></div>
+              <div><img src ={img3}/></div>
+              <div><img src ={img4}/></div>
+              <div><img src ={img5}/></div>
                
             </Slider>
           </div>

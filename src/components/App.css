@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css'; 
+
 :root {
     --primary-color-0: #fcfdbf;
     --primary-color-1: #fecf92;
@@ -21,6 +23,16 @@
 
 ::selection {
     background: var(--primary-color-0);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.slick-slider .slick-slide img {
+    display: inline-block;
 }
 
 .App {

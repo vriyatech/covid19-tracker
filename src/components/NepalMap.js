@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Table } from "antd";
 import {
     Collapse,
     Navbar,
@@ -31,9 +32,39 @@ import {
     }
 
     render(){
+      const columns = [
+        {
+          title: this.state.lan==='en'?"Province":"प्रदेश",
+          dataIndex: "province",
+          key: "province"
+        },
+        {
+          title: this.state.lan==='en'?"District":"जिल्ला",
+          dataIndex: "district",
+          key: "district"
+        },
+        {
+          title: this.state.lan==='en'?"Municipality":"नगरपालिका",
+          dataIndex: "municipality",
+          key: "municipality"
+        },
+        {
+          title: this.state.lan==='en'?"Risk":"जोखिम",
+          dataIndex: "risk",
+          key: "risk"
+        },
+        {
+          title: this.state.lan==='en'?"Count":"गणना",
+          dataIndex: "countValue",
+          key: "countValue",
+          fixed: 'left',
+          width: 100
+        }
+      ];
     return (
       <div className='container-fluid' style={{width:'100%'}}>
-        <RecordView record={this.state.record} lan={this.state.lan} style={{width:'100%', backgroundColor:'grey'}}/>
+        <Table  columns={columns} dataSource={this.state.record} scroll={{ x: 1300 }} />
+        {/* <RecordView record={this.state.record} lan={this.state.lan} style={{width:'100%', backgroundColor:'grey'}}/> */}
       </div>
     );
   }}
