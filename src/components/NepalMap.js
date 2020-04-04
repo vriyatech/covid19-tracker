@@ -28,7 +28,7 @@ import {
 
     componentDidMount(){
       const urlr = GetRecord;
-      fetch(urlr).then(resp => resp.json().then(datan => this.setState({record:datan})));
+      fetch(urlr).then(resp => resp.json()).then(datan => datan.filter(dat => dat.risk!=='no risk')).then(datan => this.setState({record:datan}));
     }
 
     render(){
