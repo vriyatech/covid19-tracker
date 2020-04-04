@@ -43,10 +43,10 @@ class ImageSlider extends React.Component {
             
             <Slider {...settings}>
               <div><img src ={img1} /></div>
-              <div><img src ={img2}/></div>
-              <div><img src ={img3}/></div>
-              <div><img src ={img4}/></div>
-              <div><img src ={img5}/></div>
+              <div><img src ={img2} /></div>
+              <div><img src ={img3} /></div>
+              <div><img src ={img4} /></div>
+              <div><img src ={img5} /></div>
                
             </Slider>
           </div>

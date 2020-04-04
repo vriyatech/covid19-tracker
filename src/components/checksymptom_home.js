@@ -1,5 +1,5 @@
 import React, { Component } from 'react'  
-import VriyaCovidImg from '../images/Homepage/Vriya_COVID19_Tracker_500x_alt.png'
+import VriyaCovidImg from '../images/Homepage/Vriya_COVID19_Tracker_1000x_alt.png'
 import {Link} from 'react-router-dom'
 
 // import serializeForm from 'form-serialize'

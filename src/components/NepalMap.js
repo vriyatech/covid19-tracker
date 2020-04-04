@@ -38,11 +38,11 @@ import {
           dataIndex: "province",
           key: "province"
         },
-        {
-          title: this.state.lan==='en'?"District":"जिल्ला",
-          dataIndex: "district",
-          key: "district"
-        },
+          {
+            title: this.state.lan==='en'?"District":"जिल्ला",
+            dataIndex: "district",
+            key: "district"
+          },
         {
           title: this.state.lan==='en'?"Municipality":"नगरपालिका",
           dataIndex: "municipality",
@@ -57,13 +57,13 @@ import {
           title: this.state.lan==='en'?"Count":"गणना",
           dataIndex: "countValue",
           key: "countValue",
-          fixed: 'left',
+          // fixed: 'left',
           width: 100
         }
       ];
     return (
       <div className='container-fluid' style={{width:'100%'}}>
-        <Table  columns={columns} dataSource={this.state.record} scroll={{ x: 1300 }} />
+        <Table  columns={columns} dataSource={this.state.record} />
         {/* <RecordView record={this.state.record} lan={this.state.lan} style={{width:'100%', backgroundColor:'grey'}}/> */}
       </div>
     );
