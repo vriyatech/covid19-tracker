@@ -7,9 +7,13 @@ import {
   Redirect
 } from "react-router-dom";
 import { connect } from "react-redux";
+import { ReactComponent as Icon } from './covid19.svg'
+
 
 const loading = () => (
-  <div className="animated fadeIn pt-3 text-center">Loading...</div>
+  <div className="animated fadeIn pt-3 text-center"><div className="loading-icon">
+  <Icon />
+</div></div>
 );
 
 // Containers

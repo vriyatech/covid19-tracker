@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Table, Input, Button  } from "antd";
+import { Table, Input, Button, Typography  } from "antd";
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined } from '@ant-design/icons';
 import {
@@ -21,6 +21,7 @@ import {
   } from 'reactstrap';
   import {GetRecord} from '../services/apiLink'
   import {RecordView} from './Tableview'
+ 
 
   export default class NepalMap extends Component{
     state={
@@ -97,6 +98,7 @@ import {
     componentDidMount(){
       const urlr = GetRecord;
       fetch(urlr).then(resp => resp.json()).then(datan => datan.filter(dat => dat.risk!=='no risk')).then(datan => this.setState({record:datan}));
+    
     }
 
     render(){
@@ -106,36 +108,60 @@ import {
           dataIndex: "province",
           key: "province",
           ...this.getColumnSearchProps('province'),
+          render: (price, record) => (
+            <Typography.Text style={{ fontSize: 12,padding:0,wordWrap:false,whiteSpace: 'nowrap' }}>
+              {price}
+            </Typography.Text>
+          )
         },
           {
             title: this.state.lan==='en'?"District":"जिल्ला",
             dataIndex: "district",
             key: "district",
             ...this.getColumnSearchProps('district'),
+            render: (price, record) => (
+              <Typography.Text style={{ fontSize: 12,padding:0,wordWrap:false,whiteSpace: 'nowrap' }}>
+                {price}
+              </Typography.Text>
+            )
           },
         {
           title: this.state.lan==='en'?"Municipality":"नगरपालिका",
           dataIndex: "municipality",
           key: "municipality",
-          ...this.getColumnSearchProps('municipality'),
+          ...this.getColumnSearchProps('municipality'),  render: (price, record) => (
+            <Typography.Text style={{ fontSize: 12,padding:0,wordWrap:false,whiteSpace: 'nowrap' }}>
+              {price}
+            </Typography.Text>
+          )
         },
         {
           title: this.state.lan==='en'?"Risk":"जोखिम",
           dataIndex: "risk",
           key: "risk",
-          ...this.getColumnSearchProps('risk'),
+          ...this.getColumnSearchProps('risk'),  render: (price, record) => (
+            <Typography.Text style={{ fontSize: 12,padding:1,wordWrap:false,whiteSpace: 'nowrap' }}>
+              {price}
+            </Typography.Text>
+          )
         },
         {
           title: this.state.lan==='en'?"Count":"गणना",
           dataIndex: "countValue",
           key: "countValue",
           // fixed: 'left',
-          width: 100
+          // width: 100,
+            render: (price, record) => (
+            <Typography.Text style={{ fontSize: 12,padding:0,wordWrap:false,whiteSpace: 'nowrap' }}>
+              {price}
+            </Typography.Text>
+          )
         }
       ];
+      
     return (
-      <div className='container-fluid' style={{width:'100%'}}>
-        <Table  columns={columns} dataSource={this.state.record} />
+      <div className='container-fluid' style={{width:'99%'}}>
+        <Table size='large' scroll={{ y: '100%' }} style={{width: '99%', lineHeight:'20px'}} columns={columns} dataSource={this.state.record} />
         {/* <RecordView record={this.state.record} lan={this.state.lan} style={{width:'100%', backgroundColor:'grey'}}/> */}
       </div>
     );

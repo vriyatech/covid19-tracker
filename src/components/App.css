@@ -1495,4 +1495,54 @@ ul.map-nav-bar:not(:hover) li.current {
     margin: 5%;
 }
 
+/* .ant-table {
+  display: block;
 
+  @media screen and (max-width: 600px) {
+    &-thead {
+      display: none;
+    }
+
+    &-thead>tr,
+    &-tbody>tr {
+
+      th,
+      td {
+        &:first-of-type {
+          padding-top: 1rem;
+        }
+
+        &:last-of-type {
+          padding-bottom: 1rem;
+        }
+      }
+
+      >th,
+      >td {
+        display: block;
+        width: auto !important;
+        border: none;
+        padding: 0 1rem;
+        font-size: 1.1rem;
+
+        &:last-child {
+          border-bottom: 1px solid #eee;
+        }
+      }
+    }
+  }
+}
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+/* padding: 16px 16px; /
+word-break: break-word;
+-ms-word-break: break-all;
+}
+/ media query to override the default ant design style that is specifically for desktop devices */
+/* @media (min-width: 768px) {
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+padding: 16px 16px;
+}
+}} */ 

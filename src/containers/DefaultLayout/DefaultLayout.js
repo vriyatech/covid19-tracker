@@ -6,13 +6,16 @@ import { Container } from "reactstrap";
 // routes config
 import routes from "../../routes";
 import { connect } from "react-redux";
+import { ReactComponent as Icon } from '../../covid19.svg'
 
 const DefaultFooter = React.lazy(() => import("./DefaultFooter"));
 const DefaultHeader = React.lazy(() => import("./DefaultHeader"));
 
 class DefaultLayout extends Component {
   loading = () => (
-    <div className="animated fadeIn pt-1 text-center">Loading...</div>
+    <div className="animated fadeIn pt-1 text-center"><div className="loading-icon">
+    <Icon />
+</div></div>
   );
   
 
