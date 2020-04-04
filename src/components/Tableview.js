@@ -25,19 +25,19 @@ export const NepalView = ({npcondition, lan,i=3,today=today_date}) => (<div>
             <Fragment >
             <strong><span>{lan==='en'?[npcondition.ENGLISH+': ']:"नेपाल: "}</span><span>{today}</span></strong>
             <br/>
-                    {/* <strong><span  key = {'confirmed'+i}>{console.log((npcondition.confirmedCount).2020-04-04)} */}
-                       {/* <span style ={{color:'blue'}}>{lan==='en'?'Confirmed: ':"पुष्टि भयो: "}</span>
-                        {npcondition.confirmedCount.filter(date=>date ===today)+' | '} */}
-                    {/* </span>
+                    <strong><span  key = {'confirmed'+i}>
+                       <span style ={{color:'blue'}}>{lan==='en'?'Confirmed: ':"पुष्टि भयो: "}</span>
+                        {npcondition.confirmedCount && (npcondition.confirmedCount)[today]+' | '} 
+                     </span>
                     <span key = {'deaths'+i}>
                        <span style ={{color:'red'}}>{lan==='en'?'Deaths: ':"मृत्यु: "}</span>
-                       {data.deaths+' | '}
+                       {npcondition.deadCount && (npcondition.deadCount)[today]===undefined?"0 | ":npcondition.deadCount && (npcondition.deadCount)[today]+' | '}
                     </span>
                     <span  key = {'recovered'+i}>
                         <span style ={{color:'green'}}>{lan==='en'?'Recovered: ':"निको: "}</span>
-                        {data.recovered} */}
-                    {/* </span> */}
-                    {/* </strong> */}
+                        {npcondition.curedCount && (npcondition.curedCount)[today]===undefined?0:npcondition.curedCount && (npcondition.curedCount)[today]}
+                    </span>
+                    </strong>
                 </Fragment></div>
 
 
