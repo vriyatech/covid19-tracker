@@ -21,7 +21,7 @@ import {
   } from 'reactstrap';
   import {GetRecord} from '../services/apiLink'
   import {RecordView} from './Tableview'
-  import styled from '@emotion/styled'
+  import { css } from 'emotion'
   
  
 
@@ -161,28 +161,19 @@ import {
         }
       ];
 
-      const Example = styled(Table)`
-      margin: '40px 120px';
-      backgroundColor: 'white';
-      & table {
-        borderCollapse: 'collapse';
-      };
-      & thead > tr > th {
-        backgroundColor: 'darkblue';
-        color: 'white';
-      };
-      & thead > tr {
-        borderWidth: '2px';
-        borderColor: 'yellow';
-        borderStyle: 'solid';
-      }
-      `
+      const tableCSS = css({
+        'thead > tr > th': {
+          fontSize:'12'
+        }
+      });
 
-
-      
     return (
       <div className='container-fluid' style={{width:'99%'}}>
-        <Example size='large' scroll={{ y: '100%' }} style={{width: '99%', lineHeight:'20px'}} columns={columns} dataSource={this.state.record} />
+        <Table
+          className={tableCSS}
+          dataSource={this.state.record}
+          columns={columns}
+        />
         {/* <RecordView record={this.state.record} lan={this.state.lan} style={{width:'100%', backgroundColor:'grey'}}/> */}
       </div>
     );
