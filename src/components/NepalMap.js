@@ -21,6 +21,8 @@ import {
   } from 'reactstrap';
   import {GetRecord} from '../services/apiLink'
   import {RecordView} from './Tableview'
+  import styled from '@emotion/styled'
+  
  
 
   export default class NepalMap extends Component{
@@ -103,24 +105,24 @@ import {
 
     render(){
       const columns = [
-        {
-          title: this.state.lan==='en'?"Province":"प्रदेश",
-          dataIndex: "province",
-          key: "province",
-          ...this.getColumnSearchProps('province'),
-          render: (price, record) => (
-            <Typography.Text style={{ fontSize: 12,padding:0,wordWrap:false,whiteSpace: 'nowrap' }}>
-              {price}
-            </Typography.Text>
-          )
-        },
+        // {
+        //   title: this.state.lan==='en'?"Province":"प्रदेश",
+        //   dataIndex: "province",
+        //   key: "province",
+        //   ...this.getColumnSearchProps('province'),
+        //   render: (price, record) => (
+        //     <Typography.Text style={{ fontSize: 12,padding:0,whiteSpace: 'nowrap' }}>
+        //       {price}
+        //     </Typography.Text>
+        //   )
+        // },
           {
             title: this.state.lan==='en'?"District":"जिल्ला",
             dataIndex: "district",
             key: "district",
             ...this.getColumnSearchProps('district'),
             render: (price, record) => (
-              <Typography.Text style={{ fontSize: 12,padding:0,wordWrap:false,whiteSpace: 'nowrap' }}>
+              <Typography.Text style={{ fontSize: 12,whiteSpace: 'nowrap' }}>
                 {price}
               </Typography.Text>
             )
@@ -130,7 +132,7 @@ import {
           dataIndex: "municipality",
           key: "municipality",
           ...this.getColumnSearchProps('municipality'),  render: (price, record) => (
-            <Typography.Text style={{ fontSize: 12,padding:0,wordWrap:false,whiteSpace: 'nowrap' }}>
+            <Typography.Text style={{ fontSize: 12,whiteSpace: 'nowrap' }}>
               {price}
             </Typography.Text>
           )
@@ -140,7 +142,7 @@ import {
           dataIndex: "risk",
           key: "risk",
           ...this.getColumnSearchProps('risk'),  render: (price, record) => (
-            <Typography.Text style={{ fontSize: 12,padding:1,wordWrap:false,whiteSpace: 'nowrap' }}>
+            <Typography.Text style={{ fontSize: 12,padding:1,whiteSpace: 'nowrap' }}>
               {price}
             </Typography.Text>
           )
@@ -152,16 +154,35 @@ import {
           // fixed: 'left',
           // width: 100,
             render: (price, record) => (
-            <Typography.Text style={{ fontSize: 12,padding:0,wordWrap:false,whiteSpace: 'nowrap' }}>
+            <Typography.Text style={{ fontSize: 12,padding:0,whiteSpace: 'nowrap' }}>
               {price}
             </Typography.Text>
           )
         }
       ];
+
+      const Example = styled(Table)`
+      margin: '40px 120px';
+      backgroundColor: 'white';
+      & table {
+        borderCollapse: 'collapse';
+      };
+      & thead > tr > th {
+        backgroundColor: 'darkblue';
+        color: 'white';
+      };
+      & thead > tr {
+        borderWidth: '2px';
+        borderColor: 'yellow';
+        borderStyle: 'solid';
+      }
+      `
+
+
       
     return (
       <div className='container-fluid' style={{width:'99%'}}>
-        <Table size='large' scroll={{ y: '100%' }} style={{width: '99%', lineHeight:'20px'}} columns={columns} dataSource={this.state.record} />
+        <Example size='large' scroll={{ y: '100%' }} style={{width: '99%', lineHeight:'20px'}} columns={columns} dataSource={this.state.record} />
         {/* <RecordView record={this.state.record} lan={this.state.lan} style={{width:'100%', backgroundColor:'grey'}}/> */}
       </div>
     );

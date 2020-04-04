@@ -30,6 +30,7 @@ import {municipalities,Municipality_select} from '../utils/Municipalities'
 import { addRecord } from "../redux/actions/checkSymtomsActions";
 import ReactDOM from 'react-dom'
 
+
   class CheckSymptoms extends Component {
     constructor(props) {
       super(props);
@@ -69,9 +70,9 @@ import ReactDOM from 'react-dom'
       switch(name){
         case 'location':
           let testvalue = value.split(', ');
-          let loc = testvalue[0].replace("Province ","");
+          let loc = testvalue[0];
 
-          this.setState({location:loc,provience:testvalue[0],district:testvalue[1],municipality:testvalue[2]});
+          this.setState({location:loc,provience:testvalue[0].replace("Province ",""),district:testvalue[1],municipality:testvalue[2]});
           break;
         default:
           this.setState({[e.target.name]:e.target.value});
