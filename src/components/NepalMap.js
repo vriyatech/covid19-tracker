@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import { Table } from "antd";
+import { Table, Input, Button  } from "antd";
+import Highlighter from 'react-highlight-words';
+import { SearchOutlined } from '@ant-design/icons';
 import {
     Collapse,
     Navbar,
@@ -23,8 +25,74 @@ import {
   export default class NepalMap extends Component{
     state={
       lan: window.localStorage.getItem("lan") ? window.localStorage.getItem("lan") : window.localStorage.setItem("lan", 'np'),
-      record:[]
+      record:[],
+      searchText: '',
+      searchedColumn: ''
     }
+
+    getColumnSearchProps = dataIndex => ({
+      filterDropdown: ({ setSelectedKeys, selectedKeys, confirm, clearFilters }) => (
+        <div style={{ padding: 8 }}>
+          <Input
+            ref={node => {
+              this.searchInput = node;
+            }}
+            placeholder={`Search ${dataIndex}`}
+            value={selectedKeys[0]}
+            onChange={e => setSelectedKeys(e.target.value ? [e.target.value] : [])}
+            onPressEnter={() => this.handleSearch(selectedKeys, confirm, dataIndex)}
+            style={{ width: 188, marginBottom: 8, display: 'block' }}
+          />
+          <Button
+            type="primary"
+            onClick={() => this.handleSearch(selectedKeys, confirm, dataIndex)}
+            icon={<SearchOutlined />}
+            size="small"
+            style={{ width: 90, marginRight: 8 }}
+          >
+            Search
+          </Button>
+          <Button onClick={() => this.handleReset(clearFilters)} size="small" style={{ width: 90 }}>
+            Reset
+          </Button>
+        </div>
+      ),
+      filterIcon: filtered => <SearchOutlined style={{ color: filtered ? '#1890ff' : undefined }} />,
+      onFilter: (value, record) =>
+        record[dataIndex]
+          .toString()
+          .toLowerCase()
+          .includes(value.toLowerCase()),
+      onFilterDropdownVisibleChange: visible => {
+        if (visible) {
+          setTimeout(() => this.searchInput.select());
+        }
+      },
+      render: text =>
+        this.state.searchedColumn === dataIndex ? (
+          <Highlighter
+            highlightStyle={{ backgroundColor: '#ffc069', padding: 0 }}
+            searchWords={[this.state.searchText]}
+            autoEscape
+            textToHighlight={text.toString()}
+          />
+        ) : (
+          text
+        ),
+    });
+  
+    handleSearch = (selectedKeys, confirm, dataIndex) => {
+      confirm();
+      this.setState({
+        searchText: selectedKeys[0],
+        searchedColumn: dataIndex,
+      });
+    };
+  
+    handleReset = clearFilters => {
+      clearFilters();
+      this.setState({ searchText: '' });
+    };
 
     componentDidMount(){
       const urlr = GetRecord;
@@ -36,22 +104,26 @@ import {
         {
           title: this.state.lan==='en'?"Province":"प्रदेश",
           dataIndex: "province",
-          key: "province"
+          key: "province",
+          ...this.getColumnSearchProps('province'),
         },
           {
             title: this.state.lan==='en'?"District":"जिल्ला",
             dataIndex: "district",
-            key: "district"
+            key: "district",
+            ...this.getColumnSearchProps('district'),
           },
         {
           title: this.state.lan==='en'?"Municipality":"नगरपालिका",
           dataIndex: "municipality",
-          key: "municipality"
+          key: "municipality",
+          ...this.getColumnSearchProps('municipality'),
         },
         {
           title: this.state.lan==='en'?"Risk":"जोखिम",
           dataIndex: "risk",
-          key: "risk"
+          key: "risk",
+          ...this.getColumnSearchProps('risk'),
         },
         {
           title: this.state.lan==='en'?"Count":"गणना",
