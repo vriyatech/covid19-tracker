@@ -3,6 +3,7 @@ import Questions from './switchquestion'
 
 import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table'
 import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
+import { json } from 'd3';
 
 const Tableview = ({tabledata,lan}) => (
         <tbody>
@@ -17,25 +18,27 @@ const Tableview = ({tabledata,lan}) => (
         </tbody>
 );
 
-export const NepalView = ({npcondition, lan}) => (<div>
+const today_date = new Date().toISOString().split('T')[0];
+export const NepalView = ({npcondition, lan,i=3,today=today_date}) => (<div>
 
        
-            {npcondition.map( (data,i) =><Fragment key={i}>
-            <strong><span>{lan==='en'?[data.countryregion+': ']:"नेपाल: "}</span><span>{data.lastupdate.split('T')[0]}</span></strong>
+            <Fragment >
+            <strong><span>{lan==='en'?[npcondition.ENGLISH+': ']:"नेपाल: "}</span><span>{today}</span></strong>
             <br/>
-                    <strong><span  key = {'confirmed'+i}>
-                       <span style ={{color:'blue'}}>{lan==='en'?'Confirmed: ':"पुष्टि भयो: "}</span>
-                        {data.confirmed+' | '}
-                    </span>
+                    {/* <strong><span  key = {'confirmed'+i}>{console.log((npcondition.confirmedCount).2020-04-04)} */}
+                       {/* <span style ={{color:'blue'}}>{lan==='en'?'Confirmed: ':"पुष्टि भयो: "}</span>
+                        {npcondition.confirmedCount.filter(date=>date ===today)+' | '} */}
+                    {/* </span>
                     <span key = {'deaths'+i}>
                        <span style ={{color:'red'}}>{lan==='en'?'Deaths: ':"मृत्यु: "}</span>
                        {data.deaths+' | '}
                     </span>
                     <span  key = {'recovered'+i}>
                         <span style ={{color:'green'}}>{lan==='en'?'Recovered: ':"निको: "}</span>
-                        {data.recovered}
-                    </span></strong>
-                </Fragment>)}</div>
+                        {data.recovered} */}
+                    {/* </span> */}
+                    {/* </strong> */}
+                </Fragment></div>
 
 
 );

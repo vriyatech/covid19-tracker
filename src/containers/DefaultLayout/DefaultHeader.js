@@ -28,7 +28,11 @@ class DefaultHeader extends Component {
   state = {
     lan: window.localStorage.getItem("lan") ? window.localStorage.getItem("lan") : window.localStorage.setItem("lan", 'np'),
     npcondition:[],
-    worldcondition:[]
+    worldcondition:[],
+    confirmedCount:[],
+    deadCount:[],
+    curedCount:[]
+   
   }
 
 
@@ -45,9 +49,10 @@ class DefaultHeader extends Component {
 };
 
 componentDidMount(){
-  const urlnp = 'https://wuhan-coronavirus-api.laeyoung.endpoint.ainize.ai/jhu-edu/latest?iso2=NP&onlyCountries=False';
-  fetch(urlnp).then(resp => resp.json().then(datan => this.setState({npcondition:datan})));
-};
+  const urlnp = 'https://raw.githubusercontent.com/stevenliuyi/covid19/master/public/data/all_minified.json';
+  fetch(urlnp).then(resp => resp.json().then(r=> r.尼泊尔).then(datan => this.setState({npcondition:datan,confirmedCount:datan.confirmedCount,curedCount:datan.curedCount,deadCount:datan.deadCount}))).then(r =>console.log(this.state));
+  
+}
  
 
   render() {
