@@ -196,7 +196,7 @@ import ReactDOM from 'react-dom'
             </span>
           </label>
           <hr/>           
-          <input type="submit" value={this.state.lan==='np'?"बुझाउनुहोस्:":"Submit"} /><div id='form-error'></div>
+          <input type="submit" className='nav-bar-icon-u' value={this.state.lan==='np'?"बुझाउनुहोस्:":"Submit"} /><div id='form-error'></div>
 
         </form>
         </div>

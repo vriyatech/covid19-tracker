@@ -1,88 +1,114 @@
 import React, { Component } from 'react'
 import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText,
-    Container,
-    Row,
-    Col
-  } from 'reactstrap';
-  import './App.css'
-const lang = 'en'
+  HashRouter  as Router, Route, Link
+} from "react-router-dom";
 
-  export default function Infopage(selectlang='np') {
-    return (<div className="context">
-        <ul><h3>For informational purposes only. Consult your local medical authority for advice.</h3></ul>
+import { Layout, Menu } from "antd";
+import {
+    MenuUnfoldOutlined,
+    MenuFoldOutlined,
+    UserOutlined,
+    VideoCameraOutlined,
+    UploadOutlined,
+} from "@ant-design/icons";
+import './App.css'
+import ipage_n_e from '../data/ipage_n_e.yml'
+import Who_Info from './info/Who_Info';
+import OldPeopleAndPeopleWIssue from './info/OldPeopleAndPeopleWIssue';
+import MythsAndFake from './info/MythsAndFake';
+import Aboutus from './Aboutus';
 
-        <ul>
-            <h2><u>Coronavirus Disease [COVID-19]</u></h2>
-            <h3><u>OVERVIEW:</u></h3>    
-            {/* <h4><u>बारेमा</u></h4> */}
-            <hr/>
-            <ul><u>Coronavirus disease (COVID-19) is an infectious disease caused by a new virus.</u></ul>
-            <ul>The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing. You can protect yourself by washing your hands frequently, avoiding touching your face, and avoiding close contact (1 meter or 3 feet) with people who are unwell.</ul>
-            <hr/>
-            <ul><u>HOW IT SPREADS:</u></ul>
-            <ul>Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes, nose, or mouth.</ul>
-            <hr/>
-            <ul><u>SYMPTOMS:</u></ul>
-            <ul>
-                <p>People may be sick with the virus for 1 to 14 days before developing symptoms. The most common symptoms of Coronavirus disease (COVID-19) are fever, tiredness, and dry cough. Most people (about 80%) recover from the disease without needing special treatment.</p>
-                <p>More rarely, the disease can be serious and even fatal. Older people, and people with other medical conditions (such as asthma, diabetes, or heart disease), may be more vulnerable to becoming severely ill.</p>
-                <ul>People may experience:
-                    <li>Cough</li>
-                    <li>Fever</li>
-                    <li>Tiredness</li>
-                    <li>Difficulty breathing (severe cases)</li>
-                </ul>
-            </ul>
-            <hr/>
-            <ul><u>PREVENTION :</u></ul>
-            <ul>
-                <p>There’s currently no vaccine to prevent coronavirus disease (COVID-19).</p>
-                <p>You can protect yourself and help prevent spreading the virus to others if you:</p>
-                <p>Do:</p>
-                <ul>
-                    <li>Wash your hands regularly for 20 seconds, with soap and water or alcohol-based hand rub</li>
-                    <li>Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze</li>
-                    <li>Avoid close contact (1 meter or 3 feet) with people who are unwell</li>
-                    <li>Stay home and self-isolate from others in the household if you feel unwell</li>
-                </ul>
-                <hr/>
-                <p>Don't:</p>
-                <ul>
-                    <li>Touch your eyes, nose, or mouth if your hands are not clean.</li>
-                    
-                </ul>
+const { SubMenu } = Menu;
+const { Content, Sider } = Layout;
 
-            </ul>
-            <hr/>
-            <ul><u>TREATMENTS:</u></ul>
-            <ul>
-                <p>There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to help them breathe.</p>
-                <p>Self care:</p>
-                <p>If you have mild symptoms, stay at home until you’ve recovered. You can relieve your symptoms if you:</p>
-                <ul>
-                    <li>Rest and sleep</li>
-                    <li>Keep warm</li>
-                    <li>Drink plenty of liquids</li>
-                    <li>कोठामा  ह्युमिडिफायर प्रयोग गरेमा</li>
-                    <li>Use a room humidifier or take a hot shower to help ease a sore throat and cough</li>
-                </ul>
-            </ul>
-            <hr/>
-            <ul><u>Medical treatments:</u></ul>
-            <ul>If you develop a fever, cough, and have difficulty breathing, promptly seek medical care. Call in advance and tell your health provider of any recent travel or recent contact with travelers.</ul>
-        </ul>
-      </div>
+class Infopage extends Component{
+  constructor(props) {
+    super(props);
+    this.state = {
+        collapsed: true,
+      lan: window.localStorage.getItem("lan") ? window.localStorage.getItem("lan") : window.localStorage.setItem("lan", 'np')
+
+    }
+     
+  }
+  toggle = () => {
+    this.setState({
+      collapsed: !this.state.collapsed,
+    });
+  };
+
+ 
+
+  render(){
+
+    return (
+      
+    <Router>
+      <Layout>
+        <Content >
+      <Layout className="site-layout-background" >
+        <Sider
+        style={{
+            // overflow: 'auto',
+            height: '100%',
+
+            position: 'fixed',
+            left: 0,
+          }}
+       
+          trigger={null}
+          collapsible collapsed={this.state.collapsed}
+
+        // breakpoint="md"
+        collapsedWidth="0"
+        // onBreakpoint={broken => {
+        // //   console.log(broken);
+        // }}
+        // onCollapse={(collapsed, type) => {
+        // //   console.log(collapsed, type);
+        // }} 
+        className="site-layout-background" width={300}>
+          <Menu
+            mode="inline"
+            defaultSelectedKeys={["1"]}
+            defaultOpenKeys={["sub1"]}
+            style={{ height: "100%" }}
+          >
+            <Menu.Item key="1" >{this.state.lan==='en'?'WHO Information':'विश्व स्वास्थ्य संगठनको जानकारी'}<Link key="1" to="/Who_Info" /></Menu.Item>
+            <Menu.Item key="2">{this.state.lan==='en'?'Old People and People with Medical Issues':'जेष्ठ नागरिक र चिकित्सा सम्बन्धि समस्या भएका मानिसहरु'}<Link to="/OldPeopleAndPeopleWIssue" /></Menu.Item>
+            <Menu.Item key="3">{this.state.lan==='en'?'Myths and Fake News':'काल्पनिक र नक्कली समाचार'}<Link to="/MythsAndFake" /></Menu.Item>
+            <Menu.Item key="4">{this.state.lan==='en'?'Old People and People with Medical Issues':'जेष्ठ नागरिक र चिकित्सा सम्बन्धि समस्या भएका मानिसहरु'}<Link to="/OldPeopleAndPeopleWIssue" /></Menu.Item>
+            <Menu.Item key="5">{this.state.lan==='en'?'Old People and People with Medical Issues':'जेष्ठ नागरिक र चिकित्सा सम्बन्धि समस्या भएका मानिसहरु'}<Link to="/OldPeopleAndPeopleWIssue" /></Menu.Item>
+            
+            
+          </Menu>
+        </Sider>
+        <Content style={{ minHeight: 280 }}>
+        {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
+              className: 'trigger',
+              style:{
+                overflow: 'auto',
+                height: '100vh',
+                position: 'fixed',
+                left: 0,
+              },
+              onClick: this.toggle,
+            })}
+          <Route  path="/" exact component={Who_Info} />  
+          <Route  path="/Who_Info" component={Who_Info} />
+          <Route path="/OldPeopleAndPeopleWIssue" component={OldPeopleAndPeopleWIssue} />
+          <Route path="/MythsAndFake" component={MythsAndFake} />
+          {/* <Route path="/OldPeopleAndPeopleWIssue" component={OldPeopleAndPeopleWIssue} /> */}
+        </Content>
+      </Layout>
+    </Content>
+      </Layout>
+    </Router>
+
+
+    
     );
   }
+}
+
+export default Infopage;

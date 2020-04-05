@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {
-  BrowserRouter as Router, Route, Link
+  HashRouter  as Router, Route, Link
 } from "react-router-dom";
 import {
     Collapse,
@@ -52,7 +52,7 @@ class Infopage extends Component{
      
   }
 
-  togglelang = () => this.state.lan ==='en'?this.setState({lan:'np'}):this.setState({lan:'en'});
+ 
 
   render(){
 
@@ -60,9 +60,9 @@ class Infopage extends Component{
       
     <Router>
       <Layout>
-        <Content style={{ padding: "0 50px" }}>
-      <Layout className="site-layout-background" style={{ padding: "24px 0" }}>
-        <Sider className="site-layout-background" width={200}>
+        <Content >
+      <Layout className="site-layout-background" >
+        <Sider className="site-layout-background" width={10}>
           <Menu
             mode="inline"
             defaultSelectedKeys={["1"]}

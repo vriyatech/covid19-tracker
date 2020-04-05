@@ -109,3 +109,162 @@ info_MEDICAL_TREATMENTS:
 info_MEDICAL_TREATMENTS_text:
   en: If you develop a fever, cough, and have difficulty breathing, promptly seek medical care. Call in advance and tell your health provider of any recent travel or recent contact with travelers.
   np: यदि तपाईंलाई ज्वरो, खोकी र सास फेर्न गाह्रो भएको छ भने तुरुन्तै चिकित्सा सेवा लिनुहोस्। अग्रिम कल गर्नुहोस् र तपाईंको स्वास्थ्य प्रदायकलाई कुनै भर्खरको यात्रा वा यात्रुहरूको साथ हालको सम्पर्कको कुरा बताउनुहोस्।
+info_OldPeopleWithMedicalIssue:
+  en: Old People and People with Medical Issues
+  np: जेष्ठ नागरिक र चिकित्सा सम्बन्धि समस्या भएका मानिसहरु
+info_OldPeopleWithMedicalIssue_p1:
+  en: COVID-19 proves fatal mostly in old and people with underlying medical issues (both present and past). This guide outlines extra precautions to be taken.
+  np: COVID-19 धेरैजसो जेष्ठ नागरिक र चिकित्सा सम्बन्धि समस्या भएका मानिसहरुमा घातक हुने प्रमाणित भएको छ।
+info_OldPeopleWithMedicalIssue_p2:
+  en: People above 70 years of age and people with medical issues either currently or previously are at the most risk from COVID-19. This data shows the elderly are at a much greater risk than young people.
+  np: ७० वर्ष भन्दा बढी उमेर भएको र चिकित्सा सम्बन्धि समस्या भएका मानिसहरुलाई COVID-19 को सबैभन्दा अधिक जोखिम हुनेगर्दछ।  यस डेटाबाट हेर्न सकिन्छ कि जेष्ठ नागरिकहरु युवाहरुको तुलनामा निकै नै अधिक जोखिममा हुनेगर्दछन् ।
+info_OldPeopleWithMedicalIssue_p3:
+  en: With the available data there are no reported deaths of children under 10 years of age, and children seem to have a very low mortality rate from COVID-19.
+  np: उपलब्ध डेटाको साथै १० वर्ष भन्दा कम उमेरका बच्चाहरुको मृत्युको सूचना आएको छैन, र COVID-19 को कारण बच्चाहरुको मृत्यु दर निकै कम छ। 
+info_OldPeopleWithMedicalIssue_p4:
+  en: The people with preexisting medical conditions tell a similar story. People with underlying medical conditions are at a greater risk than people without any predisposed medical condition.
+  np: पूर्व-स्थित चिकित्सा सम्बन्धि समस्या भएका मानिसहरुले एक समान कथा बस्तु बताउछन् - अन्तर्निहित चिकित्सा सम्बन्धि समस्या भएका मानिसहरु बिना कुनै पूर्वनिर्धारित चिकित्सा सम्बन्धि समस्या भएका मानिसहरुको तुलनामा अधिक जोखिम मा हुने गर्दछन् |
+info_OldPeopleWithMedicalIssue_p5:
+  en: This all indicates that if you belong to any of the above said categories you are at High Risk from COVID-19. You will need to take special precautions.
+  np: यी सबै डेटा यहि अंकित गर्दछन् कि यदि तपाई माथि तोकिएको कुनै पनि श्रेणीमा पर्नु हुन्छ भने तपाई COVID- 19 बाट उच्च जोखिममा पर्नु हुन्छ र तपाईले बिशेष सावधानी अपनाउनु आवश्यकता पर्दछ।
+info_OldPeopleWithMedicalIssue_t1:
+  en: Extra Precautions for People at Higher Risk
+  np: उच्च जोखिममा रहेका मानिसहरुको लागि अतिरिक्त सावधानीहरु
+info_OldPeopleWithMedicalIssue_t1_p1:
+  en: The above said people in the high risk category should follow these extra precautions to the ones specified in the guide.
+  np: माथिको उल्लेखित  उच्च जोखिम वर्गमा व्यक्तिहरूले गाईडमा तोकिएका बाहेक अतिरिक्त सावधानीहरू पालना गर्नुपर्दछ।
+info_OldPeopleWithMedicalIssue_t1_p1_1:
+  en: Stock up on groceries and home supplies to avoid grocery visits and/or orders.
+  np: खाद्यन्न र घरेलू सामग्रीको भण्डार गर्नुहोस् र चाहिएको बखत मात्र किन्न जाने गर्नुहोस्।
+info_OldPeopleWithMedicalIssue_t1_p1_2:
+  en: Take extra care to maintain safe distance (1 metre ideally) from others
+  np: अरूबाट सुरक्षित दूरी कायम गर्न अतिरिक्त सावधानी राख्नुहोस् (१ मीटर आदर्श रूपमा)
+info_OldPeopleWithMedicalIssue_t1_p1_3:
+  en: When out in public on an absolutely necessary errand, limit contact and wash your hands often.
+  np: निकै आवश्यक काम पर्ने अवस्थामा सार्वजनिक सम्पर्क सिमित गरेर पटक पटक हात धुनुहोस्।
+info_OldPeopleWithMedicalIssue_t1_p1_4:
+  en: Avoid crowds as much as possible.
+  np: सकेसम्म भीडहरूबाट जोगिनुहोस्।
+info_OldPeopleWithMedicalIssue_t1_p1_5:
+  en: Avoid all non essential intercity travels.
+  np: सबै अनावस्यक यात्रालाई वेवास्ता गर्नुहोस्।
+info_OldPeopleWithMedicalIssue_t2:
+  en: Supplies
+  np: आपूर्ति
+info_OldPeopleWithMedicalIssue_t2_p1:
+  en: Contact your healthcare provider (doctor/clinic/hospital) to ask about obtaining extra necessary medications in case of an outbreak - you might need to stay indoors for a prolonged period of time.
+  np: यस प्रकोप को मामला मा अतिरिक्त स्वास्थ्य औषधिहरु को बारे मा सोधपुछ गर्न, आफ्नो स्वास्थ्य सेवा प्रदायक (डाक्टर / क्लिनिक / अस्पताल) लाई सम्पर्क गर्नुहोस् - तपाई लामो समय सम्म घर भित्र बस्नु पर्ने पनि हुन सक्छ।
+info_OldPeopleWithMedicalIssue_t2_p2:
+  en: Over the counter supplies (tissues etc) and medicines could be procured and kept ready in case you fall sick and need basic home treatment. Most people will be able to recover at home.
+  np: यदि तपाईं बिरामी हुनुभयो भने आपूर्ति (टिशूहरू इत्यादि) र औषधीहरू काउन्टरमा खरीद गर्न सकिन्छ र आधारभूत घरेलु उपचारहरूको पनि आवश्यक पर्नसक्दछ । अधिकांश व्यक्तिहरू घरमा ठिक हुन सक्षम हुदछन् ।
+info_OldPeopleWithMedicalIssue_t2_p3:
+  en: Have enough household items on groceries on hand to avoid unnecessary outside contact.
+  np: किराना सामानहरू उपत्युक्त मात्रामा राख्नुहोस् कुनै ओअनि अनावश्यक बाह्य सम्पर्कबाट बच्नक लागि ।
+info_OldPeopleWithMedicalIssue_t3:
+  en: If COVID-19 is spreading in your area
+  np: यदि COVID-19 तपाईंको क्षेत्रमा फैलदै छ भने 
+info_OldPeopleWithMedicalIssue_t3_p1:
+  en: Take extra measures to ensure safe distance from others.
+  np: अरूबाट सुरक्षित दूरी सुनिश्चित गर्न थप उपायहरू लिनुहोस्
+info_OldPeopleWithMedicalIssue_t3_p1_1:
+  en: Stay at home as much as possible.
+  np: सकेसम्म घरमा बस्नुहोस्।
+info_OldPeopleWithMedicalIssue_t3_p1_2:
+  en: Consider ways of getting supplies delivered to your home through family, social or commercial networks.
+  np: परिवार, सामाजिक वा व्यापारिक नेटवर्क मार्फत तपाईंको घरमा आपूर्तिहरू प्राप्त गर्ने तरिकाहरू विचार गर्नुहोस्।
+info_MythsAndFakeNews:
+  en: Myths and Fake News
+  np: काल्पनिक र नक्कली समाचार
+info_MythsAndFakeNews_p1:
+  en: There are a lot of myths and fake news that are both dangerous to yourselves and others circulating on Social Media. Never share any information that you have not verified yourself or that isn't from official sources, it will do more harm than good. Here we have compiled a list of common myths and fake news about COVID-19. We have also linked the source of the article which proves it.
+  np: संजाल प्रसारण भइरहेको मिथक, नक्कली, र भ्रामक समाचारहरु तपाँई र अरुको लागि खतरनाक छ। कुनै पनि जानकारी साझेदारी नगर्नुहोस् जुन तपाईं आफैले प्रमाणित गर्नुभएको छैन वा त्यो आधिकारिक स्रोतबाट होईन, यसले राम्रो भन्दा बढि नोक्सान पुर्‍याउँछ। यहाँ हामीले COVID-19 को बारेमा साधारण मिथक र नक्कली समाचारहरूको सूची तयार गरेका छौं। हामीले प्रमाणित स्रोत थप गरेका छौं जसले यो प्रमाणित गर्दछ।
+info_MythsAndFakeNews_t1:
+  en: Does Drinking water and keeping your throat moist kills COVID-19 ?
+  np: के पानी पिउदा र घाँटी ओसिलो राख्दा COVID-19 मर्दछ?
+info_MythsAndFakeNews_t1_p1:
+  en: No, There have been messages circulating on Social media stating that drinking (preferably hot) water and keeping your throat moist can help prevent an infection. The messages also cite different health organizations. This is a myth. There is no real evidence suggesting that drinking (hot or cold) water can help prevent a Coronavirus Infection.
+  np: यो सत्य होईन, सामाजिक संजालमा सन्देश दिइएको छ कि तातो पानी पिउदा र घाँटी ओसिलो राख्सदा संक्रमण रोक्न सकिन्छ। यो मिथक हो | सन्देशहरूले पनि विभिन्न स्वास्थ्य संगठनहरु पनि उद्धृत गर्ने गर्दछन्। यो मिथक हो। तातो वा चिसो पानी पिउँदा कोरोनाभाइरस संक्रमण रोक्न मद्दत गर्न सकिन्छ भन्ने कुनै वास्तविक प्रमाण छैन।
+info_MythsAndFakeNews_t2:
+  en: Does COVID-19 spread through Air?
+  np: के COVID-19 हावा मार्फत फैलिन्छ?
+info_MythsAndFakeNews_t2_p1:
+  en: No, COVID-19 is not airborne, meaning it does not spread through Air. It spreads through contact with droplets containing the virus from the nose and mouths of people who are infected. Even though the virus is not airborne there is still considerable risk as the virus is highly contagious. Follow the instructions given below to take necessary precautions.
+  np: यो सत्य होईन, COVID-19 एयरबोर्न छैन - यसको मतलब यो हावाबाट फैलिदैन। यो संक्रमित व्यक्तिहरूको नाक र मुखबाट भाइरससहितको थोपाहरू मार्फत फैलिन्छ। हावाबाट नफैलिने भएता पनि यसको पर्याप्त जोखिम छ किनकि यो भाइरस अत्यन्त संक्रामक छ। आवश्यक सावधानीहरूको लागि तल दिइएका निर्देशनहरू पालना गर्नुहोस्। 
+info_MythsAndFakeNews_t3:
+  en: Does taking a hot bath prevent coronavirus disease?
+  np: के तातो स्नान गर्नाले कोरोनाभाइरस रोगलाई रोक्न सकिन्छ?
+info_MythsAndFakeNews_t3_p1:
+  en: No, Taking a hot bath will not prevent you from catching COVID-19. Your normal body temperature remains around 36.5°C to 37°C, regardless of the temperature of your bath or shower. Actually, taking a hot bath with extremely hot water can be harmful, as it can burn you. The best way to protect yourself against COVID-19 is by frequently cleaning your hands. By doing this you eliminate viruses that may be on your hands and avoid infection that could occur by then touching your eyes, mouth, and nose.
+  np: यो सत्य होईन, तातो पानीले नुहाउँदा तपाईंले COVID-19 लग्नबाट रोक्न सकिन्दैन। तपाईंको नुहाउने तापमानको पर्वाह नगरी, प्रायः तपाईंको सामान्य शरीरको तापक्रम ३६.५ डिग्री सेल्सियस देखि ३७ डिग्री सेल्सियसको आसपासमा रहन्छ। वास्तवमा, एकदम तातो पानीले नुहाउनु हानिकारक हुन सक्छ, किनकि यसले तपाईंलाई जलाउन सक्छ। COVID-19 बाट आफूलाई बचाउने उत्तम तरिका भनेको तपाईका हातहरू बारम्बार सफा गर्नु हो। यो गरेर तपाईंले भाइरसहरू हटाउनुहुनेछ जुन तपाईंको हातमा हुन सक्छ र संक्रमणबाट बच्न सक्नुहुन्छ जुन त्यसपछि तपाईंको आँखा, मुख र नाकमा छोएर हुन सक्छ।
+info_MythsAndFakeNews_t4:
+  en: Can cold weather and snow kill coronavirus?
+  np: के चिसो मौसम र हिउँले कोरोनाभाइसलाई मार्न सक्छ?
+info_MythsAndFakeNews_t4_p1:
+  en: No, There is no reason to believe that cold weather can kill the new coronavirus or other diseases. The normal human body temperature remains around 36.5°C to 37°C, regardless of the external temperature or weather. The most effective way to protect yourself against the new coronavirus is by frequently cleaning your hands with alcohol-based hand rub or washing them with soap and water.
+  np: यो सत्य होईन, विश्वास गर्नलाई कुनै प्रमाण छैन कि चिसो मौसमले नयाँ कोरोनाभाइरस वा अन्य रोगहरूलाई मार्न सक्छ। बाह्य तापमान वा मौसमको पर्वाह नगरी सामान्य मानव शरीरको तापक्रम ३६.५ डिग्री सेल्सियस देखि ३७ डिग्री सेल्सियसको आसपास रहन्छ। नयाँ कोरोनाभाइरसबाट आफूलाई जोगाउने सबैभन्दा प्रभावकारी तरिका भनेको तपाईंको हातहरू बारम्बार मदिरामा आधारित सेनिटाइजरले सफा गर्नु वा साबुन र पानीले धुनु हो।
+info_MythsAndFakeNews_t5:
+  en: Can mosquito bites transmit this disease?
+  np: के लामखुट्टेको टोकाइले यो रोग सार्न सक्छ?
+info_MythsAndFakeNews_t5_p1:
+  en: No, To date there has been no information nor evidence to suggest that the new coronavirus could be transmitted by mosquitoes. The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water. Also, avoid close contact with anyone who is coughing and sneezing.
+  np: यो सत्य होईन, आजसम्म एस्तो कुनै जानकारी छैन र कुनै प्रमाण छैन कि नयाँ कोरोनाभाइरस लामखुट्टेले सार्न सक्छ। नयाँ कोरोनाभाइरस एक श्वासप्रश्वासको विषाणु हो जुन मुख्य रूपले संक्रमित व्यक्ति खोकी वा थुकको थोपा वा नाकबाट डिस्चार्ज हुँदा उत्पन्न हुने थोपाहरू मार्फत फैलिन्छ। आफैंलाई जोगाउनका लागि तपाईका हातहरू बारम्बार मदिरामा आधारित सेनिटाइजरले सफा गर्नुहोस् वा साबुन र पानीले धुनुहोस्। साथै, खोकी र हाच्छिउं लाग्ने जो कोहीसँग घनिष्ठ सम्पर्कबाट टाढा रहनुहोस्।
+info_MythsAndFakeNews_t6:
+  en: Are hand dryers effective in killing the new coronavirus?
+  np: के हाथ सुखाउने मशीन नयाँ कोरोनाभाइरसलाई मार्न प्रभावकारी छन्?
+info_MythsAndFakeNews_t6_p1:
+  en: No, Hand dryers are not effective in killing the 2019-nCoV. To protect yourself against the new coronavirus, you should frequently clean your hands with an alcohol-based hand rub or wash them with soap and water. Once your hands are cleaned, you should dry them thoroughly by using paper towels or a warm air dryer.
+  np: यो सत्य होईन, हाथ सुखाउने मशीन कोरोनाभाइरसलाई मार्न प्रभावी छैनन्। नयाँ कोरोनाभाइरसबाट आफूलाई जोगाउन, तपाईंले बारम्बार हातहरू मदिरामा आधारित सनितैज़रले सफा गर्नुपर्छ वा त्यसलाई साबुन र पानीले धुनु पर्छ। एकचोटि तपाईका हातहरू सफा भएपछि, तपाईंले कागजको तौंलीया वा तातो एयर ड्रायरको प्रयोग गरेर त्यसलाई राम्ररी सुकाउनु पर्छ।
+info_MythsAndFakeNews_t7:
+  en: Can an ultraviolet disinfection lamp kill the new coronavirus?
+  np: के पराबैंगको कीटाणुशोधन बत्तीले नयाँ कोरोनाभाइस मार्न सक्छ?
+info_MythsAndFakeNews_t7_p1:
+  en: No, UV lamps should not be used to sterilize hands or other areas of skin as UV radiation can cause skin irritation.
+  np: यो सत्य होईन, UV बत्तीहरू हात वा छालाको अन्य क्षेत्र सेनिटाइज गर्नु प्रयोग हुँदैन किनकि विकिरणले छालामा जलन पैदा गर्न सक्छ।
+info_MythsAndFakeNews_t8:
+  en: How effective are thermal scanners in detecting people infected with the new coronavirus?
+  np: नयाँ कोरोनाभाइरस संक्रमित व्यक्तिहरू पत्ता लगाउन थर्मल स्क्यानरहरू कत्तिको प्रभावकारी छन्?
+info_MythsAndFakeNews_t8_p1:
+  en: Thermal scanners are effective in detecting people who have developed a fever (i.e. have a higher than normal body temperature) because of infection with the new coronavirus. However, they cannot detect people who are infected but are not yet sick with fever. This is because it takes between 2 and 10 days before people who are infected become sick and develop a fever.
+  np: थर्मल स्क्यानरहरू ति मानिसहरूलाई पत्ता लगाउन प्रभावकारी छन् जसलाई कोरोनाको संक्रमण भएर ज्वरो विकास गरेका छन् (अर्थात् शरीरको सामान्य तापमान भन्दा उच्च छ)। संक्रमित व्यक्तिहरू जसलाई संक्रमण भइसक्यो तर ज्वोरोको लक्षण छैन, तेस बखत थर्मल स्क्यानरहरू प्रभावकारी हुदैनन् किन भने ज्वरोको विकास हुनलाई २ देखि १० दिनको सम्मको समय लाग्न सक्छ।
+info_MythsAndFakeNews_t9:
+  en: Can spraying alcohol or chlorine all over your body kill the new coronavirus?
+  np: के तपाईको सम्पूर्ण शरीरमा रक्सी वा क्लोरीन लगाउने गर्दा नयाँ कोरोनाभाइरस मार्न सक्छ?
+info_MythsAndFakeNews_t9_p1:
+  en: No, Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body. Spraying such substances can be harmful to clothes or mucous membranes (i.e. eyes, mouth). Be aware that both alcohol and chlorine can be useful to disinfect surfaces, but they need to be used under appropriate recommendations.
+  np: यो सत्य होईन, यदि तपाईंको शरीरमा भाइरसहरू प्रवेश गरिसके भने, सम्पूर्ण शरीरमा रक्सी वा क्लोरीनका स्प्रेयरले ले पनि  भाइरसहरू मार्नेछैनन् । त्यस्ता पदार्थहरूको स्प्रे गर्दा कपडा वा आँखा, मुखक लागि हानिकारक हुन सक्छ । सतर्क रहनुहोस् दुबै रक्सी र क्लोरीन सतहहरूको कीटाणुशोधन गर्नको लागि उपयोगी हुन सक्छ, तर तिनीहरूलाई उपयुक्त सिफारिसहरू अन्तर्गत प्रयोग गर्न आवश्यक पर्दछ।
+info_MythsAndFakeNews_t10:
+  en: Do vaccines against pneumonia protect you against the new coronavirus?
+  np: के न्यूमोनिया बिरूद्ध खोपहरूले नयाँ कोरोनाभाइरस विरूद्ध तपाइँको सुरक्षा गर्दछ?
+info_MythsAndFakeNews_t10_p1:
+  en: No, Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenzae type B (Hib) vaccine, do not provide protection against the new coronavirus. The virus is so new and different that it needs its own vaccine. Researchers are trying to develop a vaccine against 2019-nCoV, and WHO is supporting their efforts. Although these vaccines are not effective against 2019-nCoV, vaccination against respiratory illnesses is highly recommended to protect your health.
+  np: यो सत्य होईन, निमोनिया बिरूद्ध खोपहरू, जस्तै न्यूमोकोकल भ्याक्सिन र हेमोफिलस इन्फ्लूएन्जा प्रकार बी खोप, नयाँ कोरोनाभाइरसको बिरूद्ध सुरक्षा प्रदान गर्दैन। भाइरस यति नयाँ र फरक छ कि यसको आफ्नै खोप चाहिन्छ। अन्वेषकहरू 2019-nCov को बिरूद्ध खोप विकास गर्न कोशिस गर्दैछन्, र विश्व स्वास्थ संगठनले उनीहरूको प्रयासलाई समर्थन गर्दै छ। यी खोपहरू 2019-nCov बिरूद्ध प्रभावकारी नभए तापनि, श्वासप्रश्वाससम्बन्धी रोगहरूका विरूद्ध खोप तपाईंको स्वास्थ्यलाई बचाउन सहायता गर्दछ।
+info_MythsAndFakeNews_t11:
+  en: Can regularly rinsing your nose with saline help prevent infection with the new coronavirus?
+  np: के तपाईको नाकमा नियमित रूपमा सलायिन पानिले सफा गर्दा नयाँ कोरोनाभाइरसको संक्रमण हुनबाट बचाउन सक्छ?
+info_MythsAndFakeNews_t11_p1:
+  en: No, There is no evidence that regularly rinsing the nose with saline has protected people from infection with the new coronavirus. There is some limited evidence that regularly rinsing your nose with saline can help people recover more quickly from the common cold. However, regularly rinsing the nose has not been shown to prevent respiratory infections.
+  np: यो सत्य होईन, कुनै प्रमाण छैन कि नियमित रूपमा नाकलाई सलायिन पानिले सफा गर्दा व्यक्तिलाई कोरोनाभाइरसको संक्रमणबाट जोगिन सहयोग मिल्दछ। केही सीमित प्रमाणहरू छन् कि तपाईको नाकमा नियमित रूपमा सफा गरेका कारणले गर्दा साधारण चिसोबाट धेरै चाँडो निको हुन मद्दत गर्न सकिन्छ। यद्यपि नियमित रूपमा नाक धुनु भनेको श्वासप्रश्वाससम्बन्धी संक्रमणलाई रोक्न सकिन्छ भन्ने हैन ।
+info_MythsAndFakeNews_t12:
+  en: Can eating garlic help prevent infection with the new coronavirus?
+  np: के लसुन खानेले नयाँ कोरोनाभाइरसको संक्रमणलाई रोक्न मद्दत गर्दछ?
+info_MythsAndFakeNews_t12_p1:
+  en: Garlic is a healthy food that may have some antimicrobial properties. However, there is no evidence from the current outbreak that eating garlic has protected people from the new coronavirus.
+  np: लसुन एक स्वस्थ खाना हो र येस्मा केहि एन्टिमाइक्रोबियल गुण हुन सक्छ। यद्यपि अहिले सम्म कुनै प्रमाण छैन कि अहिलेको प्रकोपबाट लसुन खानाले  मानिसहरूलाई नयाँ कोरोनाभाइरसबाट जोगाएको छ।
+info_MythsAndFakeNews_t13:
+  en: Does the new coronavirus affect older people, or are younger people also susceptible?
+  np: के नयाँ कोरोनाभाइरसले बढी उमेर भएका व्यक्तिहरुलाई मात्र असर गर्दछ कि जवान व्यक्तिहरू पनि यस रोग संग संवेदनशील छन्?
+info_MythsAndFakeNews_t13_p1:
+  en: People of all ages can be infected by the new coronavirus (2019-nCoV). Older people, and people with pre-existing medical conditions (such as asthma, diabetes, heart disease) appear to be more vulnerable to becoming severely ill with the virus. ​WHO advises people of all ages to take steps to protect themselves from the virus, for example by following good hand hygiene and good respiratory hygiene.
+  np: सबै उमेरका व्यक्तिहरू नयाँ कोरोनाभाइरस (2019-nCov) बाट संक्रमित हुन सक्छन्। पाको उमेरका व्यक्तिहरू, र पूर्व अवस्थित चिकित्सा अवस्थाका व्यक्तिहरूलाई (जस्तै दम, मधुमेह, हृदय रोग) भाइरसको साथ गम्भीर बिरामी हुने बढी जोखिमपूर्ण देखिन्छ। विश्व स्वास्थ संगठनले सबै उमेरका मानिसहरूलाई भाइरसबाट आफूलाई जोगाउन कदम चाल्न सल्लाह दिन्छ, उदाहरणका लागि राम्रो हात स्वच्छता र राम्रो श्वासप्रश्वासको स्वच्छता अनुसरण गरेर।
+info_MythsAndFakeNews_t14:
+  en: Are antibiotics effective in preventing and treating the new coronavirus?
+  np: के एन्टिबायोटिकहरू नयाँ कोरोनाभाइरसलाई रोक्न र उपचार गर्न प्रभावकारी छन्?
+info_MythsAndFakeNews_t14_p1:
+  en: No, antibiotics do not work against viruses, only bacteria. ​The new coronavirus (2019-nCoV) is a virus and, therefore, antibiotics should not be used as a means of prevention or treatment. However, if you are hospitalized for the 2019-nCoV, you may receive antibiotics because bacterial co-infection is possible.
+  np: यो सत्य होईन, एन्टिबायोटिकले भाइरससँग काम गर्दैन, केवल ब्याक्टेरियाहरू संग काम गर्दछ। नयाँ कोरोनाभाइरस (2019-nCov) एक भाइरस हो र यसैले, एन्टिबायोटिक यस रोगको रोकथाम वा उपचारको माध्यमको रूपमा प्रयोग गर्नु हुँदैन। जहाँसम्म, यदि तपाइँ 2019-nCoV को लागी अस्पतालमा भर्ती हुनुहुन्छ भने तपाईले एन्टिबायोटिक लिन सक्नुहुन्छ किनभने ब्याक्टेरिया को इन्फेक्शन सम्भव छ।
+info_MythsAndFakeNews_t15:
+  en: Are there any specific medicines to prevent or treat the new coronavirus?
+  np: के नयाँ कोरोनाभाइरस रोक्न वा उपचार गर्न केहि औषधीहरू छन्?
+info_MythsAndFakeNews_t15_p1:
+  en: To date, there is no specific medicine recommended to prevent or treat the new coronavirus (2019-nCoV). ​However, those infected with the virus should receive appropriate care to relieve and treat symptoms, and those with severe illness should receive optimized supportive care. Some specific treatments are under investigation, and will be tested through clinical trials. WHO is helping to accelerate research and development efforts with a range or partners.
+  np: आजको समय सम्म, नयाँ कोरोनाभाइरस (2019-nCov) लाई रोक्न वा उपचार गर्न कुनै विशेष औषधि छैन। यद्यपि भाइरसबाट संक्रमितहरूले लक्षणहरू कम सकिन्छ र उपचारका लागि उचित ध्यान दिनु पर्दछ र गम्भीर बिरामी भएकाहरूले उपयुक्त देखभाल पनि लिनु पर्छ। केहि विशिष्ट उपचारहरू अनुसन्धान अन्तर्गत छन्, र क्लिनिकल परीक्षण मार्फत परीक्षण गरिने छ। विश्व स्वास्थ संगठनले साझेदारहरूसँग अनुसन्धान र विकास प्रयासहरू छिटो गर्न मद्दत गरिरहेको छ।

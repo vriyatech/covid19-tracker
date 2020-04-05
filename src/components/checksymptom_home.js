@@ -66,7 +66,7 @@ import { color } from 'd3';
           <p>{symptom_n_e.Home_CheckSymptom_How_Are_you_feeling_p1[this.state.lan]}</p> */}
           {/* <p>{symptom_n_e.Home_CheckSymptom_How_Are_you_feeling_p2[this.state.lan]}</p> */}
          <hr/>
-         <Link to='/tracksymptoms'><input type='button' className ='nav-bar-icon-u' value ={this.state.lan==='en'?'Fill Symptoms to View Result':'परिणाम हेर्न लक्षणहरू भर्नुहोस्।'}/></Link>
+         <Link to='/tracksymptoms'><input type='button' className ='nav-bar-icon-u' value ={this.state.lan==='en'?'Fill Symptoms':'लक्षणहरू भर्नुहोस्'}/></Link>
           </div>
           </div>
         </div>

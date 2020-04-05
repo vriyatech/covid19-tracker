@@ -1,7 +1,7 @@
 import React from "react";
 
 const Info = React.lazy(() =>
-  import("./components/Infopage")
+  import("./components/Infopage_en")
 );
 
 const CheckSymptoms_home = React.lazy(() =>

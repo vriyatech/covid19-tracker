@@ -23,6 +23,7 @@ import us_map from '../data/us_map.yml'
 import * as str from '../utils/strings'
 import { updateDarkMode } from '../utils/utils'
 import { mapText } from '../utils/map_text'
+import Footer from './Footer'
 
 const defaultState = {
     currentMap: 'WORLD',
@@ -302,7 +303,7 @@ class App extends Component {
                                 )}
                             </Row>
                         </Container>
-                        {/* <Footer {...this.state} /> */}
+                        <Footer {...this.state} />
                     </Fragment>
                 )}
                 <ReactTooltip className="plot-tooltip" type={darkMode ? 'dark' : 'light'} html={true} />
