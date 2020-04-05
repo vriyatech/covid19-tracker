@@ -179,13 +179,12 @@ import {
       });
 
     return (
-      <div className='container-fluid' style={{width:'99%'}}>
+   
         <Table
           className={tableCSS}
           dataSource={this.state.record}
           columns={columns}
         />
-        {/* <RecordView record={this.state.record} lan={this.state.lan} style={{width:'100%', backgroundColor:'grey'}}/> */}
-      </div>
+      
     );
   }}

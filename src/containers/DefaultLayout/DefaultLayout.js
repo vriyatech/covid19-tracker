@@ -29,7 +29,7 @@ class DefaultLayout extends Component {
             <Suspense>
             </Suspense>
           <main className="main">
-            <Container fluid>
+            {/* <Container fluid> */}
               <Suspense fallback={this.loading()}>
                 <Switch>
                   {routes.map((route, idx) => {
@@ -46,7 +46,7 @@ class DefaultLayout extends Component {
                   {/* <Redirect from="/" to="/dashboard" /> */}
                 </Switch>
               </Suspense>
-            </Container>
+            {/* </Container> */}
           </main>
             <Suspense fallback={this.loading()}>
             </Suspense>
