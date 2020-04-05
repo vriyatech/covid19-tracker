@@ -31,11 +31,13 @@ export default class Footer extends Component {
                         size={18}
                         onClick={() => window.open('https://github.com/stevenliuyi/covid19')}
                     />
+                    
                 </div>
                 <Modal isOpen={this.state.modal} centered={true} toggle={this.toggle}>
                     <ModalHeader toggle={this.toggle}>{i18n.ABOUT[lang]}</ModalHeader>
                     <ModalBody className="footer-about">
                         <div dangerouslySetInnerHTML={{ __html: i18n.ABOUT_TEXT[lang] }} />
+                       
                         <a
                             className="bmc-button"
                             target="_blank"
