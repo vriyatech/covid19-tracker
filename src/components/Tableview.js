@@ -19,21 +19,27 @@ const Tableview = ({tabledata,lan}) => (
 );
 
 const today_date = new Date().toISOString().split('T')[0];
-export const NepalView = ({npcondition, lan,i=3,today=today_date}) => (<div>
+const yesterday_date = new Date(new Date().setDate(new Date().getDate()-1)).toISOString().split('T')[0];
+// const yesterday = yesterday_date;
+// .toISOString().split('T')[0]
+
+console.log(yesterday_date);
+export const NepalView = ({npcondition, lan,today=today_date, yesterday=yesterday_date}) => (<div>
+    
 
        
             <Fragment >
-            <strong><span>{lan==='en'?[npcondition.ENGLISH+': ']:"नेपाल: "}</span><span>{today}</span></strong>
+            <strong><span>{lan==='en'?[npcondition.ENGLISH+': ']:"नेपाल: "}</span><span>{npcondition.confirmedCount && (npcondition.confirmedCount)[today]===undefined?today=yesterday:today=today}</span></strong>
             <br/>
-                    <strong><span  key = {'confirmed'+i}>
+                    <strong><span  key = {'confirmed'}>
                        <span style ={{color:'blue'}}>{lan==='en'?'Confirmed: ':"पुष्टि भयो: "}</span>
                         {npcondition.confirmedCount && (npcondition.confirmedCount)[today]+' | '} 
                      </span>
-                    <span key = {'deaths'+i}>
+                    <span key = {'deaths'}>
                        <span style ={{color:'red'}}>{lan==='en'?'Deaths: ':"मृत्यु: "}</span>
                        {npcondition.deadCount && (npcondition.deadCount)[today]===undefined?"0 | ":npcondition.deadCount && (npcondition.deadCount)[today]+' | '}
                     </span>
-                    <span  key = {'recovered'+i}>
+                    <span  key = {'recovered'}>
                         <span style ={{color:'green'}}>{lan==='en'?'Recovered: ':"निको: "}</span>
                         {npcondition.curedCount && (npcondition.curedCount)[today]===undefined?0:npcondition.curedCount && (npcondition.curedCount)[today]}
                     </span>
