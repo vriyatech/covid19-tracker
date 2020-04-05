@@ -30,7 +30,8 @@ import {
       lan: window.localStorage.getItem("lan") ? window.localStorage.getItem("lan") : window.localStorage.setItem("lan", 'np'),
       record:[],
       searchText: '',
-      searchedColumn: ''
+      searchedColumn: '',
+      timeout: 0
     }
 
     getColumnSearchProps = dataIndex => ({
@@ -42,7 +43,9 @@ import {
             }}
             placeholder={`Search ${dataIndex}`}
             value={selectedKeys[0]}
-            onChange={e => setSelectedKeys(e.target.value ? [e.target.value] : [])}
+            onInput = {e => setSelectedKeys(e.target.value ? [e.target.value] : [])}
+            onChange={() => this.doSearch(selectedKeys, confirm, dataIndex)}
+
             onPressEnter={() => this.handleSearch(selectedKeys, confirm, dataIndex)}
             style={{ width: 188, marginBottom: 8, display: 'block' }}
           />
@@ -88,9 +91,17 @@ import {
       confirm();
       this.setState({
         searchText: selectedKeys[0],
-        searchedColumn: dataIndex,
+        searchedColumn: dataIndex
       });
     };
+
+    doSearch(selectedKeys, confirm, dataIndex){
+      if(this.timeout) clearTimeout(this.timeout);
+      this.timeout = setTimeout(() => {
+        //search function
+        this.handleSearch(selectedKeys, confirm, dataIndex)
+      }, 1000);
+    }
   
     handleReset = clearFilters => {
       clearFilters();
