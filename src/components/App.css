@@ -1461,13 +1461,20 @@ ul.map-nav-bar:not(:hover) li.current {
     justify-content: center;
     text-align: justify;
 }
+.navlink_margin{
+    
+    margin-left:10px;
+    margin-right:10px;
+}
 
 .nav-bar-icon-u {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
     height: 30px;
-    margin-top: 20px;
+    margin-left: 2px;
+    margin-right:20px;
+    margin-bottom: 10px;
     background-color: #00879f;
     color: #fff;
     /* color: #555;
@@ -1489,6 +1496,10 @@ ul.map-nav-bar:not(:hover) li.current {
     background-color: #30834b;
     /* font-weight: 400;
     color: #fff; */
+}
+.nav-bar-icon-u > div{
+   
+    text-align: center;
 }
 
 .checksymptom{

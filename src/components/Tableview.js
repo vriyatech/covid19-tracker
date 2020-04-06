@@ -24,20 +24,37 @@ const yesterday_date = new Date(new Date().setDate(new Date().getDate()-1)).toIS
 // .toISOString().split('T')[0]
 
 // console.log(yesterday_date);
-export const NepalView = ({npcondition, lan,today=today_date, yesterday=yesterday_date}) => (<div>
-    
-
-       
+export const NepalView = ({npcondition, lan,today=today_date, yesterday=yesterday_date}) => (npcondition.confirmedCount && (npcondition.confirmedCount)[today]===undefined?<div>
             <Fragment >
-            <strong><span>{lan==='en'?[npcondition.ENGLISH+': ']:"नेपाल: "}</span><span>{npcondition.confirmedCount && (npcondition.confirmedCount)[today]===undefined?today=yesterday:today=today}</span></strong>
+            <strong><span>{lan==='en'?[npcondition.ENGLISH+': ']:"नेपाल: "}</span><span>{today}</span></strong>
+            <br/>
+                <strong><span  key = {'confirmed'}>
+                    <span style ={{color:'blue'}}>{lan==='en'?'Confirmed: ':"पुष्टि भयो: "}</span>
+                    {npcondition.confirmedCount && (npcondition.confirmedCount)[yesterday]+' | '} 
+                    </span>
+                <span key = {'deaths'}>
+                    <span style ={{color:'red'}}>{lan==='en'?'Deaths: ':"मृत्यु: "}</span>
+                    {npcondition.deadCount && (npcondition.deadCount)[yesterday]===undefined?"0 | ":npcondition.deadCount && (npcondition.deadCount)[yesterday]+' | '}
+                </span>
+                <span  key = {'recovered'}>
+                    <span style ={{color:'green'}}>{lan==='en'?'Recovered: ':"निको: "}</span>
+                    {npcondition.curedCount && (npcondition.curedCount)[yesterday]===undefined?0:npcondition.curedCount && (npcondition.curedCount)[yesterday]}
+                </span>
+                </strong>
+            </Fragment>
+            </div>
+            :
+            <div>
+            <Fragment >
+            <strong><span>{lan==='en'?[npcondition.ENGLISH+': ']:"नेपाल: "}</span><span>{today}</span></strong>
             <br/>
                     <strong><span  key = {'confirmed'}>
-                       <span style ={{color:'blue'}}>{lan==='en'?'Confirmed: ':"पुष्टि भयो: "}</span>
+                        <span style ={{color:'blue'}}>{lan==='en'?'Confirmed: ':"पुष्टि भयो: "}</span>
                         {npcondition.confirmedCount && (npcondition.confirmedCount)[today]+' | '} 
-                     </span>
+                        </span>
                     <span key = {'deaths'}>
-                       <span style ={{color:'red'}}>{lan==='en'?'Deaths: ':"मृत्यु: "}</span>
-                       {npcondition.deadCount && (npcondition.deadCount)[today]===undefined?"0 | ":npcondition.deadCount && (npcondition.deadCount)[today]+' | '}
+                        <span style ={{color:'red'}}>{lan==='en'?'Deaths: ':"मृत्यु: "}</span>
+                        {npcondition.deadCount && (npcondition.deadCount)[today]===undefined?"0 | ":npcondition.deadCount && (npcondition.deadCount)[today]+' | '}
                     </span>
                     <span  key = {'recovered'}>
                         <span style ={{color:'green'}}>{lan==='en'?'Recovered: ':"निको: "}</span>

@@ -17,6 +17,9 @@ import Who_Info from './info/Who_Info';
 import OldPeopleAndPeopleWIssue from './info/OldPeopleAndPeopleWIssue';
 import MythsAndFake from './info/MythsAndFake';
 import HomeQuarantine from './info/HomeQuarantine';
+import IAmInfected from './info/IAmInfected';
+import SomeoneIKnowIsInfected from './info/SomeoneIKnowIsInfected';
+import HomeIsolation from './info/HomeIsolation';
 import Aboutus from './Aboutus';
 
 const { SubMenu } = Menu;
@@ -88,9 +91,9 @@ class Infopage extends Component{
                 </span>
               }
             >
-            <Menu.Item key="5">{this.state.lan==='en'?'I am Infected':'म संक्रमित छु'}<Link to="/OldPeopleAndPeopleWIssue" /></Menu.Item>
-            <Menu.Item key="6">{this.state.lan==='en'?'Someone I know is Infected':'म कोहि संक्रमित व्यक्तिलाई चिन्छु'}<Link to="/OldPeopleAndPeopleWIssue" /></Menu.Item>
-            <Menu.Item key="7">{this.state.lan==='en'?'Home Isolation':'घरमा संगरोध'}<Link to="/OldPeopleAndPeopleWIssue" /></Menu.Item>
+            <Menu.Item key="5">{this.state.lan==='en'?'I am Infected':'म संक्रमित छु'}<Link to="/IAmInfected" /></Menu.Item>
+            <Menu.Item key="6">{this.state.lan==='en'?'Someone I know is Infected':'म कोहि संक्रमित व्यक्तिलाई चिन्छु'}<Link to="/SomeoneIKnowIsInfected" /></Menu.Item>
+            <Menu.Item key="7">{this.state.lan==='en'?'Home Isolation':'घरमा संगरोध'}<Link to="/HomeIsolation" /></Menu.Item>
             </SubMenu>
             
           </Menu>
@@ -111,6 +114,9 @@ class Infopage extends Component{
           <Route path="/OldPeopleAndPeopleWIssue" component={OldPeopleAndPeopleWIssue} />
           <Route path="/MythsAndFake" component={MythsAndFake} />
           <Route path="/HomeQuarantine" component={HomeQuarantine} />
+          <Route path="/IAmInfected" component={IAmInfected} />
+          <Route path="/SomeoneIKnowIsInfected" component={SomeoneIKnowIsInfected} />
+          <Route path="/HomeIsolation" component={HomeIsolation} />
           {/* <Route path="/OldPeopleAndPeopleWIssue" component={OldPeopleAndPeopleWIssue} /> */}
         </Content>
       </Layout>
