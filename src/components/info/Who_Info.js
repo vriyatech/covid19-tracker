@@ -40,6 +40,10 @@ class Who_Info extends Component{
     }
      
   }
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
 
  
 

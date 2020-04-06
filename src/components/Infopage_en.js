@@ -16,6 +16,7 @@ import ipage_n_e from '../data/ipage_n_e.yml'
 import Who_Info from './info/Who_Info';
 import OldPeopleAndPeopleWIssue from './info/OldPeopleAndPeopleWIssue';
 import MythsAndFake from './info/MythsAndFake';
+import HomeQuarantine from './info/HomeQuarantine';
 import Aboutus from './Aboutus';
 
 const { SubMenu } = Menu;
@@ -36,6 +37,7 @@ class Infopage extends Component{
       collapsed: !this.state.collapsed,
     });
   };
+  
 
  
 
@@ -77,7 +79,7 @@ class Infopage extends Component{
             <Menu.Item key="1" >{this.state.lan==='en'?'WHO Information':'विश्व स्वास्थ्य संगठनको जानकारी'}<Link key="1" to="/Who_Info" /></Menu.Item>
             <Menu.Item key="2">{this.state.lan==='en'?'Old People and People with Medical Issues':'जेष्ठ नागरिक र चिकित्सा सम्बन्धि समस्या भएका मानिसहरु'}<Link to="/OldPeopleAndPeopleWIssue" /></Menu.Item>
             <Menu.Item key="3">{this.state.lan==='en'?'Myths and Fake News':'काल्पनिक र नक्कली समाचार'}<Link to="/MythsAndFake" /></Menu.Item>
-            <Menu.Item key="4">{this.state.lan==='en'?'Old People and People with Medical Issues':'जेष्ठ नागरिक र चिकित्सा सम्बन्धि समस्या भएका मानिसहरु'}<Link to="/OldPeopleAndPeopleWIssue" /></Menu.Item>
+            <Menu.Item key="4">{this.state.lan==='en'?'Guidelines for Home Quarantine':'घर संगरोधका लागि दिशानिर्देशन'}<Link to="/HomeQuarantine" /></Menu.Item>
             <Menu.Item key="5">{this.state.lan==='en'?'Old People and People with Medical Issues':'जेष्ठ नागरिक र चिकित्सा सम्बन्धि समस्या भएका मानिसहरु'}<Link to="/OldPeopleAndPeopleWIssue" /></Menu.Item>
             
             
@@ -98,6 +100,7 @@ class Infopage extends Component{
           <Route  path="/Who_Info" component={Who_Info} />
           <Route path="/OldPeopleAndPeopleWIssue" component={OldPeopleAndPeopleWIssue} />
           <Route path="/MythsAndFake" component={MythsAndFake} />
+          <Route path="/HomeQuarantine" component={HomeQuarantine} />
           {/* <Route path="/OldPeopleAndPeopleWIssue" component={OldPeopleAndPeopleWIssue} /> */}
         </Content>
       </Layout>

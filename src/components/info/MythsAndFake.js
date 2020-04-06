@@ -41,6 +41,10 @@ class MythsAndFake extends Component{
     }
      
   }
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
 
   
 

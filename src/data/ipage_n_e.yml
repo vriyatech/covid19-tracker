@@ -268,3 +268,66 @@ info_MythsAndFakeNews_t15:
 info_MythsAndFakeNews_t15_p1:
   en: To date, there is no specific medicine recommended to prevent or treat the new coronavirus (2019-nCoV). ​However, those infected with the virus should receive appropriate care to relieve and treat symptoms, and those with severe illness should receive optimized supportive care. Some specific treatments are under investigation, and will be tested through clinical trials. WHO is helping to accelerate research and development efforts with a range or partners.
   np: आजको समय सम्म, नयाँ कोरोनाभाइरस (2019-nCov) लाई रोक्न वा उपचार गर्न कुनै विशेष औषधि छैन। यद्यपि भाइरसबाट संक्रमितहरूले लक्षणहरू कम सकिन्छ र उपचारका लागि उचित ध्यान दिनु पर्दछ र गम्भीर बिरामी भएकाहरूले उपयुक्त देखभाल पनि लिनु पर्छ। केहि विशिष्ट उपचारहरू अनुसन्धान अन्तर्गत छन्, र क्लिनिकल परीक्षण मार्फत परीक्षण गरिने छ। विश्व स्वास्थ संगठनले साझेदारहरूसँग अनुसन्धान र विकास प्रयासहरू छिटो गर्न मद्दत गरिरहेको छ।
+info_HomeQuarantine:
+  en: Guidelines for Home Quarantine
+  np: घर संगरोधका लागि दिशानिर्देशन
+info_HomeQuarantine_p:
+  en: Home Quarantine Guidelines of COVID-19 are given below.
+  np: COVID-19 of को गृह संगरोध मार्गनिर्देशनहरू तल दिइएका छन्।
+info_HomeQuarantine_t1:
+  en: Introduction
+  np: परिचय
+info_HomeQuarantine_t1_p1:
+  en: Persons and household members should be educated about personal hygiene, basic IPC measures and how to care for the member of the family suspected of having COVID-19 disease as safely as possible to prevent the infection from spreading to household contacts.
+  np: व्यक्ति र घरका सदस्यहरूलाई व्यक्तिगत सरसफाइ, आधारभूत आईपीसी उपायहरू र परिवारको सदस्यलाई COVID - १९ को संक्रमण सम्भव भएमा कसरि स्याहार गर्ने बारेमा ज्ञान हुनु पर्छ।
+info_HomeQuarantine_t1_p2:
+  en: The persons and the family should be provided with ongoing support and education, and monitoring should continue for the duration of home care.
+  np: व्यक्ति र परिवारलाई निरन्तर समर्थन र शिक्षा प्रदान गरिनु पर्दछ र संक्रमणको समयमा राम्ररी हेरचाह जारी रहनु पर्छ।
+info_HomeQuarantine_t2:
+  en: Recommendations
+  np: सिफारिसहरू
+info_HomeQuarantine_t2_p:
+  en: Persons and families should adhere to the following recommendations:-
+  np: व्यक्ति र परिवारले निम्न सिफारिसहरूको पालना गर्नुपर्दछ:-
+info_HomeQuarantine_t2_p_1:
+  en: Place the person in a well-ventilated single room (i.e . with open windows and an open door)
+  np: व्यक्तिलाई राम्रो हावामा चल्ने एकल कोठामा राख्नुहोस् (उदाहरणका लागि खुला झ्याल र ढोका भएको)
+info_HomeQuarantine_t2_p_2:
+  en: Limit the movement of the person in the house and minimize shared space. Ensure that shared spaces (e.g., kitchen, bathroom) are well ventilated (e.g., keep windows open).
+  np: घरमा व्यक्तिको आवागमन सीमित गर्नुहोस् र साझा स्थान कम गर्नुहोस्। सुनिश्चित गर्नुहोस् कि साझेदारी गरिएका ठाउँहरूमा (उदाहरणका लागि किचन, बाथरूम) राम्रो हावा चलेको छ (उदाहरणका लागि झ्याल खुला राख्नुहोस्)।
+info_HomeQuarantine_t2_p_3:
+  en: Household members should stay in a different room or, if that is not possible. maintain a distance of at least 1 mt from the ill person.
+  np: घरका सदस्यहरू फरक कोठामा बस्नुपर्दछ वा, यदि यो सम्भव छैन भने। बिरामी व्यक्तिबाट कम्तिमा १ मीटर टाढा राख्नुहोस्।
+info_HomeQuarantine_t2_p_4:
+  en: Limit the number of caregivers, ideally, assign one person who is in good health and has no underlying chronic or immunocompromised conditions. Visitors should not be allowed until the person has completely recovered and has no signs and symptoms.
+  np: हेरविचारकर्ताहरूको संख्या सीमित गर्नुहोस्, आदर्श रूपमा एक व्यक्तिलाई हेरचाहको जिम्मा दिनुहोस् जो राम्रो स्वास्थ्यमा छ र अन्तर्निहित क्रॉनिक वा इम्युनोकोम्प्रोमाइज्ड अवस्था छैन। व्यक्ति पूर्ण रूपमा निको नभएसम्म र कुनै लक्षण र लक्षणहरू नभएसम्म आगन्तुकहरूलाई अनुमति दिइनु हुँदैन।
+info_HomeQuarantine_t2_p_5:
+  en: Perform hand hygiene after any type of contact with a person or their immediate environment. Hand hygiene should also be performed before and after preparing food, before eating, after using the toilets and whenever hands look dirty. If hands are not visibly dirty. an alcohol-based hand rub can be used For visibly dirty hands, use soap and water.
+  np: कुनै व्यक्ति वा उनीहरूको तत्काल वातावरणको सम्पर्कमा परेपछि हातलै साबुन पनिले धुनुहोस्। खानाको अगाडि र पछाडि, खाना खाँदा, शौचालयहरू प्रयोग गरिसकेपछि र हातहरू फोहर लाग्नेबित्तिकै हातलाई  पर्दछ। यदि हातमा देखिने फोहोर छैनन् भने मदिरा-आधारित हात सेनिटाइजर प्रयोग गर्न मिल्छ फोहोर हातका लागि, साबुन र पानी प्रयोग गर्नुहोस्।
+info_HomeQuarantine_t2_p_6:
+  en: When washing hands with soap and water, it is preferable to use disposable paper towels to dry hands. If these are not available. use clean cloth rowels and replace them when they become wet. Disposable paper towels should be disposed of in closed bins only.
+  np: साबुन र पानीले हात धुँदा, सुखा कागजको तौलियाले हात पुछ्ने। यदि यी उपलब्ध छैनन् भने सफा कपडाको प्रयोग गर्नुहोस् र तिनीहरूलाई भिजेको खण्डमा बदल्नुहोस्। डिस्पोजेबल कागज तौलिया बन्द डिब्माबामा मात्र डिस्पोजल गर्नुपर्छ।
+info_HomeQuarantine_t2_p_7:
+  en: To contain respiratory secretions, a medical mask should be provided to the person and worn as much as possible. Materials used to cover the mouth and nose should be discarded or cleaned appropriately after use (e.g., wash handkerchiefs using regular soap or detergent and water).
+  np: श्वासप्रश्वासको फोहोर समावेश गर्न, एक मेडिकल मास्क व्यक्तिलाई उपलब्ध गराउनुपर्दछ र यथासम्भव लगाउनु पर्छ। मुख र नाक ढाक्नका लागि प्रयोग गरिने सामग्रीहरू उपयुक्त प्रयोग पछि उचित ढंगले खारेज वा सफा गरिनुपर्दछ  (जस्तै, नियमित साबुन वा डिटर्जेंट र पानी प्रयोग गरेर रुमाल धुनुहोस्)।
+info_HomeQuarantine_t2_p_8:
+  en: Caregivers should wear a tightly fitted medical mask that covers their mouth and nose when in the same room as the person. Masks should not be touched or handled during use If the mask gets wet or dirty from secretions, it must be replaced immediately with a new clean, dry mask. Remove the mask using the appropriate technique — that is, do not touch the front, but instead untie it Discard the mask immediately after use and perform hand hygiene.
+  np: संक्रमित व्यक्तिको उहि कोठामा हुदा हेरचाह गर्नेहरूले कडा फिट भएको मेडिकल मास्क लगाउनु पर्छ जसले तिनीहरूको मुख र नाक ढाक्छ। प्रयोगको समयमा मास्कलाई छोइराख्नु हुँदैन र यदि मास्क भिजेको वा स्रावबाट फोहोर भयो भने होसियारीसाथ, यो तुरुन्त नयाँ सफा, सुक्खा मास्कको साथ बदल्नु पर्छ। उपयुक्त हिसाबमा मास्क हटाउनुहोस् - अगाडी नछुनुहोस् अनि होसियारीसाथ फुकाएर तुरुन्तै खारेज गर्नुहोस् र हात स्वच्छता गर्नुहोस्।
+info_HomeQuarantine_t2_p_9:
+  en: Avoid direct contact with body fluids, particularly oral or respiratory secretions, and stool. Use disposable gloves and a mask when providing oral or respiratory care and when handling stool, urine. and other waste. Perform hand hygiene before and after removing gloves and mask.
+  np: शरीरको तरल पदार्थहरू, विशेष गरी मौखिक वा श्वासप्रश्वासको साथै स्राव, र मललाई प्रत्यक्ष सम्पर्कमा आउन नदिनुहोस्। मौखिक वा श्वासप्रश्वासको देखभाल प्रदान गर्दा र मल, मूत्र ह्यान्डल गर्दा डिस्पोजेबल पन्जा र मास्क प्रयोग गर्नुहोस् र फोहोर मास्क र पन्जा हटाउनु अघि र पछाडि हात सफा गर्नुहोस्।
+info_HomeQuarantine_t2_p_10:
+  en: Do not reuse masks or gloves
+  np: मास्क वा पन्जाहरू पुन- प्रयोग नगर्नुहोस्।
+info_HomeQuarantine_t2_p_11:
+  en: Use dedicated linen and eating utensils for the person; these items should be cleaned with soap and water after use and may be re-used instead of being discarded. They should be washed at 60-90°C with common household detergent, and dry thoroughly. Place contaminated linen into a laundry bag.
+  np: व्यक्तिको लागि समर्पित कपडा र खाने भाँडा प्रयोग गर्नुहोस्; यी वस्तुहरूको प्रयोग पछि साबुन र पानीको साथ सफा गर्नुहोस् र फेरि प्रयोग गर्न सकिन्छ। तिनीहरूलाई ६०- ९० डिग्री सेल्सियसमा सामान्य घर डिटर्जेंटको साथ धुनुपर्छ, र राम्ररी सुकाउनु पर्छ।  दूषित मलिनलाई धुने झोलामा राख्नुहोस्।
+info_HomeQuarantine_t2_p_12:
+  en: Clean and disinfect daily surfaces that are frequently touched in the room where the person is being cared for, such as bedside tables. bed frames and other bedroom furniture. Regular household soap or detergent should be used first for cleaning, and then, after rinsing, regular household disinfectant containing 0.5% sodium hypochlorite ( i.e., equivalent to 5000 pm or 1 part bleach 5 to 9 parts water) should be applied.
+  np: व्यक्तिको देखभाल भइरहेको कोठामा दैनिक सतहहरू जुन बारम्बार छोइन्छ जस्तै बेडसाइड टेबल, ओछ्यान फ्रेम र अन्य बेडरूम फर्नीचर इत्यादीलाई सफा र कीटाणुरहित बनाउनुहोस्। नियमित घर सफाईको लागि सर्वप्रथम साबुन वा डिटर्जेंट प्रयोग गर्नुपर्नेछ र त्यसपछि, ०.५% सोडियम हाइपोक्लोराइट (अर्थात्, ५००० पीएम वा १ भाग ब्लीच बराबर ५ देखि ९ भाग पानी) भएको साधारण घरेलु कीटाणुनाशक प्रयोग गर्नुपर्छ।
+info_HomeQuarantine_t2_p_13:
+  en: Clean and disinfect bathroom and toilet surfaces at least once daily. Regular household soap or detergent should be used first for cleaning. and then, after rinsing, regular household disinfectant containing 0.5% to 1% sodium hypochlorite should be applied.
+  np: दिनको कम्तिमा एक पटक बाथरूम र शौचालयको सतहलाई सफा र कीटाणुरहित गर्नुहोस्। नियमित घर सफाईको लागि सर्वप्रथम साबुन वा डिटर्जेंट प्रयोग गर्नुपर्नेछ र त्यसपछि, ०.५% देखि १% सोडियम हाइपोक्लोराइट भएको साधारण घरेलु कीटाणुनाशक प्रयोग गर्नु पर्छ।
+info_HomeQuarantine_t2_p_14:
+  en: Avoid other types of exposure to contaminated items from the person's immediate environment (e.g. do not share toothbrushes, cigarettes. eating utensils, dishes, drinks, towels, washcloths or bed linen).
+  np: व्यक्तिको तत्काल वातावरणबाट दूषित वस्तुहरूको जोखिमका अन्य प्रकारहरू (उदाहरणका लागि दात माझ्ने ब्रुष, सिगरेट साझेदारी नगर्नुहोस र  खाने भाँडा, पेय, तौलिया वा ओछ्यानको कपडा) नजिकको सम्पर्कमा आउन नदिनुहोस्।

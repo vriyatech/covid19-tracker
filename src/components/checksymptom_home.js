@@ -66,6 +66,8 @@ import { color } from 'd3';
           <p>{symptom_n_e.Home_CheckSymptom_How_Are_you_feeling_p1[this.state.lan]}</p> */}
           {/* <p>{symptom_n_e.Home_CheckSymptom_How_Are_you_feeling_p2[this.state.lan]}</p> */}
          <hr/>
+         <strong>{this.state.lan==='en'?'Please help us collect the data by filling your symptoms accurately.':'कृपया हामीलाई तपाईंको लक्षणहरू सहि तरिकाले भरेर डाटा सङ्कलन गर्न मद्दत गर्नुहोस्।'}</strong>
+         <br/>
          <Link to='/tracksymptoms'><input type='button' className ='nav-bar-icon-u' value ={this.state.lan==='en'?'Fill Symptoms':'लक्षणहरू भर्नुहोस्'}/></Link>
           </div>
           </div>
