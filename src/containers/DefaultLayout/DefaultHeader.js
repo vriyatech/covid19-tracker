@@ -50,7 +50,7 @@ class DefaultHeader extends Component {
 
 componentDidMount(){
   const urlnp = 'https://raw.githubusercontent.com/stevenliuyi/covid19/master/public/data/all_minified.json';
-  fetch(urlnp).then(resp => resp.json().then(r=> r.尼泊尔).then(datan => this.setState({npcondition:datan,confirmedCount:datan.confirmedCount,curedCount:datan.curedCount,deadCount:datan.deadCount}))).then(r =>console.log(this.state));
+  fetch(urlnp).then(resp => resp.json().then(r=> r.尼泊尔).then(datan => this.setState({npcondition:datan,confirmedCount:datan.confirmedCount,curedCount:datan.curedCount,deadCount:datan.deadCount})));
   
 }
  

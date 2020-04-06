@@ -23,7 +23,7 @@ const yesterday_date = new Date(new Date().setDate(new Date().getDate()-1)).toIS
 // const yesterday = yesterday_date;
 // .toISOString().split('T')[0]
 
-console.log(yesterday_date);
+// console.log(yesterday_date);
 export const NepalView = ({npcondition, lan,today=today_date, yesterday=yesterday_date}) => (<div>
     
 
@@ -107,6 +107,11 @@ export const RecordView = ({record, lan}) => (
     </Table>
 
     
+
+
+);
+
+export const modifiedData = ({record}) => (record.map((m) => [m.province,m.district,m.municipality])).then(modify =>Array.from(new Set(modify.map(JSON.stringify)), JSON.parse)
 
 
 );

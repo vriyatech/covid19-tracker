@@ -31,7 +31,9 @@ import {
       record:[],
       searchText: '',
       searchedColumn: '',
-      timeout: 0
+      timeout: 0,
+      moddata:[],
+      uniquelocation:[]
     }
 
     getColumnSearchProps = dataIndex => ({
@@ -110,7 +112,15 @@ import {
 
     componentDidMount(){
       const urlr = GetRecord;
-      fetch(urlr).then(resp => resp.json()).then(datan => datan.filter(dat => dat.risk!=='no risk')).then(datan => this.setState({record:datan}));
+      fetch(urlr).then(resp => resp.json()).then(datan => datan.filter(dat => dat.risk!=='no risk')).then(datan => this.setState({record:datan}))
+      // .then(modify => this.state.record.map((m) => [m.province,m.district,m.municipality])).then(modify =>Array.from(new Set(modify.map(JSON.stringify)), JSON.parse))
+      // .then(m=>this.setState({uniquelocation:m}))
+      // .then(m =>{
+        
+      //   this.setState({moddata:this.state.uniquelocation.map(e => this.state.record.filter(f => f.province===e[0]&f.district===e[1]&f.municipality===e[2]).then(f => [f.province,f.district,f.province,f.risk,f.countValue]))});
+        
+      // }).then(console.log(this.state.moddata));
+      
     
     }
 

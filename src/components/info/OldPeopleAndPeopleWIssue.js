@@ -62,7 +62,7 @@ class OldPeopleAndPeopleWIssue extends Component{
          <p>{ipage_n_e.info_OldPeopleWithMedicalIssue_p1[this.state.lan]}</p>
          <p>{ipage_n_e.info_OldPeopleWithMedicalIssue_p2[this.state.lan]}</p>
        <hr/>
-       <Table>
+       <Table bordered>
          <thead>
            <tr>
              <th>{this.state.lan==='en'?'Age Group':'आयु समूह'}</th>
@@ -87,13 +87,13 @@ class OldPeopleAndPeopleWIssue extends Component{
              <td>{this.state.lan==='en'?'< 0.5 %':'< ०.५%'}</td>
            </tr>
          </tbody>
-       </Table>
+       </Table >
        <hr/>
 
        <p>{ipage_n_e.info_OldPeopleWithMedicalIssue_p3[this.state.lan]}</p>
        <p>{ipage_n_e.info_OldPeopleWithMedicalIssue_p4[this.state.lan]}</p>
         <hr/>
-       <Table>
+       <Table bordered>
          <thead>
            <tr>
              <th>{this.state.lan==='en'?'Medical Condition':'स्वास्थ्य अवस्था'}</th>
