@@ -28,7 +28,7 @@ class Infopage extends Component{
   constructor(props) {
     super(props);
     this.state = {
-        collapsed: true,
+        collapsed: false,
       lan: window.localStorage.getItem("lan") ? window.localStorage.getItem("lan") : window.localStorage.setItem("lan", 'np')
 
     }
@@ -37,6 +37,12 @@ class Infopage extends Component{
   toggle = () => {
     this.setState({
       collapsed: !this.state.collapsed,
+    });
+  };
+
+  closemenu = () => {
+    this.setState({
+      collapsed: true,
     });
   };
   
@@ -97,7 +103,6 @@ class Infopage extends Component{
             
           </Menu>
         </Sider>
-        <Content style={{ minHeight: 280 }}>
         {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
               className: 'trigger',
               style:{
@@ -108,7 +113,9 @@ class Infopage extends Component{
               },
               onClick: this.toggle,
             })}
-          <Route  path="/" exact component={Who_Info} />  
+        <Content style={{ minHeight: 280 }} onClick={this.closemenu} >
+        
+          <Route  path="/" exact component={Who_Info } />  
           <Route  path="/Who_Info" component={Who_Info} />
           <Route path="/OldPeopleAndPeopleWIssue" component={OldPeopleAndPeopleWIssue} />
           <Route path="/MythsAndFake" component={MythsAndFake} />

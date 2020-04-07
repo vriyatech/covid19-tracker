@@ -193,7 +193,7 @@ import {
           )
         },
         {
-          title: this.state.lan==='en'?"Vulnerable":"कमजोर",
+          title: this.state.lan==='en'?"Vulnerable":"जोखिम",
           dataIndex: "Vulnerable",
           key: "Vulnerable",
           // fixed: 'left',
@@ -215,7 +215,7 @@ import {
     return (<React.Fragment>
       <div style={{textAlign:'left', margin:'10px'}}>
         <span><strong>{this.state.lan==='en'?'Total Survey':'कुल सर्वेक्षण'}:{" " + this.state.totalSurvey +" | "}</strong></span>
-        <span><strong>{this.state.lan==='en'?'Vulnerable':'कमजोर'}:{" " + this.state.totalVulnurable + " | "}</strong></span>
+        <span><strong>{this.state.lan==='en'?'Vulnerable':'जोखिम'}:{" " + this.state.totalVulnurable + " | "}</strong></span>
         <span><strong>{this.state.lan==='en'?'Potential':'सम्भावित'}:{" " + this.state.totalPotential }</strong></span>
       </div>
    
