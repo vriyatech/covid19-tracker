@@ -15,6 +15,7 @@ import {
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import {css} from 'emotion'
+import store from '../../redux/store'
 
 const tableCSS = css({
   'Navbar > Collapse > Nav > NavItem > NavLink': {
@@ -28,6 +29,15 @@ const Nav_Bar = (props) => {
   const lan= window.localStorage.getItem("lan") ? window.localStorage.getItem("lan") : window.localStorage.setItem("lan", 'np');
 
   const toggle = () => setIsOpen(!isOpen);
+
+  const togglelang = () => {
+    let data= '';
+    lan ==='en'?data='np':data='en';
+    let action = {type:'Update_Lan',data:data};
+    store.dispatch(action);
+    window.localStorage.setItem("lan", data);
+    window.location.reload();
+  }
 
   return (
     <div>
@@ -45,7 +55,9 @@ const Nav_Bar = (props) => {
             
             
           </Nav>
-          <NavbarText><strong>COVID-19 Tracker | Vriya Technologies</strong></NavbarText>
+          <NavbarText><strong>COVID-19 Tracker | Vriya Technologies</strong><br/>
+            {/* <input type='button' className='nav-bar-icon-u' style={{alignSelf:'right'}}  value={lan==='np'?'English':'नेपाली'} onClick={togglelang}/> */}
+          </NavbarText>        
         </Collapse>
       </Navbar>
     </div>

@@ -12,7 +12,6 @@ import {
     UploadOutlined,
 } from "@ant-design/icons";
 import './App.css'
-import ipage_n_e from '../data/ipage_n_e.yml'
 import Who_Info from './info/Who_Info';
 import OldPeopleAndPeopleWIssue from './info/OldPeopleAndPeopleWIssue';
 import MythsAndFake from './info/MythsAndFake';
