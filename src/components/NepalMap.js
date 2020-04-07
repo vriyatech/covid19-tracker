@@ -214,9 +214,9 @@ import {
 
     return (<React.Fragment>
       <div style={{textAlign:'left', margin:'10px'}}>
-        <span><strong>Total Survey:{" " + this.state.totalSurvey +" | "}</strong></span>
-        <span><strong>Vulnerable:{" " + this.state.totalVulnurable + " | "}</strong></span>
-        <span><strong>Potential:{" " + this.state.totalPotential }</strong></span>
+        <span><strong>{this.state.lan==='en'?'Total Survey':'कुल सर्वेक्षण'}:{" " + this.state.totalSurvey +" | "}</strong></span>
+        <span><strong>{this.state.lan==='en'?'Vulnerable':'कमजोर'}:{" " + this.state.totalVulnurable + " | "}</strong></span>
+        <span><strong>{this.state.lan==='en'?'Potential':'सम्भावित'}:{" " + this.state.totalPotential }</strong></span>
       </div>
    
         <Table
