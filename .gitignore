@@ -6,6 +6,10 @@ node_modules
 /.pnp
 .pnp.js
 
+#NodeJS_API
+NodeJS_API/node_modules
+NodeJS_API/node_modules/*
+
 # testing
 /coverage
 
