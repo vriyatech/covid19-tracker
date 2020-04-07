@@ -162,7 +162,7 @@ import {
         //   )
         // },
         {
-          title: this.state.lan==='en'?"Location":"नगरपालिका",
+          title: this.state.lan==='en'?"Location":"स्थान:",
           dataIndex: "Location",
           key: "Location",
           ...this.getColumnSearchProps('Location'),  render: (price, record) => (
@@ -182,7 +182,7 @@ import {
         //   )
         // },
         {
-          title: this.state.lan==='en'?"Potential":"जोखिम",
+          title: this.state.lan==='en'?"Potential":"सम्भावित",
           dataIndex: "Potential",
           key: "Potential",
           // ...this.getColumnSearchProps('Potential'), 
@@ -193,7 +193,7 @@ import {
           )
         },
         {
-          title: this.state.lan==='en'?"Vulnerable":"गणना",
+          title: this.state.lan==='en'?"Vulnerable":"कमजोर",
           dataIndex: "Vulnerable",
           key: "Vulnerable",
           // fixed: 'left',
