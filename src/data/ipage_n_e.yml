@@ -331,3 +331,341 @@ info_HomeQuarantine_t2_p_13:
 info_HomeQuarantine_t2_p_14:
   en: Avoid other types of exposure to contaminated items from the person's immediate environment (e.g. do not share toothbrushes, cigarettes. eating utensils, dishes, drinks, towels, washcloths or bed linen).
   np: व्यक्तिको तत्काल वातावरणबाट दूषित वस्तुहरूको जोखिमका अन्य प्रकारहरू (उदाहरणका लागि दात माझ्ने ब्रुष, सिगरेट साझेदारी नगर्नुहोस र  खाने भाँडा, पेय, तौलिया वा ओछ्यानको कपडा) नजिकको सम्पर्कमा आउन नदिनुहोस्।
+info_IAmInfected:
+  en: I am Infected
+  np: म संक्रमित छु
+info_IAmInfected_source:
+  en: Source :- Center for Disease Control (CDC)
+  np: स्रोत:- रोग नियन्त्रण केन्द्र (CDC)
+info_IAmInfected_p1:
+  en: If you are sick with COVID-19 or suspect you are infected with the virus that causes COVID-19, follow the steps below to help prevent the disease from spreading to people in your home and community.
+  np: यदि तपाईं COVID-19 बाट बिरामी हुनुहुन्छ वा शंका लागेको छ भने, रोग नियन्त्रणलाई मद्दत गर्नको लागि तलका चरणहरू अनुसरण गर्नुहोस् जसले रोगलाई घर र समुदायमा फैलिनबाट जोगाउछ।
+info_IAmInfected_t1:
+  en: Stay home except to get medical care
+  np: चिकित्सा स्याहार प्राप्त गर्नको साटो घरमा रहने
+info_IAmInfected_t1_t1_p:
+  en: Stay home
+  np: घरमै बस्नुहोस्
+info_IAmInfected_t1_t1_p1:
+  en: People who are mildly ill with COVID-19 are able to isolate at home during their illness. You should restrict activities outside your home, except for getting medical care.
+  np: COVID- 19 बाट हल्का बिरामी भएका व्यक्तिहरू आफ्नो रोगको समयमा घरमा अरुबाट अलग हुन सकिन्छ। तपाईले आफ्नो घर बाहिरका गतिविधिहरू, चिकित्सा उपचार बाहेक अरु कार्यहरू प्रतिबन्धित गर्नुपर्दछ।
+info_IAmInfected_t1_t2_p:
+  en: Avoid public areas
+  np: सार्वजनिक क्षेत्रहरूबाट बच्नुहोस्
+info_IAmInfected_t1_t2_p1:
+  en: Do not go to work, school, or public areas.
+  np: काम, स्कूल वा सार्वजनिक क्षेत्रहरूमा नजानुहोस्।
+info_IAmInfected_t1_t3_p:
+  en: Avoid public transportation
+  np: सार्वजनिक यातायातमा नचध्नुहोस्
+info_IAmInfected_t1_t3_p1:
+  en: Avoid using public transportation, ride-sharing, or taxis.
+  np: सार्वजनिक यातायात, सांझा सवारी वा ट्याक्सीहरूको प्रयोग गर्नबाट बच्नुहोस्।
+info_IAmInfected_t2:
+  en: Separate yourself from other people and animals in your home
+  np: तपाईंको घरमा अन्य व्यक्ति र जनावरहरूबाट आफूलाई अलग गर्नुहोस
+info_IAmInfected_t2_t1_p:
+  en: Stay away from others
+  np: अरूबाट टाढा बस्नुहोस्
+info_IAmInfected_t2_t1_p1:
+  en: As much as possible, you should stay in a specific room and away from other people in your home. Also, you should use a separate bathroom, if available.
+  np: सकेसम्म तपाईले एउटा विशेष कोठामा र तपाईको घरका अन्य व्यक्तिबाट टाढा बस्नु पर्छ। साथै, यदि उपलब्ध छ भने तपाईंले छुट्टै बाथरूम प्रयोग गर्नुपर्छ।
+info_IAmInfected_t2_t2_p:
+  en: Limit contact with pets & animals
+  np: घरपालुवा जनावरहरू र जनावरहरूसँगको सम्पर्क सीमित गर्नुहोस्
+info_IAmInfected_t2_t2_p1:
+  en: You should restrict contact with pets and other animals while you are sick with COVID-19, just like you would around other people. Although there have not been reports of pets or other animals becoming sick with COVID-19, it is still recommended that people sick with COVID-19 limit contact with animals until more information is known about the virus.
+  np: तपाईं COVID-19 बाट बिरामी पर्दा घरपालुवा जनावरहरू र अन्य जनावरहरूसँगको सम्पर्कलाई अरुको ओरिपरि गरेझैँ प्रतिबन्धित गर्नुपर्दछ। हुनत अहिले सम्म घर पालुवा जनावर वा अन्य जनावरहरु COVID-19 बाट बिरामी परेको रिपोर्ट आएको छैन, तर  सिफारिश गरिन्छ कि भाइरसको बारेमा अधिक जानकारी नभएसम्म COVID-19 बाट बिरामी मानिसहरूले जनावरहरूसँग सम्पर्क राख्नुहुन्न।
+info_IAmInfected_t2_t3_p:
+  en: When possible, have another member of your household care for your animals while you are sick. If you are sick with COVID-19, avoid contact with your pet, including petting, snuggling, being kissed or licked, and sharing food. If you must care for your pet or be around animals while you are sick, wash your hands before and after you interact with pets and wear a facemask.
+  np: सम्भव भएमा, बिरामी पर्दा तपाईंको परिवारको अर्को सदस्यलाई जनावरहरूको हेरचाह गर्न राख्नुहोस्। यदि तपाईं COVID-19 बाट बिरामी हुनुहुन्छ भने, तपाईंको घर पालुवा जनावरसँग सम्पर्क नराख्नुहोस्। यदि तपाईं बिरामी भएको बेला जनावरहरूको वरिपरि बस्ने वा हेरचाह गर्नुहुन्छ भने, जनावरसँग सम्पर्क राख्नु अघि र पछि आफ्नो हात  राम्ररी धुनुहोस् र मास्कको प्रयोग गर्नुहोस्।
+info_IAmInfected_t3:
+  en: Call ahead before visiting your doctor
+  np: तपाईले डाक्टरलाई भेट्नु भन्दा पहिले कल गर्नुहोस्
+info_IAmInfected_t3_p:
+  en: If you have a medical appointment, call the healthcare provider and tell them that you have or may have COVID-19. This will help the healthcare provider’s office take steps to keep other people from getting infected or exposed.
+  np: यदि तपाईंसँग मेडिकल अपोइन्टमेन्ट छ भने, स्वास्थ्य सेवा प्रदायकलाई कल गर्नुहोस् र उनीहरूलाई बताउनुहोस् कि तपाईंलाई COVID-19 छ वा हुन सक्छ। यसले स्वास्थ्य प्रदायकको कार्यालयले अरूलाई संक्रमित हुनबाट बचाउन चाहिने कदम परिचालन गर्न मद्दत गर्दछ।
+info_IAmInfected_t4:
+  en: Wear a facemask if you are sick
+  np: यदि बिरामी भएमा एउटा फेसमास्क लगाउनुहोस्
+info_IAmInfected_t4_t1_p:
+  en: If you are sick
+  np: यदि तपाईं बिरामी हुनुहुन्छ भने
+info_IAmInfected_t4_t1_p1:
+  en: You should wear a facemask when you are around other people (e.g., sharing a room or vehicle) or pets and before you enter a healthcare provider’s office.
+  np: तपाईंले अन्य व्यक्तिहरू (उदाहरणको लागि, कोठा वा गाडी) वरपर वा घरपालुवा जनावरहरू संग कुनै सम्पर्क हुन अघि र हेल्थकेयर प्रदायकको कार्यालयमा प्रवेश गर्नु अघि तपाईंले फेसमास्क लगाउनु पर्छ।
+info_IAmInfected_t4_t2_p:
+  en: If you are caring for others
+  np: यदि तपाई अरूको हेरचाह गर्दै हुनुहुन्छ भने
+info_IAmInfected_t4_t2_p1:
+  en: If the person who is sick is not able to wear a facemask (for example, because it causes trouble breathing), then people who live with the person who is sick should not stay in the same room with them, or they should wear a facemask if they enter a room with the person who is sick.
+  np: यदि कोहि बिरामी छ र फेसमास्क सास फेर्न समस्याले गर्दा लगाउन असमर्थ छ भने, तिनीहरूसँग एउटै कोठामा नबस्नुहोस् र बिरामी भएको कोठामा प्रवेश गर्नु अघि अनिवार्य रुपमा फेसमास्क लगाउनु पर्छ।
+info_IAmInfected_t5:
+  en: Cover your coughs and sneezes
+  np: हाच्छिउं गर्दा, खोकी लाग्दा मुखलाई छोप्नुहोस्
+info_IAmInfected_t5_t1_p:
+  en: Cover
+  np: ढाक्नु
+info_IAmInfected_t5_t1_p1:
+  en: Cover your mouth and nose with a tissue when you cough or sneeze.
+  np: तपाईंको मुख र नाकलाई टिसूले छोप्नुहोस् जब तपाईं खोकी वा हाच्छिउं गर्नुहुन्छ।
+info_IAmInfected_t5_t2_p:
+  en: Dispose
+  np: डिस्पोजल
+info_IAmInfected_t5_t2_p1:
+  en: Throw used tissues in a lined trash can.
+  np: प्रयोग गरिएको सामानहरूलाई प्य्लास्टिकराखिएकोडस्टबिनमा फ्याँक्नुहोस्।
+info_IAmInfected_t5_t3_p:
+  en: Wash hands
+  np: हात धुनुहोस्
+info_IAmInfected_t5_t3_p1:
+  en: Immediately wash your hands with soap and water for at least 20 seconds or, if soap and water are not available, clean your hands with an alcohol-based hand sanitizer that contains at least 60% alcohol.
+  np: कम्तिमा २० सेकेन्डसम्म साबुन र पानीले हात धुनुहोस् वा यदि साबुन र पानी उपलब्ध छैन भने, आफ्ना हातहरू कम्तिमा ६०% मदिरामा आधारित सेनिटाइजरले सफा गर्नुहोस्।
+info_IAmInfected_t6:
+  en: Clean your hands often
+  np: प्राय- आफ्ना हातहरूलाई सफा राख्नुहोस्
+info_IAmInfected_t6_t1_p:
+  en: Wash hands
+  np: हात धुने
+info_IAmInfected_t6_t1_p1:
+  en: Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food.
+  np: कम्तिमा २० सेकेन्ड सम्म साबुन र पानीले प्रायः आफ्ना हातहरू धुनुहोस्, विशेष गरी नाक बग्दा, खोकी वा हाच्छिउं गर्दा; बाथरूम जादा; र खाना खानु वा तयार गर्नु अघि।
+info_IAmInfected_t6_t2_p:
+  en: Hand sanitizer
+  np: सेनिटाइजर
+info_IAmInfected_t6_t2_p1:
+  en: If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol, covering all surfaces of your hands and rubbing them together until they feel dry.
+  np: यदि साबुन र पानी सजिलैसँग उपलब्ध छैन भने कम्तिमा ६०% मदिरामा आधारित हात सेनिटाइजरको प्रयोग गर्नुहोस्, तपाईंको हातको सबै सतहहरू छोप्नुहोस् र तिनीहरूलाई सुकाउनुहोस्।
+info_IAmInfected_t6_t3_p:
+  en: Soap and water
+  np: साबुन र पानी
+info_IAmInfected_t6_t3_p1:
+  en: Soap and water are the best option if hands are visibly dirty.
+  np: हात मैला छ भने साबुन र पानी सबै भन्दा राम्रो विकल्प हो।
+info_IAmInfected_t6_t4_p:
+  en: Avoid touching
+  np: अनुहार नछुनुहोस्
+info_IAmInfected_t6_t4_p1:
+  en: Avoid touching your eyes, nose, and mouth with unwashed hands.
+  np: अनावश्यक रूपमा फोहोर हातले आफ्नो आँखा, नाक र मुख नछुनुहोस्।
+info_IAmInfected_t7:
+  en: Avoid sharing personal household items
+  np: व्यक्तिगत घरेलु वस्तुहरू साझा गर्नबाट रोक्नुहोस्
+info_IAmInfected_t7_t1_p:
+  en: Do not share
+  np: साझेदारी नगर्नुहोस्
+info_IAmInfected_t7_t1_p1:
+  en: You should not share dishes, drinking glasses, cups, eating utensils, towels, or bedding with other people or pets in your home.
+  np: तपाईंले आफ्नो घरमा भाँडा, चश्मा, कप, खाद्यान्नको भाँडा, तौलिए वा ओछ्यान अन्य व्यक्तिहरू वा घरपालुवा जनावरहरूसँग साझेदारी गर्नु हुँदैन।
+info_IAmInfected_t7_t2_p:
+  en: Wash thoroughly after use
+  np: प्रयोग पछि राम्रोसँग धुनुहोस्
+info_IAmInfected_t7_t2_p1:
+  en: After using these items, they should be washed thoroughly with soap and water.
+  np: प्रयोग गरेपछि तिनीहरूलाई साबुन र पानीले राम्ररी धुनु पर्दछ।
+info_IAmInfected_t8:
+  en: Clean all “high-touch” surfaces everyday
+  np: दैनिक "उच्च स्पर्श" सतहहरू सफा गर्नुहोस्
+info_IAmInfected_t8_t1_p:
+  en: Clean and disinfect
+  np: सफा र कीटाणुमुक्त
+info_IAmInfected_t8_t1_p1:
+  en: Practice routine cleaning of high touch surfaces. High touch surfaces include counters, tabletops, doorknobs, bathroom fixtures, toilets, phones, keyboards, tablets, and bedside tables.
+  np: उच्च-स्पर्श सतहहरूको नियमित सफाई अभ्यास गर्नुहोस्। उच्च स्पर्श सतहहरूमा काउन्टर, टेबुल, शौचालयका सामाग्रीहरु, फोन, किबोर्ड, ट्याब्लेट, र बेडसाइड टेबल समावेश गर्दछ।
+info_IAmInfected_t8_t2_p:
+  en: Disinfect areas with bodily fluids
+  np: शारीरिक तरलता हुने क्षेत्रहरूलाई कीटाणुरहित गर्नुहोस्
+info_IAmInfected_t8_t2_p1:
+  en: Also, clean any surfaces that may have blood, stool, or body fluids on them.
+  np: थप रूपमा, रगत, मल, वा शरीरका तरलताहरू समावेश गर्न सक्ने सतहहरू सफा गर्नुहोस्।
+info_IAmInfected_t8_t3_p:
+  en: Household cleaners
+  np: घरेलु क्लीनर
+info_IAmInfected_t8_t3_p1:
+  en: Use a household cleaning spray or wipe, according to the label instructions. Labels contain instructions for safe and effective use of the cleaning product including precautions you should take when applying the product, such as wearing gloves and making sure you have good ventilation during use of the product.
+  np: लेबलको निर्देशन अनुसार घर सफा गर्ने स्प्रे वा वाइपको प्रयोग गर्नुहोस्। लेबलले सफाई सुरक्षित र प्रभावकारी प्रयोगको लागि निर्देशनहरू समावेश गर्नुका साथै पन्जा लगाउने, प्रयोगको बखत राम्रो वायुसंचार भएको छ छैन सुनिश्चित गर्नु जस्ता सावधानी समावेश हुन्छन्।
+info_IAmInfected_t9:
+  en: Monitor your symptoms
+  np: तपाइँका लक्षणहरूको निरीक्षण गर्नुहोस्
+info_IAmInfected_t9_t1_p:
+  en: Seek medical attention
+  np: चिकित्सकीय ध्यान खोज्नुहोस्
+info_IAmInfected_t9_t1_p1:
+  en: Seek prompt medical attention if your illness is worsening (e.g., difficulty breathing).
+  np: यदि तपाईंको रोग बिग्रँदै गइरहेको छ भने (जस्तै, सास फेर्न गाह्रो), तुरुन्तै स्वास्थ परामर्श वा उपचारमा ध्यान दिनुहोस्।
+info_IAmInfected_t9_t2_p:
+  en: Call your doctor
+  np: तपाईंको डाक्टरलाई कल गर्नुहोस्
+info_IAmInfected_t9_t2_p1:
+  en: Before seeking care, call your healthcare provider and tell them that you have, or are being evaluated for, COVID-19. 
+  np: हेरचाह गर्नु अघि, तपाईंको स्वास्थ्य सेवा प्रदायकलाई कल गर्नुहोस् र उनीहरूलाई बताउनुहोस् कि तपाईंलाई COVID-19 छ वा मुल्यांकन भइरहेको छ|
+info_IAmInfected_t9_t3_p:
+  en: Wear a facemask when sick
+  np: बिरामी हुँदा फेसमास्क लगाउनुहोस्
+info_IAmInfected_t9_t3_p1:
+  en: Put on a facemask before you enter the facility. These steps will help the healthcare provider’s office to keep other people in the office or waiting room from getting infected or exposed.
+  np: स्वास्थ सेवा सुविधामा प्रवेश गर्नु अघि फेसमास्क प्रयोग गर्नुहोस्। यी कदमहरूले स्वास्थ्य सेवा प्रदायकको कार्यालयलाई संक्रमित हुनबाट वा कार्यालय वेटिंग रूममा अन्य व्यक्तिलाई संक्रमणबाट बचाउन मद्दत गर्दछ।
+info_IAmInfected_t9_t4_p:
+  en: Alert health department
+  np: स्वास्थ्य विभागलाई सूचित
+info_IAmInfected_t9_t4_p1:
+  en: Ask your healthcare provider to call the local or state health department. Persons who are placed under active monitoring or facilitated self-monitoring should follow instructions provided by their local health department or occupational health professionals, as appropriate.
+  np: आफ्नो स्थानीय वा राज्य स्वास्थ्य विभागलाई कल गरेर सूचित गर्नुहोस्। सक्रिय निगरानी वा आत्म-अनुगमन अन्तर्गत भएका व्यक्तिले आफ्नो स्थानीय स्वास्थ्य विभाग वा व्यावसायिक स्वास्थ्य प्रदायकहरु द्वारा दिएका निर्देशनहरु पालना गर्नु पर्छ।
+info_IAmInfected_t10:
+  en: Discontinuing home isolation
+  np: घरमा बन्द रहने 
+info_IAmInfected_t10_t1_p:
+  en: Stay at home until instructed to leave
+  np: घर छोड्नु भनेर निर्देशन नदिएसम्म घरमा बस्नुहोस्
+info_IAmInfected_t10_t1_p1:
+  en: Patients with confirmed COVID-19 should remain under home isolation precautions until the risk of secondary transmission to others is thought to be low.
+  np: पुष्टि गरिएको COVID-19 का बिरामीहरू अरू माध्यमिक प्रसारणको जोखिम कम नभएसम्म घरमा अलग्गै बसेर सावधानी अपनाउनु पर्छ।
+info_IAmInfected_t10_t2_p:
+  en: Talk to your healthcare provider
+  np: तपाईंको हेल्थकेयर प्रदायकसँग कुरा गर्नुहोस्
+info_IAmInfected_t10_t2_p1:
+  en: The decision to discontinue home isolation precautions should be made on a case-by-case basis, in consultation with healthcare providers and state and local health departments.
+  np: घरबाट अलग्गिएका सावधानीहरूलाई बन्द गर्ने निर्णय स्वास्थ्य सेवा प्रदायकहरू तथा राज्य र स्थानीय स्वास्थ्य विभागहरूको परामर्श लिएर अवस्था अनुसारको आधारमा मात्र गर्नुपर्दछ।
+info_SomeOneIKnowIsInfected:
+  en: Someone I know is Infected
+  np: म कोहि संक्रमित व्यक्तिलाई चिन्छु
+info_SomeOneIKnowIsInfected_Source:
+  en: Source:- Center for Disease Control
+  np: स्रोत:- रोग नियन्त्रण केन्द्र (CDC)
+info_SomeOneIKnowIsInfected_p:
+  en: Household members, intimate partners, and caregivers in a non healthcare setting may have close contact with a person with symptomatic, laboratory-confirmed COVID-19 or a person under investigation. Close contacts should monitor their health; they should call their healthcare provider right away if they develop symptoms suggestive of COVID-19 (e.g., fever, cough, shortness of breath)
+  np: घरका सदस्यहरू, आत्मीय साझेदारहरू र एक गैर-स्वास्थ्य देखभाल सेटिंग्समा हेरचाहकर्ताहरूले लाक्षणिक, प्रयोगशाला-पुष्टि COVID-19 वा शंका लागेका व्यक्तिसँग घनिष्ठ सम्पर्क हुन सक्छ। उनीहरुको स्वास्थ्य अनुगमन गर्नुपर्छ; यदि उनीहरूले COVID-19 को लक्षणहरू विकास गरे भने (उदाहरणका लागि, ज्वरो, खोकी, सासको कमी), तिनीहरूले तुरून्त स्वास्थ्य सेवा प्रदायकलाई कल गर्नुपर्नेछ।
+info_SomeOneIKnowIsInfected_t1:
+  en: Close contacts should also follow these recommendations
+  np: नजिकका सम्पर्कहरूले पनि यी सिफारिसहरू पालना गर्नुपर्दछ
+info_SomeOneIKnowIsInfected_t1_p1:
+  en: Make sure that you understand and can help the patient follow their healthcare provider’s instructions for medication(s) and care. You should help the patient with basic needs in the home and provide support for getting groceries, prescriptions, and other personal needs.
+  np: तपाईंले बिरामीलाई चाहिने औषधी र हेरचाहको लागि उनीहरूको स्वास्थ्य सेवा प्रदायकको निर्देशनहरू बुझ्नु भएको छ भनेर  निश्चित गर्नुहोस्। बिरामीलाई घरको आधारभूत आवश्यकता जस्तै किरानाको सामान, औषधिहरू र अन्य व्यक्तिगत आवश्यकताहरू प्राप्त गर्न सहयोग प्रदान गर्नुपर्दछ।
+info_SomeOneIKnowIsInfected_t1_p2:
+  en: Monitor the patient’s symptoms. If the patient is getting sicker, call his or her healthcare provider and tell them that the patient has laboratory-confirmed COVID-19. This will help the healthcare provider’s office take steps to keep other people in the office or waiting room from getting infected.
+  np: बिरामीका लक्षणहरूको निरीक्षण गर्नुहोस्। यदि कोहि बिरामी भइरहेको छ भने, तपाईंको स्वास्थ्य सेवा प्रदायकलाई कल गर्नुहोस् र तिनीहरूलाई थाहा दिनुहोस् कि विरामीसँग प्रयोगशाला-द्वारा पुष्टि गरिएको COVID-19 छ। यसले स्वास्थ्य सेवा प्रदायकको कार्यालयले अरूलाई कार्यालय वा प्रतीक्षालयमा अरूलाई संक्रमित हुनबाट जोगाउनको लागि कदम चाल्न मद्दत गर्दछ। 
+info_SomeOneIKnowIsInfected_t1_p3:
+  en: Ask the healthcare provider to call the local or state health department for additional guidance. If the patient has a medical emergency and you need to call 1133, notify the dispatch personnel that the patient has, or is being evaluated for COVID-19.
+  np: स्वास्थ्य सेवा प्रदायकलाई थप निर्देशनका लागि स्थानीय वा राज्य स्वास्थ्य विभाग कल गर्न सोध्नुहोस्। यदि बिरामीको चिकित्सा आपतकालिन छ र तपाईंले ११३३ मा कल गरेर बिरामीलाई COVID-19 छ वा मुल्यांकन भइरहेको छ गर्ने।
+info_SomeOneIKnowIsInfected_t1_p4:
+  en: Household members should stay in another room or be separated from the patient as much as possible. Household members should use a separate bedroom and bathroom, if available.
+  np: घरका सदस्यहरू अर्को कोठामा बस्नुपर्दछ वा सकेसम्म रोगीबाट अलग हुनु पर्छ। उपलब्ध भएमा घरका सदस्यहरूले छुट्टै बेडरूम र बाथरूम प्रयोग गर्नु पर्छ।
+info_SomeOneIKnowIsInfected_t1_p5:
+  en: Prohibit visitors who do not have an essential need to be in the home.
+  np: घरमा बस्न अनिवार्य आवश्यकता नभएका आगन्तुकहरूलाई प्रतिबन्धित गर्नुहोस्।
+info_SomeOneIKnowIsInfected_t1_p6:
+  en: Household members should care for any pets in the home. Do not handle pets or other animals while sick.
+  np: घरका अन्य सदस्यहरूले घरमा कुनै घरपालुवा जनावर छ भने त्येसको हेरचाह गर्नुपर्छ। बिरामी हुँदा घरपालुवा जनावरहरू वा अन्य जनावरहरूलाई नहेर्नुहोस्।
+info_SomeOneIKnowIsInfected_t1_p7:
+  en: Make sure that shared spaces in the home have good airflow, such as by an air conditioner or an opened window, weather permitting.
+  np: मौसमले साथ दिएसम्म सुनिश्चित गर्नुहोस् कि घरको साझा स्थानमा हावा प्रवाह राम्रो छ - जस्तै एयर कन्डिशनर वा खुला झ्याल।
+info_SomeOneIKnowIsInfected_t1_p8:
+  en: Perform hand hygiene frequently. Wash your hands often with soap and water for at least 20 seconds or use an alcohol-based hand sanitizer that contains 60 to 95% alcohol, covering all surfaces of your hands and rubbing them together until they feel dry. Soap and water should be used preferentially if hands are visibly dirty.
+  np: हात प्राय सफा गर्नुहोस्। कम्तिमा २० सेकेन्डको लागि साबुन र पानीले आफ्ना हातहरू पटक पटक धुनुहोस् वा ६०% देखि ९५% मदिरामा आधारित हात सेनिटाइजर प्रयोग गर्नुहोस्, र हातहरूको सबै सतहहरू सुख्खा पार्नुहोस् । हातहरू धेरै फोहोर भएमा साबुन र पानी नै प्रयोग गर्नु पर्छ।
+info_SomeOneIKnowIsInfected_t1_p9:
+  en: Avoid touching your eyes, nose, and mouth with unwashed hands.
+  np: अनावश्यक रूपमा फोहोर आफ्नो हातले आफ्नो नाक र मुख नछुनुहोस्।
+info_SomeOneIKnowIsInfected_t1_p10:
+  en: The patient should wear a facemask when you are around other people. If the patient is not able to wear a facemask (for example, because it causes trouble breathing), you, as the caregiver, should wear a mask when you are in the same room as the patient.
+  np: यदि कोहि बिरामी छ र फेसमास्क सास फेर्न समस्याले गर्दा लगाउन असमर्थ छ भने, तिनीहरूसँग एउटै कोठामा नबस्नुहोस् र बिरामी भएको कोठामा प्रवेश गर्नु अघि अनिवार्य रुपमा फेसमास्क लगाउनु पर्छ।
+info_SomeOneIKnowIsInfected_t1_p11:
+  en: Wear a disposable facemask and gloves when you touch or have contact with the patient’s blood, stool, or body fluids, such as saliva, sputum, nasal mucus, vomit, urine.
+  np: जब बिरामीको रगत, मल, वा शरीरको तरल पदार्थहरू जस्तै लार, थुक, नाक बलगम, बान्ता, पेशाबको संपर्कमा हुनुहुन्छ तब डिस्पोजेबल फेसमास्क र पन्जा लगाउनुहोस्।
+info_SomeOneIKnowIsInfected_t1_p11_p1:
+  en: Throw out disposable face masks and gloves after using them. Do not reuse.
+  np: प्रयोग पछि डिस्पोजेबल फेसमास्क र ग्लोभ्स बाहिर फाल्नुहोस्। पुन प्रयोग नगर्नुहोस्।
+info_SomeOneIKnowIsInfected_t1_p11_p2:
+  en: When removing personal protective equipment, first remove and dispose of gloves. Then, immediately clean your hands with soap and water or alcohol-based hand sanitizer. Next, remove and dispose of facemask, and immediately clean your hands again with soap and water or alcohol-based hand sanitizer.
+  np: व्यक्तिगत सुरक्षात्मक उपकरणहरू हटाउँदा, पहिले पन्जा निकाल्नुहोस् र डिस्पोज गर्नुहोस्। तुरुन्तै आफ्ना हातहरू साबुन र पानी वा मदिरामा आधारित सेनिटाइजरले सफा गर्नुहोस्।
+info_SomeOneIKnowIsInfected_t1_p12:
+  en: Avoid sharing household items with the patient. You should not share dishes, drinking glasses, cups, eating utensils, towels, bedding, or other items. After the patient uses these items, you should wash them thoroughly.
+  np: बिरामीसँग घरेलु चीजहरू साझेदारी नगर्नुहोस्। तपाईंले भाँडा, चश्मा, कप, खाने भाँडा, तौंली, ओछ्यान, वा अन्य चीजहरू साझेदारी गर्नु हुँदैन। बिरामीले यी चीजहरू प्रयोग गरेपछि, तपाईंले तिनीहरूलाई राम्ररी धुनु पर्छ।
+info_SomeOneIKnowIsInfected_t1_p13:
+  en: Clean all “high-touch” surfaces, such as counters, tabletops, doorknobs, bathroom fixtures, toilets, phones, keyboards, tablets, and bedside tables, every day. Also, clean any surfaces that may have blood, stool, or body fluids on them.
+  np: दैनिक "उच्च-स्पर्श" सतहहरू सफा गर्नुहोस्, जस्तै काउन्टरहरू, टेबुलहरू, ढोका समात्ने ठाउँ, बाथरूम फिक्स्चर, शौचालय, फोन, किबोर्ड, ट्याब्लेट, र बेडसाइड टेबलहरू। थप रूपमा, रगत, मल, वा शरीर तरल पदार्थहरू समावेश भएको सतहहरू सफा गर्नुहोस्।
+info_SomeOneIKnowIsInfected_t1_p13_p1:
+  en: Use a household cleaning spray or wipe, according to the label instructions. Labels contain instructions for safe and effective use of the cleaning product including precautions you should take when applying the product, such as wearing gloves and making sure you have good ventilation during use of the product.
+  np: लेबलको निर्देशन अनुसार घर सफा गर्ने स्प्रे वा वाइपको प्रयोग गर्नुहोस्। लेबलले सफाई सुरक्षित र प्रभावकारी प्रयोगको लागि निर्देशनहरू समावेश गर्नुका साथै पन्जा लगाउने, प्रयोगको बखत राम्रो वायुसंचार भएको छ छैन सुनिश्चित गर्नु जस्ता सावधानी समावेश हुन्छन्।
+info_SomeOneIKnowIsInfected_t1_p14:
+  en: Wash laundry thoroughly.
+  np: लुगा कपडा राम्रोसँग धुनुहोस्।
+info_SomeOneIKnowIsInfected_t1_p14_p1:
+  en: Immediately remove and wash clothes or bedding that have blood, stool, or body fluids on them.
+  np: तुरुन्त ती कपडाहरू वा ओछ्यान हटाउनुहोस् जसमा उनीहरूको रगत, मल वा शरीर तरलहरू छन्।
+info_SomeOneIKnowIsInfected_t1_p14_p2:
+  en: Wear disposable gloves while handling soiled items and keep soiled items away from your body. Clean your hands (with soap and water or an alcohol-based hand sanitizer) immediately after removing your gloves.
+  np: फोहर सामाग्री चलाउदा डिस्पोजेबल पन्जा लगाउनुहोस् र फोहर चीजहरू आफ्नो शरीरबाट टाढा राख्नुहोस्। पन्जाहरु खोले पछि तपाईंको हातहरू सफा गर्नुहोस् (साबुन र पानी वा मदिरामा आधारित सेनिटाइजरको साथ)।
+info_SomeOneIKnowIsInfected_t1_p14_p3:
+  en: Read and follow directions on labels of laundry or clothing items and detergent. In general, using a normal laundry detergent according to washing machine instructions and dry thoroughly using the warmest temperatures recommended on the clothing label.
+  np: डिटर्जन्टहरूको लेबलमा निर्देशनहरू पढ्नुहोस् र पालना गर्नुहोस्। सामान्यतया, धुलाई मेशिनको निर्देशन अनुसार सामान्य लुन्ड्री डिटर्जेंट प्रयोग गरेर र कपडाको लेबलमा सिफारिस गरिएको अनुसार सकेसम्म तातो तापक्रममा धुने र राम्रोसँग सुकाउँदा।
+info_SomeOneIKnowIsInfected_t1_p15:
+  en: Place all used disposable gloves, facemasks, and other contaminated items in a lined container before disposing of them with other household waste. Clean your hands (with soap and water or an alcohol-based hand sanitizer) immediately after handling these items. Soap and water should be used preferentially if hands are visibly dirty.
+  np: अन्य घरका फोहोरसँग डिस्पोज गर्नु अघि प्रयोग गरिएको डिस्पोजेबल ग्लोभज, फेसमास्क र अन्य दूषित चीजहरू झोला भएको डस्त्बिनमा राख्नुहोस् । यी वस्तुहरू चलाउने बित्तिकै आफ्ना हातहरू (साबुन र पानी वा मदिरामा आधारित सेनिटाइजरको साथ) सफा गर्नुहोस्। हातहरू फोहोर भएमा साबुन र पानी नै प्रयोग गर्नु पर्छ।
+info_SomeOneIKnowIsInfected_t1_p16:
+  en: Discuss any additional questions with your state or local health department or healthcare provider. Check available hours when contacting your local health department.
+  np: तपाईंको राज्य वा स्थानीय स्वास्थ्य विभाग वा स्वास्थ्य सेवा प्रदायकसँग कुनै थप प्रश्नहरूको छलफल गर्नुहोस्। कृपया सम्पर्क गर्दा खुल्ने र सेवा उपलब्ध समय निर्धारण गर्नुहोस।
+info_HomeIsolation:
+  en: Home Isolation
+  np: घरमा संगरोध
+info_HomeIsolation_p:
+  en: Home isolation measures for people with confirmed or suspected COVID-19 who do not need to be hospitalized and people who were hospitalized and then determined to be medically stable to go home. You should follow the prevention steps below until a healthcare provider or local or state health department says you can return to your normal activities.
+  np: COVID-19 पुष्टि भएका वा शंकास्पद व्यक्तिहरू जसलाई अस्पतालमा भर्ना हुन आवश्यक छैन वा भर्ना भएर ठिक अवस्था निर्धारण गरेर घर पठाईएकाहरुको लागि घर अलगाव गर्ने उपायहरु। तपाईंले तलको रोकथाम चरणहरू अनुसरण गर्नुपर्छ जबसम्म स्वास्थ्य सेवा प्रदायक वा स्थानीय वा राज्य स्वास्थ्य विभागले बताउँदैन कि तपाईं आफ्नो सामान्य गतिविधिहरूमा फर्कन सक्नुहुन्छ -
+info_HomeIsolation_p_p1:
+  en: Well ventilated non AC room
+  np: राम्रो हावामा राखिएको गैर एसी कोठा
+info_HomeIsolation_p_p2:
+  en: Windows kept open during day time
+  np: झ्याल दिनको समयमा खुला राख्ने
+info_HomeIsolation_p_p3:
+  en: Room should have an attached bathroom or separate bathroom for the suspected patient.
+  np: कोठामा संदिग्ध बिरामीको लागि जोडिएको बाथरूम वा छुट्टै बाथरूम हुनु पर्छ।
+info_HomeIsolation_p_p4:
+  en: Do not share utensils, linen or other items.
+  np: भाँडा, कपडा वा अन्य चीजहरू साझेदारी नगर्नुहोस्।
+info_HomeIsolation_p_p5:
+  en: Practice frequent handwashing with soap and water especially after toilet or contact with body fluids.
+  np: शौचालय र शरीर तरल पदार्थको साथ सम्पर्क पछि बारम्बार हात धुने अभ्यास गर्नुहोस्, विशेष गरी साबुन र पानीको साथ।
+info_HomeIsolation_p_p6:
+  en: Follow personal hygiene
+  np: व्यक्तिगत स्वच्छता अपनाउनुहोस्।
+info_HomeIsolation_p_p7:
+  en: Follow respiratory hygiene
+  np: श्वसन स्वच्छता पालना गर्नुहोस्
+info_HomeIsolation_p_p7_p1:
+  en: Cover mouth and nose with mask or tissue while coughing or sneezing
+  np: खोक्दा वा हाच्छिउं गर्दा मुख र नाकलाई मास्क वा टिश्युले छोप्नुहोस्
+info_HomeIsolation_p_p7_p2:
+  en: If mask or tissue is not available cough or sneeze to your flexed elbow followed by hand hygiene
+  np: यदि मास्क वा टिसु उपलब्ध छैन भने तपाई आफ्नो कुहिनो पछाडि खोक्ने वा हाच्छिउं गर्ने।
+info_HomeIsolation_p_p8:
+  en: Three buckets for waste collection
+  np: फोहोर संकलन गर्नका लागि तीन बाल्टिनहरू
+info_HomeIsolation_p_p8_p1:
+  en: soiled linen, clothes, towel – disinfect with bleach, wash and sun dry before next use
+  np: फोहर कपडा, तौलिया रुमाल - ब्लीचको साथ कीटाणुरहित गर्नुहोस्, अर्को प्रयोग हुनु अघि धुनुहोस् र घाममा सुकाउनुहोस्
+info_HomeIsolation_p_p8_p2:
+  en: soiled mask, tissues, pad – for incineration
+  np: फोहोर मास्क, टिशूहरू, प्याडहरू -  आगोमा नष्ट गर्नलाई
+info_HomeIsolation_p_p8_p3:
+  en: for bio medical waste - for burial
+  np: बायोमेडिकल फोहरका लागि - गाड्नको लागि
+info_HomeIsolation_p_p9:
+  en: Room should be mopped with bleach solution
+  np: ब्लीचले कोठाहरु पुस्ने पोछार लगाउने
+info_HomeIsolation_p_p10:
+  en: Bleach solution can be used to clean furniture, wash basin, toilet seats etc
+  np: ब्लीचको घोललाई फर्नीचर, सफा बेसिनहरू, शौचालय सिटहरू, इत्यादि प्रयोग गर्न सकिन्छ।
+info_HomeIsolation_p_p11:
+  en: Alcohol based hand rub at the room entrance to be used by caregiver
+  np: देखभालकर्ताले कोठा द्वारमा मदिरामा आधारित सेनिटाइजर राख्ने र प्रयोग गर्ने
+info_HomeIsolation_p_p12:
+  en: No visitors should be allowed
+  np: कुनै आगन्तुकलाई अनुमति दिइनु हुँदैन।
+info_HomeIsolation_p_p13:
+  en: Should not attend meetings, social gatherings, parties etc
+  np: सभा, सामाजिक जमघट, पार्टीहरू आदिमा भाग लिनुहुन्न।
+info_HomeIsolation_p_p14:
+  en: Avoid public transport
+  np: सार्वजनिक यातायातमा नचड्नु होला।
+
+

@@ -2,27 +2,10 @@ import React, { Component } from 'react'
 import { Table, Input, Button, Typography  } from "antd";
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined } from '@ant-design/icons';
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText,
-    Container,
-    Row,
-    Col
-  } from 'reactstrap';
-  import {GetRecord} from '../services/apiLink'
-  import {RecordView} from './Tableview'
-  import { css } from 'emotion'
-  
+import {GetRecord} from '../services/apiLink'
+import {RecordView} from './Tableview'
+import { css } from 'emotion'
+
  
 
   export default class NepalMap extends Component{
