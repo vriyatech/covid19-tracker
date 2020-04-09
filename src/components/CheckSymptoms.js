@@ -129,9 +129,40 @@ import ReactDOM from 'react-dom'
 
     render() {
 
+    const handleLoaded = _ => {
+      window.grecaptcha.ready(_ => {
+        window.grecaptcha.execute("6LcC1eMUAAAAAAHBR-utvf8cMqELO0Ys-iWTvAPa", {action:"homepage"})
+        .then(token => {})
+      })
+    }
+
+    const useEffect =(() =>{
+      //add reCaptcha
+      const script =document.createElement("script");
+      script.src ="https://www.google.com/recaptcha/api.js?render=6LcC1eMUAAAAAAHBR-utvf8cMqELO0Ys-iWTvAPa";
+      script.addEventListener("load",handleLoaded)
+      document.body.appendChild(script)
+    },[])
+
+    // const useEffect = (() =>{
+    //   //add reCaptcha
+    //   const script =document.createElement("script");
+    //   script.src ="https://www.google.com/recaptcha/api.js";
+    //   script.addEventListener("load",handleLoaded)
+    //   window.onSubmit =() => alert("reCaptcha submit")
+    //   document.body.appendChild(script)
+    // },[])
+
 
         
-      return (<div className ='context'>
+      return (
+      <div
+        className="g-recaptcha"
+        data-sitekey ="6LcC1eMUAAAAAAHBR-utvf8cMqELO0Ys-iWTvAPa"
+        data-size ="invisible"
+        // data-callback="onSubmit"
+        >
+      <div className ='context'>
           {/* <u>
             <label name='set_language'>{this.state.lan==='np'?'भाषा परिवर्तनको लागि कृपया यहाँ क्लिक गर्नुहोस्! => ':'Please click here to change language! => '}<input type='button' name='set_language' value={this.state.lan==='np'?'नेपाली':'English'} onClick={this.togglelang}/>
             </label></u> */}
@@ -203,6 +234,7 @@ import ReactDOM from 'react-dom'
           <input type="submit" className='nav-bar-icon-u' value={this.state.lan==='np'?"बुझाउनुहोस्:":"Submit"} /><div id='form-error'></div>
 
         </form>
+        </div>
         </div>
       );
       
