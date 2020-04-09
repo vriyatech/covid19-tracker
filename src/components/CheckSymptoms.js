@@ -230,7 +230,8 @@ import ReactDOM from 'react-dom'
            <Municipality_select Municipality ={store.getState().reducer.municipalities} fun ={this.handlechange}/>
             </span>
           </label>
-          <hr/>           
+          <hr/>
+          <div class="g-recaptcha" data-sitekey="6LfFHegUAAAAAEZJIGGzko1yH2Zfqs3jjSlMLJ85"></div>           
           <input type="submit" className='nav-bar-icon-u' value={this.state.lan==='np'?"बुझाउनुहोस्:":"Submit"} /><div id='form-error'></div>
 
         </form>

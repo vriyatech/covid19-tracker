@@ -2,6 +2,7 @@ import React, { Component, Suspense } from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
 import * as router from "react-router-dom";
 import { Container } from "reactstrap";
+import {UpCircleOutlined} from "@ant-design/icons";
 
 // routes config
 import routes from "../../routes";
@@ -49,6 +50,17 @@ class DefaultLayout extends Component {
             {/* </Container> */}
           </main>
             <Suspense fallback={this.loading()}>
+              <div ><UpCircleOutlined  
+                style={{
+                overflow: 'auto',
+                fontSize: '30px',
+                position: 'fixed',
+                right: 5,
+                bottom:20,
+                // borderRadius:'50% 50% 0 0'
+                }}
+                onClick={()=>window.scrollTo(0, 0)}
+              /></div>
             </Suspense>
         </div>
           <Suspense fallback={this.loading()}>
