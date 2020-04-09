@@ -5,6 +5,7 @@ import { SearchOutlined } from '@ant-design/icons';
 import {GetRecord} from '../services/apiLink'
 import {RecordView} from './Tableview'
 import { css } from 'emotion'
+import { ReactComponent as Icon } from '../covid19.svg'
 
  
 
@@ -19,8 +20,15 @@ import { css } from 'emotion'
       totalPotential: '',
       totalVulnurable:'',
       totalLowRisk:'',
-      filteredRecord:[]
+      filteredRecord:[],
+      loading:true
     }
+
+    loading = () => (
+      <div className="animated fadeIn pt-1 text-center"><div className="loading-icon">
+      <Icon />
+  </div></div>
+    );
 
     getColumnSearchProps = dataIndex => ({
       filterDropdown: ({ setSelectedKeys, selectedKeys, confirm, clearFilters }) => (
@@ -104,7 +112,9 @@ import { css } from 'emotion'
       .then(r =>this.setState({totalLowRisk:this.state.record.map(r =>r['Low Risk']).reduce((tpotential,potential) =>(tpotential+potential))}))
       .then(r =>this.setState({totalSurvey:this.state.record.map(r =>r.Total).reduce((tpotential,potential) =>(tpotential+potential))}))
       // .then(r => this.setState({filteredRecord:this.state.record.map(rec => rec).filter(r => !(r.Potential===0&r.Vulnerable===0))}))
+      .then(f => this.setState({loading:false}))
       .then(r => this.setState({record:this.state.record.map(rec => rec).filter(r => !(r.Potential===0&r.Vulnerable===0))}))
+      
       // .then(r =>console.log(this.state));
            
     
@@ -202,12 +212,17 @@ import { css } from 'emotion'
         <span><strong>{this.state.lan==='en'?'Potential':'सम्भावित'}:{" " + this.state.totalPotential }</strong></span>
       </div>
    
+      {this.state.loading===true?
+        <div className="animated fadeIn pt-1 text-center"><div className="loading-icon">
+          <Icon />
+        </div></div>
+        :
         <Table
           className={tableCSS}
           rowKey={obj => obj.Location}
           dataSource={this.state.record}
           columns={columns}
-        />
+      />} 
         </React.Fragment>
       
     );
