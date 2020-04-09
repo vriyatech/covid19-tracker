@@ -55,7 +55,7 @@ const Nav_Bar = (props) => {
             
             
           </Nav>
-          <NavbarText><strong>COVID-19 Tracker | Vriya Technologies</strong><br/>
+          <NavbarText><strong> Vriya Technologies</strong><br/>
             {/* <input type='button' className='nav-bar-icon-u' style={{alignSelf:'right'}}  value={lan==='np'?'English':'नेपाली'} onClick={togglelang}/> */}
           </NavbarText>        
         </Collapse>
