@@ -155,40 +155,40 @@ import ReactDOM from 'react-dom'
             <tbody>
               <tr>
                 <td><label name='fever'>{symptom_n_e.SYM_QUESTIONS1[this.state.lan]}</label></td> 
-                <td><Button color='primary' name='fever' value="Yes" active={this.state.fever==='Yes'} onClick={this.handlechange}>{this.state.lan==="np"?'छ':'Yes'}</Button></td>
-                <td><Button color='primary' name='fever' value="No" active={this.state.fever==='No'} onClick={this.handlechange}>{this.state.lan==="np"?'छैन':'No'}</Button></td>
+                <td><Button color='info' name='fever' value="Yes" active={this.state.fever==='Yes'} onClick={this.handlechange}>{this.state.lan==="np"?'छ':'Yes'}</Button></td>
+                <td><Button color='info' name='fever' value="No" active={this.state.fever==='No'} onClick={this.handlechange}>{this.state.lan==="np"?'छैन':'No'}</Button></td>
                 
               </tr>
 
               <tr>
                 <td><label name='cough'>{symptom_n_e.SYM_QUESTIONS2[this.state.lan]}</label></td> 
-                <td><Button color='primary' name='cough' value="Yes" active={this.state.cough==='Yes'} onClick={this.handlechange}>{this.state.lan==="np"?'छ':'Yes'}</Button></td>
-                <td><Button color='primary' name='cough' value="No" active={this.state.cough==='No'} onClick={this.handlechange}>{this.state.lan==="np"?'छैन':'No'}</Button></td> 
+                <td><Button color='info' name='cough' value="Yes" active={this.state.cough==='Yes'} onClick={this.handlechange}>{this.state.lan==="np"?'छ':'Yes'}</Button></td>
+                <td><Button color='info' name='cough' value="No" active={this.state.cough==='No'} onClick={this.handlechange}>{this.state.lan==="np"?'छैन':'No'}</Button></td> 
               </tr>
               <tr>
                 <td><label name='breathing'>{symptom_n_e.SYM_QUESTIONS3[this.state.lan]}</label></td> 
-                <td><Button color='primary' active={this.state.breathing==='Yes'} name='breathing' value="Yes" onClick={this.handlechange}>{this.state.lan==='np'?'छ':'Yes'}</Button></td>
-                <td><Button color='primary' active={this.state.breathing==='No'} name='breathing' value="No" onClick={this.handlechange}>{this.state.lan==='np'?'छैन':'No'}</Button></td> 
+                <td><Button color='info' active={this.state.breathing==='Yes'} name='breathing' value="Yes" onClick={this.handlechange}>{this.state.lan==='np'?'छ':'Yes'}</Button></td>
+                <td><Button color='info' active={this.state.breathing==='No'} name='breathing' value="No" onClick={this.handlechange}>{this.state.lan==='np'?'छैन':'No'}</Button></td> 
               </tr>
               <tr>
                 <td><label name='age'>{symptom_n_e.SYM_QUESTIONS4[this.state.lan]}</label></td> 
-                <td><Button color='primary' active={this.state.age==='Yes'} name='age' value="Yes" onClick={this.handlechange}>{this.state.lan==='np'?'छ':'Yes'}</Button></td>
-                <td><Button color='primary' active={this.state.age==='No'} name='age' value="No" onClick={this.handlechange}>{this.state.lan==='np'?'छैन':'No'}</Button></td> 
+                <td><Button color='info' active={this.state.age==='Yes'} name='age' value="Yes" onClick={this.handlechange}>{this.state.lan==='np'?'छ':'Yes'}</Button></td>
+                <td><Button color='info' active={this.state.age==='No'} name='age' value="No" onClick={this.handlechange}>{this.state.lan==='np'?'छैन':'No'}</Button></td> 
               </tr>
               <tr>
                 <td><label name='otherdiseases'>{symptom_n_e.SYM_QUESTIONS5[this.state.lan]}</label></td> 
-                <td><Button color='primary' active={this.state.otherdiseases==='Yes'} name='otherdiseases' value="Yes" onClick={this.handlechange}>{this.state.lan==='np'?'छ':'Yes'}</Button></td>
-                <td><Button color='primary' active={this.state.otherdiseases==='No'} name='otherdiseases' value="No" onClick={this.handlechange}>{this.state.lan==='np'?'छैन':'No'}</Button></td>  
+                <td><Button color='info' active={this.state.otherdiseases==='Yes'} name='otherdiseases' value="Yes" onClick={this.handlechange}>{this.state.lan==='np'?'छ':'Yes'}</Button></td>
+                <td><Button color='info' active={this.state.otherdiseases==='No'} name='otherdiseases' value="No" onClick={this.handlechange}>{this.state.lan==='np'?'छैन':'No'}</Button></td>  
               </tr>
               <tr>
                 <td><label name='outsidevisit'>{symptom_n_e.SYM_QUESTIONS6[this.state.lan]}</label></td> 
-                <td><Button color='primary' active={this.state.outsidevisit==='Yes'} name='outsidevisit' value="Yes" onClick={this.handlechange}>{this.state.lan==='np'?'छ':'Yes'}</Button></td>
-                <td><Button color='primary' active={this.state.outsidevisit==='No'} name='outsidevisit' value="No" onClick={this.handlechange}>{this.state.lan==='np'?'छैन':'No'}</Button></td>  
+                <td><Button color='info' active={this.state.outsidevisit==='Yes'} name='outsidevisit' value="Yes" onClick={this.handlechange}>{this.state.lan==='np'?'छ':'Yes'}</Button></td>
+                <td><Button color='info' active={this.state.outsidevisit==='No'} name='outsidevisit' value="No" onClick={this.handlechange}>{this.state.lan==='np'?'छैन':'No'}</Button></td>  
               </tr>
               <tr>
                 <td><label name='rwinfection'>{symptom_n_e.SYM_QUESTIONS7[this.state.lan]}</label> </td> 
-                <td><Button color='primary' active={this.state.rwinfection==='Yes'} name='rwinfection' value="Yes" onClick={this.handlechange}>{this.state.lan==='np'?'छ':'Yes'}</Button></td>
-                <td><Button color='primary' active={this.state.rwinfection==='No'} name='rwinfection' value="No" onClick={this.handlechange}>{this.state.lan==='np'?'छैन':'No'}</Button></td>
+                <td><Button color='info' active={this.state.rwinfection==='Yes'} name='rwinfection' value="Yes" onClick={this.handlechange}>{this.state.lan==='np'?'छ':'Yes'}</Button></td>
+                <td><Button color='info' active={this.state.rwinfection==='No'} name='rwinfection' value="No" onClick={this.handlechange}>{this.state.lan==='np'?'छैन':'No'}</Button></td>
               </tr>              
             </tbody>
           </Table>

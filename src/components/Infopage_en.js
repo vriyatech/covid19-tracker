@@ -7,6 +7,7 @@ import { Layout, Menu } from "antd";
 import {
     MenuUnfoldOutlined,
     MenuFoldOutlined,
+    UpOutlined,
     UserOutlined,
     VideoCameraOutlined,
     UploadOutlined,
@@ -125,8 +126,22 @@ class Infopage extends Component{
           <Route path="/HomeIsolation" component={HomeIsolation} />
           {/* <Route path="/OldPeopleAndPeopleWIssue" component={OldPeopleAndPeopleWIssue} /> */}
         </Content>
+        <input type='button'
+                style={{
+                overflow: 'auto',
+                height: '30px',
+                position: 'fixed',
+                right: 0,
+                bottom:20,
+                borderRadius:'50% 50% 0 0'
+              }}
+              onClick={()=>window.scrollTo(0, 0)}
+            value='Top' className='btn-primary'/>
+            
       </Layout>
+      
     </Content>
+    
       </Layout>
     </Router>
 
