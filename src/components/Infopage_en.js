@@ -7,10 +7,6 @@ import { Layout, Menu } from "antd";
 import {
     MenuUnfoldOutlined,
     MenuFoldOutlined,
-    CaretUpOutlined,
-    UpCircleOutlined,
-    VideoCameraOutlined,
-    UploadOutlined,
 } from "@ant-design/icons";
 import './App.css'
 import Who_Info from './info/Who_Info';
@@ -20,7 +16,8 @@ import HomeQuarantine from './info/HomeQuarantine';
 import IAmInfected from './info/IAmInfected';
 import SomeoneIKnowIsInfected from './info/SomeoneIKnowIsInfected';
 import HomeIsolation from './info/HomeIsolation';
-import Aboutus from './Aboutus';
+import CoronavirusAndLockdown from './info/Insights/CoronavirusAndLockdown';
+
 
 const { SubMenu } = Menu;
 const { Content, Sider } = Layout;
@@ -101,6 +98,17 @@ class Infopage extends Component{
             <Menu.Item key="6">{this.state.lan==='en'?'Someone I know is Infected':'म कोहि संक्रमित व्यक्तिलाई चिन्छु'}<Link to="/SomeoneIKnowIsInfected" /></Menu.Item>
             <Menu.Item key="7">{this.state.lan==='en'?'Home Isolation':'घरमा संगरोध'}<Link to="/HomeIsolation" /></Menu.Item>
             </SubMenu>
+            <SubMenu
+              key="sub4"
+              title={
+                <span>
+                  {this.state.lan==='en'?"Insights":'अन्तर्दृष्टि'}
+                </span>
+              }
+            >
+            <Menu.Item key="8">{this.state.lan==='en'?'Coronavirus and the Lockdown':'कोरोनाभाइरस र लकडाउन'}<Link to="/CoronavirusAndLockdown" /></Menu.Item>
+            
+            </SubMenu>
             
           </Menu>
         </Sider>
@@ -124,6 +132,7 @@ class Infopage extends Component{
           <Route path="/IAmInfected" component={IAmInfected} />
           <Route path="/SomeoneIKnowIsInfected" component={SomeoneIKnowIsInfected} />
           <Route path="/HomeIsolation" component={HomeIsolation} />
+          <Route path="/CoronavirusAndLockdown" component={CoronavirusAndLockdown} />
           {/* <Route path="/OldPeopleAndPeopleWIssue" component={OldPeopleAndPeopleWIssue} /> */}
         </Content>
 
