@@ -105,7 +105,7 @@ import ReactDOM from 'react-dom'
     };
    
     callback = () => {
-      console.log('Done!!!!');
+      // console.log('Done!!!!');
     };
      
     // specifying verify callback function
