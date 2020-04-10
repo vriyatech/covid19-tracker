@@ -24,11 +24,7 @@ import { ReactComponent as Icon } from '../covid19.svg'
       loading:true
     }
 
-    loading = () => (
-      <div className="animated fadeIn pt-1 text-center"><div className="loading-icon">
-      <Icon />
-  </div></div>
-    );
+   
 
     getColumnSearchProps = dataIndex => ({
       filterDropdown: ({ setSelectedKeys, selectedKeys, confirm, clearFilters }) => (
@@ -219,7 +215,7 @@ import { ReactComponent as Icon } from '../covid19.svg'
         :
         <Table
           className={tableCSS}
-          rowKey={obj => obj.Location}
+          rowKey={obj => obj.Province+', '+obj.Location}
           dataSource={this.state.record}
           columns={columns}
       />} 

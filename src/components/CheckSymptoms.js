@@ -1,33 +1,15 @@
 import React, { Component } from 'react'  
-import history from './history'
 import { connect } from 'react-redux';
 import store from '../redux/store'
+import Recaptcha from 'react-recaptcha'
 
 // import serializeForm from 'form-serialize'
 import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    Dropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText,
-    Container,
-    Row,
-    Col,
     Table,
     Button
   } from 'reactstrap'
-import postsaverecord from './apilink'
 import symptom_n_e from '../data/symptom_n_e.yml'
-import { Switch } from 'react-router-dom';
-import {municipalities,Municipality_select} from '../utils/Municipalities'
+import {Municipality_select} from '../utils/Municipalities'
 import { addRecord } from "../redux/actions/checkSymtomsActions";
 import ReactDOM from 'react-dom'
 
@@ -48,27 +30,20 @@ import ReactDOM from 'react-dom'
         lan: window.localStorage.getItem("lan") ? window.localStorage.getItem("lan") : window.localStorage.setItem("lan", 'np'),
         provience:'',
        district:'',
-       municipality:''
+       municipality:'',
+       isVerified:false,
+       token:''
   
       }
      
-       
-
-      this.handleSubmit = this.handleSubmit.bind(this);
-    }
-
-    
-
-   
+    }   
     
 
     handlechange = (e) =>{
       let{name,value} = e.target;
 
       this.setState({[e.target.name]:e.target.value});
-      // console.log(this.state);
-
-      
+      // console.log(this.state);      
       switch(name){
         case 'location':
           let testvalue = value.split(', ');
@@ -79,10 +54,6 @@ import ReactDOM from 'react-dom'
         default:
           this.setState({[e.target.name]:e.target.value});
       }
-     
-
-
-
     }
    
     //prevent submitting and call post to api
@@ -93,30 +64,36 @@ import ReactDOM from 'react-dom'
         ReactDOM.render(
           <span style={{color:"white", backgroundColor:'red'}}>{this.state.lan==='en'?'Please select your symptoms!':'कृपया आफ्नो लक्षणमा टिक लगाउनुहोस!'}</span>,
           document.getElementById('form-error')
-        );
-        
-      }
-      
+        );        
+      }      
       else if(this.state.provience===''|this.state.district===''|this.state.municipality===''|this.state.district===undefined|this.state.municipality===undefined){
         ReactDOM.render(
           <span style={{color:"white", backgroundColor:'red'}}>{this.state.lan==='en'?'Please select your Municipality from dropdown!':'कृपया ड्रपडाउनबाट आफ्नो नगरपालिका रोजनुहोस्!'}</span>,
           document.getElementById('form-error')
         );
-
       }
         
       
       else{
-        // console.log(this.state);
-        const { addRecord, history } = this.props;
-        const formData = this.state;
-        addRecord({ formData, history });
-        //this.insertrecords(this.state);
-        this.setState({location:'',provience:'',district:'',municipality:''});
-        
-      }
+        if(this.state.isVerified){
+          // console.log(this.state);
+          const { addRecord, history } = this.props;
+          const formData = this.state;
+          addRecord({ formData, history });
+          //this.insertrecords(this.state);
+          ReactDOM.render(
+            <span style={{color:"white", backgroundColor:'green'}}>{this.state.lan==='en'?'Your Syptoms are being submitted!':'तपाइको लक्षणहरू  बुझाइदै छ!'}</span>,
+            document.getElementById('form-error')
+          );
+        }
 
-      
+        else{
+          ReactDOM.render(
+            <span style={{color:"white", backgroundColor:'red'}}>{this.state.lan==='en'?'Please verify that your are not a robot!':'कृपया प्रमाणित गर्नुहोस् कि तपाई रोबोट होइन!'}</span>,
+            document.getElementById('form-error')
+          );          
+        }       
+      }      
     }
 
 
@@ -126,43 +103,26 @@ import ReactDOM from 'react-dom'
       const data = await response.json();
       this.setState({myip:data.ip,loading:false});
     };
+   
+    callback = () => {
+      console.log('Done!!!!');
+    };
+     
+    // specifying verify callback function
+    verifyCallback = (response) => {
+      // console.log(response);
+      this.setState({isVerified:true,token:response})
+    };
 
     render() {
 
-    const handleLoaded = _ => {
-      window.grecaptcha.ready(_ => {
-        window.grecaptcha.execute("6LcC1eMUAAAAAAHBR-utvf8cMqELO0Ys-iWTvAPa", {action:"homepage"})
-        .then(token => {})
-      })
-    }
 
-    const useEffect =(() =>{
-      //add reCaptcha
-      const script =document.createElement("script");
-      script.src ="https://www.google.com/recaptcha/api.js?render=6LcC1eMUAAAAAAHBR-utvf8cMqELO0Ys-iWTvAPa";
-      script.addEventListener("load",handleLoaded)
-      document.body.appendChild(script)
-    },[])
-
-    // const useEffect = (() =>{
-    //   //add reCaptcha
-    //   const script =document.createElement("script");
-    //   script.src ="https://www.google.com/recaptcha/api.js";
-    //   script.addEventListener("load",handleLoaded)
-    //   window.onSubmit =() => alert("reCaptcha submit")
-    //   document.body.appendChild(script)
-    // },[])
+    
 
 
         
       return (
-      <div
-        className="g-recaptcha"
-        data-sitekey ="6LcC1eMUAAAAAAHBR-utvf8cMqELO0Ys-iWTvAPa"
-        data-size ="invisible"
-        // data-callback="onSubmit"
-        >
-      <div className ='context'>
+      <div className ='context' >
           {/* <u>
             <label name='set_language'>{this.state.lan==='np'?'भाषा परिवर्तनको लागि कृपया यहाँ क्लिक गर्नुहोस्! => ':'Please click here to change language! => '}<input type='button' name='set_language' value={this.state.lan==='np'?'नेपाली':'English'} onClick={this.togglelang}/>
             </label></u> */}
@@ -231,12 +191,18 @@ import ReactDOM from 'react-dom'
             </span>
           </label>
           <hr/>
-          <div class="g-recaptcha" data-sitekey="6LfFHegUAAAAAEZJIGGzko1yH2Zfqs3jjSlMLJ85"></div>           
+          <Recaptcha
+            sitekey="6LfFHegUAAAAAEZJIGGzko1yH2Zfqs3jjSlMLJ85"
+            render="explicit"
+            verifyCallback={this.verifyCallback}
+            onloadCallback={this.callback}
+          />
+                  
           <input type="submit" className='nav-bar-icon-u' value={this.state.lan==='np'?"बुझाउनुहोस्:":"Submit"} /><div id='form-error'></div>
 
         </form>
         </div>
-        </div>
+        
       );
       
       
