@@ -3,6 +3,7 @@ import { Redirect, Route, Switch } from "react-router-dom";
 import * as router from "react-router-dom";
 import { Container } from "reactstrap";
 import {UpCircleOutlined} from "@ant-design/icons";
+import history from '../../components/history'
 
 // routes config
 import routes from "../../routes";
@@ -36,6 +37,7 @@ class DefaultLayout extends Component {
                   {routes.map((route, idx) => {
                     return route.component ? (
                       <Route
+                        history={history}
                         key={idx}
                         path={route.path}
                         exact={route.exact}

@@ -10,6 +10,10 @@ import App from "./App";
 import * as serviceWorker from './serviceWorker'
 import history from './components/history'
 import { Router } from 'react-router-dom'
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-157886444-3');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 ReactDOM.render(
     <Provider store={store}>
