@@ -38,11 +38,11 @@ SYM_QUESTIONS5:
   en: Do you have any of the following medical conditions- Diabetes, Heart Disease, Active Cancer, History of Heart-attack or Stroke, Asthma, COPD, Dialysis, or have weak immunity power?
   np: के तपाईंसँग निम्न रोगहरू छन्- मधुमेह, हृदय रोग, सक्रिय क्यान्सर, हृदयघातको इतिहास, स्ट्रोकको इतिहास, दम, सीओपीडी, डायलिसिस, वा कमजोर प्रतिरक्षा क्षमताप्रणाली छन्?
 SYM_QUESTIONS6:
-  en: Have you traveled outside Nepal within the last 14 days?
-  np: के तपाईंले १४ दिन भित्रमा नेपाल बाहिर यात्रा गर्नुभएको छ?
+  en: Have you traveled outside Nepal recently?
+  np: के तपाईंले हालचालै नेपाल बाहिर यात्रा गर्नुभएको छ?
 SYM_QUESTIONS7:
-  en: Have you had close contact with someone who is coughing, has a fever, or is otherwise sick and has been outside of Nepal in the last 14 days?
-  np: के तपाईंको कसैसँग घनिष्ठ सम्पर्क छ जस्लाई खोकी लागिरहेको छ, ज्वरो आएको छ, वा अन्यथा बिरामी छ र गत १४ दिनमा नेपाल बाहिर गएको छ?
+  en: Have you had close contact with someone who is coughing, has a fever, or is otherwise sick and has been outside of Nepal recently?
+  np: के तपाईंको कसैसँग घनिष्ठ सम्पर्क छ जस्लाई खोकी लागिरहेको छ, ज्वरो आएको छ, वा अन्यथा बिरामी छ र हालचालै नेपाल बाहिर गएको छ?
 SYM_Location:
   en: Your Municipality? 
   np: तपाईको नगरपालिका? 
