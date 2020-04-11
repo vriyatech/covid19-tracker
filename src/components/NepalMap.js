@@ -110,7 +110,7 @@ import { ReactComponent as Icon } from '../covid19.svg'
       // .then(r => this.setState({filteredRecord:this.state.record.map(rec => rec).filter(r => !(r.Potential===0&r.Vulnerable===0))}))
       .then(f => this.setState({loading:false}))
       .then(r => this.setState({record:this.state.record.map(rec => rec).filter(r => !(r.Potential===0&r.Vulnerable===0))}))
-      .catch( err => { err.text().then( errorMessage =>console.log(errorMessage))})
+      .catch( err => console.log(err))
       
       // .then(r =>console.log(this.state));
            
