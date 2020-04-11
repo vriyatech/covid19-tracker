@@ -44,7 +44,7 @@ import { ReactComponent as Icon } from '../covid19.svg'
           <Button
             type="primary"
             onClick={() => this.handleSearch(selectedKeys, confirm, dataIndex)}
-            icon={"<SearchOutlined />"}
+            icon={"<SearchOutlined/>"}
             size="small"
             style={{ width: 90, marginRight: 8 }}
           >
@@ -55,7 +55,7 @@ import { ReactComponent as Icon } from '../covid19.svg'
           </Button>
         </div>
       ),
-      filterIcon: filtered => <SearchOutlined style={{ color: filtered ? '#1890ff' : undefined }} />,
+      filterIcon: filtered => <SearchOutlined style={{ color: filtered ? '#1890ff' : undefined ,fontSize:'30px'}} />,
       onFilter: (value, record) =>
         record[dataIndex]
           .toString()
