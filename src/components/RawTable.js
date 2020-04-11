@@ -113,7 +113,7 @@ export default function RawTable(props) {
         Pagination can be built however you'd like. 
         This is just a very basic UI implementation:
       */}
-      <div className="pagination">
+      <div className="pagination" style={{lineHeight:'5px'}}>
         <button onClick={() => gotoPage(0)} disabled={!canPreviousPage}>
           {'<<'}
         </button>{' '}
@@ -126,14 +126,13 @@ export default function RawTable(props) {
         <button onClick={() => gotoPage(pageCount - 1)} disabled={!canNextPage}>
           {'>>'}
         </button>{' '}
-        <span>
-          Page{' '}
-          <strong>
+        <span style={{alignSelf:'center'}}>
+          Page{' '}         
             {pageIndex + 1} of {pageOptions.length}
-          </strong>{' '}
+         {' '}
         </span>
-        <span>
-          | Go to page:{' '}
+        <span >
+           | Go to page:{' '}
           <input
             type="number"
             defaultValue={pageIndex + 1}
@@ -141,7 +140,7 @@ export default function RawTable(props) {
               const page = e.target.value ? Number(e.target.value) - 1 : 0
               gotoPage(page)
             }}
-            style={{ width: '100px' }}
+            style={{ width: '40px' }}
           />
         </span>{' '}
         {/* <select
