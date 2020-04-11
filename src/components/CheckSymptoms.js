@@ -31,7 +31,7 @@ import ReactDOM from 'react-dom'
         provience:'',
        district:'',
        municipality:'',
-       isVerified:false,
+       isVerified:true,
        token:''
   
       }
@@ -104,15 +104,15 @@ import ReactDOM from 'react-dom'
       this.setState({myip:data.ip,loading:false});
     };
    
-    callback = () => {
-      // console.log('Done!!!!');
-    };
+    // callback = () => {
+    //   // console.log('Done!!!!');
+    // };
      
-    // specifying verify callback function
-    verifyCallback = (response) => {
-      // console.log(response);
-      this.setState({isVerified:true,token:response})
-    };
+    // // specifying verify callback function
+    // verifyCallback = (response) => {
+    //   // console.log(response);
+    //   this.setState({isVerified:true,token:response})
+    // };
 
     render() {
 
@@ -191,12 +191,12 @@ import ReactDOM from 'react-dom'
             </span>
           </label>
           <hr/>
-          <Recaptcha
+          {/* <Recaptcha
             sitekey="6LfFHegUAAAAAEZJIGGzko1yH2Zfqs3jjSlMLJ85"
             render="explicit"
             verifyCallback={this.verifyCallback}
             onloadCallback={this.callback}
-          />
+          /> */}
                   
           <input type="submit" className='nav-bar-icon-u' value={this.state.lan==='np'?"बुझाउनुहोस्:":"Submit"} /><div id='form-error'></div>
 
