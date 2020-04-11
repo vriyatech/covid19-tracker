@@ -54,7 +54,7 @@ import { color } from 'd3';
          
         <div className="row">
          
-          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6"><img src={VriyaCovidImg} width='100%' height='auto'/></div>
+          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6"><img src={VriyaCovidImg} width='70%' height='auto'/></div>
          
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6" style={{alignSelf:"center",textAlign:"justify"}}>
           {/* <hr/> */}
@@ -68,7 +68,7 @@ import { color } from 'd3';
          <hr/>
          <strong>{this.state.lan==='en'?'Please help us collect the data by filling your symptoms accurately.':'कृपया हामीलाई तपाईंको लक्षणहरू सहि तरिकाले भरेर डाटा सङ्कलन गर्न मद्दत गर्नुहोस्।'}</strong>
          <br/>
-         <Link to='/tracksymptoms'><input type='button' className ='nav-bar-icon-u' value ={this.state.lan==='en'?'Fill Symptoms':'लक्षणहरू भर्नुहोस्'}/></Link>
+         <Link to='/tracksymptoms'><input style={{width:'90%',height:'60px',borderRadius:'20px'}} type='button' className ='nav-bar-icon-u' value ={this.state.lan==='en'?'Fill Symptoms':'लक्षणहरू भर्नुहोस्'}/></Link>
           </div>
           </div>
         </div>
