@@ -54,7 +54,7 @@ import { color } from 'd3';
          
         <div className="row">
          
-          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6"><img src={VriyaCovidImg} width='70%' height='auto'/></div>
+          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6"><img src={VriyaCovidImg} width='50%' height='auto'/></div>
          
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6" style={{alignSelf:"center",textAlign:"justify"}}>
           {/* <hr/> */}

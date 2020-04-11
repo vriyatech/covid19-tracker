@@ -47,7 +47,7 @@ const Nav_Bar = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto row" navbar>
             
-              <Link className='navlink_margin'  to="/info"><div className='col nav-bar-icon-u' >{lan==='np'?"जानकारी":"Info"}</div></Link>
+              <Link className='navlink_margin' onClick={toggle} to="/info"><div className='col nav-bar-icon-u' >{lan==='np'?"जानकारी":"Info"}</div></Link>
             
               <Link className='navlink_margin' to="/nepalmap"><div className='col nav-bar-icon-u'>{lan==='np'?"नेपाल स्थिति:":"Nepal Now"}</div></Link>
            
