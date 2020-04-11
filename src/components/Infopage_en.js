@@ -26,7 +26,7 @@ class Infopage extends Component{
   constructor(props) {
     super(props);
     this.state = {
-        collapsed: false,
+        collapsed: true,
       lan: window.localStorage.getItem("lan") ? window.localStorage.getItem("lan") : window.localStorage.setItem("lan", 'np')
 
     }
@@ -117,6 +117,7 @@ class Infopage extends Component{
               style:{
                 overflow: 'auto',
                 height: '100vh',
+                fontSize:'40px',
                 position: 'fixed',
                 left: 0,
               },
